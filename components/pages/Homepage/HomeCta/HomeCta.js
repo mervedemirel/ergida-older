@@ -5,7 +5,7 @@ const HomeCTA = () => {
     return (
         <div className="container">
             <p className="text-center HomeCta">
-                Hizmetlerimiz hakkında detaylı bilgi için bize ulaşın &nbsp; <span><FaPhone style={{transform: 'rotate(-270deg)'}} /></span> &nbsp;
+                Hizmetlerimiz hakkında detaylı bilgi için bize ulaşın <br/> <span><FaPhone style={{transform: 'rotate(-270deg)'}} /></span> &nbsp;
                 <a href="tel://+902623355606">0 262 335 56 06</a>
             </p>
 

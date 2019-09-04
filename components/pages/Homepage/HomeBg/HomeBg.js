@@ -27,14 +27,14 @@ class HomeBg extends React.Component {
             <div className="container-fluid p-0 position-relative HomeBg">
                 <div className="container-fluid HomeBg-top px-0 py-5">
                     <div className="container p-0">
-                        <div className="row p-0">
-                            <div className="col-7 pr-5 pt-5">
+                        <div className="row p-0 flex-column-reverse">
+                            <div className="col-md-7 col-md-7 pr-5 pt-5">
                                 <p className="text-right font-weight-bold HomeBg-ergida">ERGIDA</p>
                                 <h2 className="text-right HomeBg-h2">Hakkında</h2>
                                 <br/>
                                 <p className="text-right">
                                     Isıl işlem sektöründeki indüksiyon tesisi ihtiyacını karşılamak amacıyla 2009 yılı
-                                    ikinci yarısında İzmit'te kuruldı. Faaliyete geçtiği günden beri hızla büyüyen Katre
+                                    ikinci yarısında İzmit'te kuruldu. Faaliyete geçtiği günden beri hızla büyüyen Katre
                                     İndüksiyon, geçen sürede gelişen tezgah parkı, iş hacmi ve hizmet kalitesiyle İzmit
                                     ve
                                     çevre illerdeki sanaayicinin indüksiyon ihtiyaçlarını tam anlamıyla karşılayabilen
@@ -46,7 +46,7 @@ class HomeBg extends React.Component {
                                     BİLGİ
                                 </button>
                             </div>
-                            <div className="col-5">
+                            <div className="col-md-5 col-md-5 d-flex align-items-center justify-content-center">
                                 <img src="../../../../static/images/avokado-toplu.png" className="w-100" alt=""/>
                             </div>
                         </div>
@@ -58,7 +58,7 @@ class HomeBg extends React.Component {
                             {this.props.t('icons', {returnObjects: true}).map((icon, i) => {
                                 return (
                                     <div
-                                        className="col-4 d-flex flex-column justify-content-center align-items-center py-5"
+                                        className=" col-12 col-sm-6 col-md-4 col-lg-4 d-flex flex-column justify-content-center align-items-center py-5"
                                         key={i}>
                                         {iconMap[icon.icon]}
                                         <p className="text-center icon-text">{icon.text}</p>
@@ -71,10 +71,11 @@ class HomeBg extends React.Component {
                 <div className="container-fluid HomeBg-top px-0 py-5">
                     <div className="container py-5">
                         <div className="row p-0">
-                            <div className="col-5">
+                            <div className="col-md-6 col-lg-5 mobile-flex-center">
                                 <img src="../../../../static/images/home-narenciye.png" alt=""/>
                             </div>
-                            <div className="col-7 d-flex flex-column justify-content-center col-nar">
+                            <div
+                                className="col-md-6 col-lg-7 d-flex flex-column justify-content-center col-nar mobile-flex-center">
                                 <h2 className="HomeBg-h2 font-weight-bold er-color-orange">NARENCİYE</h2>
                                 <p>
                                     Isıl işlem sektöründeki indüksiyon tesisi ihtiyacını karşılama amacıyla 2009 yılı
@@ -125,6 +126,16 @@ class HomeBg extends React.Component {
                 
                 .col-nar {
                     padding-left: 5rem;
+                }
+                
+                @media (max-width: 991px) {
+                    .col-nar {
+                    padding: 1rem !important;
+                }
+                }
+                
+                img {
+                    width: 100%;
                 }
             `}</style>
             </div>

@@ -26,6 +26,19 @@
     border-radius: 5% !important;
 }
 
+@media (max-width: 991px) {
+    .mobile-flex-center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
 * {
     font-family: 'Open Sans', sans-serif;
+}
+
+.row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
 }
