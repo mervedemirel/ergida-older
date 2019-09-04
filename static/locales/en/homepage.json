@@ -1,0 +1,28 @@
+{
+  "icons": [
+    {
+      "text": "Food and Beverage Industry",
+      "icon": "cogs"
+    },
+    {
+      "text": "Wholesale",
+      "icon": "luggage"
+    },
+    {
+      "text": "Comprehensive and Logistics Services",
+      "icon": "truck"
+    },
+    {
+      "text": "Products Ready for Consumption",
+      "icon": "utensils"
+    },
+    {
+      "text": "Export",
+      "icon": "truckLoading"
+    },
+    {
+      "text": "Export Network",
+      "icon": "network"
+    }
+  ]
+}

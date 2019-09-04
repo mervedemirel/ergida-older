@@ -1,0 +1,24 @@
+{
+  "links": [
+    {
+      "text": "KURUMSAL",
+      "url": "/kurumsal"
+    },
+    {
+      "text": "HİZMETLERİMİZ",
+      "url": "/hizmetlerimiz"
+    },
+    {
+      "text": "ÜRÜNLER",
+      "url": "/urunler"
+    },
+    {
+      "text": "GALERİ",
+      "url": "/galeri"
+    },
+    {
+      "text": "İLETİŞİM",
+      "url": "/iletisim"
+    }
+  ]
+}

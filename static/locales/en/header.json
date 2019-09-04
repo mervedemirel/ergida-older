@@ -1,0 +1,24 @@
+{
+  "links": [
+    {
+      "text": "COMPANY",
+      "url": "/kurumsal"
+    },
+    {
+      "text": "OUR SERVICES",
+      "url": "/hizmetlerimiz"
+    },
+    {
+      "text": "PRODUCTS",
+      "url": "/urunler"
+    },
+    {
+      "text": "GALLERY",
+      "url": "/galeri"
+    },
+    {
+      "text": "CONTACT",
+      "url": "/iletisim"
+    }
+  ]
+}

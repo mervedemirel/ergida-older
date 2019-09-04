@@ -1,0 +1,28 @@
+{
+  "icons": [
+    {
+      "text": "Gıda ve İçecek Sanayi",
+      "icon": "cogs"
+    },
+    {
+      "text": "Toptan Satış",
+      "icon": "luggage"
+    },
+    {
+      "text": "Kapsamlı ve Lojistik Hizmetler",
+      "icon": "truck"
+    },
+    {
+      "text": "Tüketime Hazır Ürünler",
+      "icon": "utensils"
+    },
+    {
+      "text": "İhracat",
+      "icon": "truckLoading"
+    },
+    {
+      "text": "İhracat Ağı",
+      "icon": "network"
+    }
+  ]
+}

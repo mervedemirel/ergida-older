@@ -1,0 +1,31 @@
+.er-color-yellow {
+    color: #f5fe69;
+}
+
+.er-color-dark-green {
+    color: #669915;
+}
+
+.er-bg-dark-green {
+    background: #669915;
+}
+
+.er-color-orange {
+    color: #fd9206;
+}
+
+.button-green {
+    background: #399946;
+}
+
+.er-bg-green {
+    background: #a3d55f;
+}
+
+.br-5 {
+    border-radius: 5% !important;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
