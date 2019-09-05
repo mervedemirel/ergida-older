@@ -22,6 +22,10 @@
     background: #a3d55f;
 }
 
+.er-bg-gray {
+    background: #f4f4f4;
+}
+
 .br-5 {
     border-radius: 5% !important;
 }
@@ -41,4 +45,22 @@
 .row {
     margin-left: 0 !important;
     margin-right: 0 !important;
+}
+
+.font-size-3 {
+    font-size: 3rem;
+}
+
+.font-size-5 {
+    font-size: 5rem;
+}
+
+@media (max-width: 540px) {
+    .font-size-3 {
+        font-size: 2rem;
+    }
+
+    .font-size-5 {
+        font-size: 4rem;
+    }
 }

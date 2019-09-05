@@ -5,7 +5,7 @@
       "icon": "cogs"
     },
     {
-      "text": "Wholesale",
+      "text": "Wholesale Trade",
       "icon": "luggage"
     },
     {
@@ -13,16 +13,35 @@
       "icon": "truck"
     },
     {
-      "text": "Products Ready for Consumption",
+      "text": "Ready-to-Use Products",
       "icon": "utensils"
     },
     {
-      "text": "Export",
+      "text": "Exportation",
       "icon": "truckLoading"
     },
     {
       "text": "Export Network",
       "icon": "network"
     }
-  ]
+  ],
+  "homeBg": {
+    "top": {
+      "title": "About Us",
+      "text": "To collect, process and provide for consumption healthy, reliable and economical products that meet the needs and expectations of our customers. Ergıda is a young and dynamic fresh fruit and vegetable company in the agricultural sector."
+    },
+    "nar": {
+      "title": "CITRUS",
+      "text": "Citrus is a common term and genus of flowering plants in the rue family. Citrus fruits are winter fruits, and rich in vitamin C. The color of the outside of these fruits are orange and yellow. Main citrus varieties are lemon, tangerine, orange, lime , grapefruit, orange, bergamot, citron, kumquat and pomelo. Citrus are one of the most important tree fruit groups in the world. More than 80% of citrus production in our country is made in the Mediterranean Region. Our citrus fruits are processed with the latest technology machines in our plant and play an active role in the export market. We give our customers a unique service with our market experience and deep knowledge in the fruit business."
+    },
+    "veg": {
+      "title": "VEGETABLE",
+      "text": "Vegetables are edible parts of plants which are important sources of many nutrients, including potassium, dietary fiber, folate (folic acid), vitamin A, and vitamin C. Vegetables are important part of healthy eating. They provide health benefits and maintenance of body. Turkey has a very high production potential of vegetables. According to availability of diverse ecological conditions has resulted in growing high quality vegetables in Turkey. The growers in Mediterranean climate is more suitable for high quality vegetable. Our priority is sustainable quality in vegetable export market. We export carefully selected high quality vegetables to the world throughout the season."
+    },
+    "fru": {
+      "title": "FRUIT",
+      "text": "Fruits are the sweet and fleshy products of a tree or other plant that contains seed and they are eaten as food. Fruits contain fiber, vitamins, minerals and enzymes which are necessary for our health, they also provide variety in consumption for a healthy eating. Our country is a fruit paradise due to the climate and soil structure is very suitable for growing various types of fruits. Turkish Agricultural Industry produces extremely qualified fruits with affordable prices. Fruit is the largest product segment of the export market. Our fruit production is gaining momentum every new season with increasing export values."
+    }
+  },
+  "cta": "For more detailed information about our services"
 }

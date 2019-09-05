@@ -2,15 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df042bfd-e840-4ce1-9b23-4690baa57fca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/mustafa.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/pages/Contact/ContactForm/ContactForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/pages/Contact/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/pages/Homepage/Hero/SecondText/SecondText.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/shared/Button/Button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/iletisim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/locales/en/contact.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/locales/tr/contact.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vagrant.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/pages/Homepage/Hero/Hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/pages/Homepage/Hero/Hero.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/pages/Homepage/HomeBg/HomeBg.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/pages/Homepage/HomeBg/HomeBg.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/pages/Homepage/HomeCta/HomeCta.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/pages/Homepage/HomeCta/HomeCta.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/pages/Homepage/VegetableFruit/VegetableFruit.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/pages/Homepage/VegetableFruit/VegetableFruit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/shared/Layout/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/Layout/Footer/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/shared/Layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/Layout/Layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_document.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_document.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/pages/Homepage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/pages/Homepage/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/shared/Layout/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/Layout/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/colors.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/home-hero.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/home-hero.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/locales/en/common.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/locales/en/common.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/locales/en/homepage.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/locales/en/homepage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/locales/tr/common.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/locales/tr/common.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/locales/tr/homepage.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/locales/tr/homepage.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +37,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1QMRPHLj5lAjHOQAMhP4zsCOLkC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="11.15.0" />
@@ -31,6 +50,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -63,6 +83,7 @@
       <updated>1567538930887</updated>
       <workItem from="1567538932448" duration="20152000" />
       <workItem from="1567578454552" duration="4462000" />
+      <workItem from="1567639516236" duration="12655000" />
     </task>
     <servers />
   </component>
@@ -74,7 +95,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

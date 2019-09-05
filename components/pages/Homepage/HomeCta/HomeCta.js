@@ -1,11 +1,13 @@
 import React from 'react';
 import { FaPhone } from 'react-icons/fa';
 
-const HomeCTA = () => {
+import {withTranslation} from "../../../../i18n";
+
+const HomeCTA = ({t}) => {
     return (
         <div className="container">
             <p className="text-center HomeCta">
-                Hizmetlerimiz hakkında detaylı bilgi için bize ulaşın <br/> <span><FaPhone style={{transform: 'rotate(-270deg)'}} /></span> &nbsp;
+                {t('cta')} <br/> <span><FaPhone style={{transform: 'rotate(-270deg)'}} /></span> &nbsp;
                 <a href="tel://+902623355606">0 262 335 56 06</a>
             </p>
 
@@ -18,4 +20,4 @@ const HomeCTA = () => {
     );
 };
 
-export default HomeCTA;
+export default withTranslation('homepage')(HomeCTA);

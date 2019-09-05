@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import Link from "next/link";
+import {Link} from "../../../../i18n";
 
 import {withTranslation} from "../../../../i18n";
 
@@ -31,7 +31,9 @@ class Header extends Component {
                             {this.props.t('links', {returnObjects: true}).map((link, i) => {
                                 return (
                                     <li className="nav-item" key={i}>
-                                        <a className="nav-link" href="#">{link.text}</a>
+                                        <Link href={link.url}>
+                                            <a className="nav-link" href="#">{link.text}</a>
+                                        </Link>
                                     </li>
                                 )
                             })}

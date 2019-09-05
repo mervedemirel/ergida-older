@@ -1,5 +1,6 @@
 import React from 'react';
 import {FaCogs, FaLuggageCart, FaTruck, FaUtensils, FaTruckLoading, FaNetworkWired} from 'react-icons/fa';
+import Button from "../../../shared/Button/Button";
 
 import {withTranslation} from "../../../../i18n";
 
@@ -27,26 +28,18 @@ class HomeBg extends React.Component {
             <div className="container-fluid p-0 position-relative HomeBg">
                 <div className="container-fluid HomeBg-top px-0 py-5">
                     <div className="container p-0">
-                        <div className="row p-0 flex-column-reverse">
-                            <div className="col-md-7 col-md-7 pr-5 pt-5">
+                        <div className="row p-0 HomeBg-top-row">
+                            <div className="col-md-7 col-lg-7 pr-5 pt-5">
                                 <p className="text-right font-weight-bold HomeBg-ergida">ERGIDA</p>
-                                <h2 className="text-right HomeBg-h2">Hakkında</h2>
+                                <h2 className="text-right HomeBg-h2">{this.props.t('homeBg', {returnObjects: true}).top.title}</h2>
                                 <br/>
                                 <p className="text-right">
-                                    Isıl işlem sektöründeki indüksiyon tesisi ihtiyacını karşılamak amacıyla 2009 yılı
-                                    ikinci yarısında İzmit'te kuruldu. Faaliyete geçtiği günden beri hızla büyüyen Katre
-                                    İndüksiyon, geçen sürede gelişen tezgah parkı, iş hacmi ve hizmet kalitesiyle İzmit
-                                    ve
-                                    çevre illerdeki sanaayicinin indüksiyon ihtiyaçlarını tam anlamıyla karşılayabilen
-                                    güçlü
-                                    bir indüksiyonla ısıl işlem firması haline geldi.
+                                    {this.props.t('homeBg', {returnObjects: true}).top.text}
                                 </p>
                                 <br/>
-                                <button type="button" className="btn btn-success px-4 rounded button-green">DETAYLI
-                                    BİLGİ
-                                </button>
+                                <Button translateText="infoButtonText"/>
                             </div>
-                            <div className="col-md-5 col-md-5 d-flex align-items-center justify-content-center">
+                            <div className="col-md-5 col-lg-5 d-flex align-items-center justify-content-center">
                                 <img src="../../../../static/images/avokado-toplu.png" className="w-100" alt=""/>
                             </div>
                         </div>
@@ -76,18 +69,11 @@ class HomeBg extends React.Component {
                             </div>
                             <div
                                 className="col-md-6 col-lg-7 d-flex flex-column justify-content-center col-nar mobile-flex-center">
-                                <h2 className="HomeBg-h2 font-weight-bold er-color-orange">NARENCİYE</h2>
+                                <h2 className="HomeBg-h2 font-weight-bold er-color-orange">{this.props.t('homeBg', {returnObjects: true}).nar.title}</h2>
                                 <p>
-                                    Isıl işlem sektöründeki indüksiyon tesisi ihtiyacını karşılama amacıyla 2009 yılı
-                                    ikinci yarısında İzmit'te kuruldu. Faaliyete geçtiği günden beri hızla büyüyen Katre
-                                    İndüksiyon, geçen sürede gelişen tezgah parkı, iş hacmi ve hizmet kalitesiyle İzmit
-                                    ve çevre illerdeki sanayicinin indüksiyon ihtiyaçlarını tam anlamıyla karşılayabilen
-                                    güçlü bir indüksiyonla ısıl işlem firması haline geldi.
+                                    {this.props.t('homeBg', {returnObjects: true}).nar.text}
                                 </p>
-                                <button type="button"
-                                        className="btn btn-success px-4 rounded button-green align-self-baseline">DETAYLI
-                                    BİLGİ
-                                </button>
+                                <Button translateText="infoButtonText"/>
                             </div>
                         </div>
                     </div>
@@ -101,6 +87,12 @@ class HomeBg extends React.Component {
             
                 .HomeBg-top {
                     background: rgba(255, 255, 255, .5);
+                }
+                
+                @media (max-width: 767px) {
+                    .HomeBg-top-row {
+                        flex-direction: column-reverse
+                    }
                 }
                 
                 .HomeBg-ergida {

@@ -24,5 +24,24 @@
       "text": "İhracat Ağı",
       "icon": "network"
     }
-  ]
+  ],
+  "homeBg": {
+    "top": {
+      "title": "Hakkında",
+      "text": "ERDIGA Tarım sektöründe geniş niteliklere sahip, özgün, genç, kurumsal bir yaş sebze ve meyve şirketidir. Müşterilerimizin ihtiyaçlarına ve beklentilerine cevap verecek nitelikte sağlıklı, güvenilir ve ekonomik ürünleri toplamak, işlemek ve tüketime sunmaktır."
+    },
+    "nar": {
+      "title": "NARENCİYE",
+      "text": "Narenciyeler turuncu ve sarı renkli, C vitamini açısından zengin kış meyveleridir. Başlıca çeşitleri limon, mandalina, portakal, lim, greyfurt, turunç, bergamot, ağaç kavunu, kamkat ve pomelodur. Türkiye stratejik iklim koşulları sebebi ile narenciye üretiminde önemli bir konuma sahiptir. Ülkemizdeki narenciye üretiminin %80'inden fazlası Akdeniz Bölgesi'nde yapılır. Firmamız özenle seçtiği yüksek kalitede narenciyeyi tüm sezon boyunca dünyanın birçok noktasına ihraç etme gücüne sahiptir. Kendi tesisimizde en yeni makinalarla işlenmekte olan narenciyelerimiz ihracat pazarında etkin rol oynamaktadır."
+    },
+    "veg": {
+      "title": "SEBZE",
+      "text": "Sebze tüketimi sağlıklı bir beslenmenin olmazsa olmazıdır. Posa ve diğer antioksidan özelliğe sahip bileşikler ile folik asit, beta-karoten, E, C, B2 vitamini, kalsiyum, potasyum, demir, magnezyum yönünden zengindir. Ülkemiz iklim özellikleri ve verimli toprakları ile ihraç edilen sebze ürünlerinin yetişmesine uygun ortama sahiptir. Koordineli çalışmalar kapsamında yapılan ihracatımız hem ürün kalitesi hem de ürün çeşitliliğinin artması açısından her geçen yıl daha da gelişmektedir. Firmamız yılın 12 ayı hız kesmeden üretime devam etmektedir. Sebze sektöründe hedeflerimizin gerçekleşmesi için ihracatta önceliğimiz sürdürülebilir kalitedir."
+    },
+    "fru": {
+      "title": "MEYVE",
+      "text": "Ülkemiz verimli toprakları ve ılıman iklime sahip olması sayesinde çok sayıda meyvenin yetiştiği bir meyve cennetidir. Sağlığımız için gerekli olan vitamin, mineral ve enzim depolarımızı doldurmamıza katkı sağlayan meyvelerin besin değeri içeriği yüksek olmakla birlikte sağlıklı bir beslenme için tüketimde çeşitliliği de sağlar. İhracat rakamlarına en çok katkıyı sağlayan ürün grubu meyvedir. İhracat değerlerimizin artışı ve pazar yelpazesini genişletmek hedefi ile kendi meyvelerimizi istenilen ülke şartlarına uygun olarak kendi tesisimizde en yeni makinalarla işlemekteyiz."
+    }
+  },
+  "cta": "Hizmetlerimiz hakkında daha detaylı bilgi için bize ulaşın"
 }
