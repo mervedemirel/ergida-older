@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import {Link} from "../../../../i18n";
-
+import {MdMenu} from "react-icons/md"
 import {withTranslation} from "../../../../i18n";
 
 class Header extends Component {
@@ -17,14 +17,12 @@ class Header extends Component {
                 <nav className="navbar navbar-expand-lg container Header__navbar">
                     <Link href="/">
                         <a className="navbar-brand" href="#">
-                            <img src="../../../static/images/logo.png" className="logo"/>
+                            <img src="../../../static/images/logo.png" className="logo" style={{height: '66px'}}/>
                         </a>
                     </Link>
-                    <button className="navbar-toggler" type="button" data-toggle="collapse"
-                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
+                    <span className="Hamburger ml-auto">
+                        <MdMenu style={{fontSize: '3rem'}} onClick={this.props.menuHandler}/>
+                    </span>
 
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ml-auto">
@@ -58,6 +56,12 @@ class Header extends Component {
                     
                     .nav-link {
                         color: black !important;
+                    }
+                    
+                    @media (min-width: 992px) {
+                        .Hamburger {
+                            display: none !important;
+                        }
                     }
                 `}</style>
             </div>

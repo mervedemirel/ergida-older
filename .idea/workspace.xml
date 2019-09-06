@@ -2,21 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df042bfd-e840-4ce1-9b23-4690baa57fca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/pages/Gallery/GalleryPhotos/GalleryPhoto/GalleryPhoto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/pages/Gallery/GalleryPhotos/GalleryPhotos.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/pages/Gallery/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/galeri.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/locales/en/gallery.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/locales/tr/gallery.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ergida.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ergida.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/pages/About/AboutNature/AboutNature.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/pages/About/AboutParallax/AboutParallax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/pages/About/AboutPrinciple/AboutPrinciple.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/pages/About/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/pages/Services/ServiceContent/ServiceContent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/pages/Services/ServiceExport/ServiceExport.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/pages/Services/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/hizmetlerimiz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/kurumsal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/locales/en/about.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/locales/en/services.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/locales/tr/about.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/locales/tr/services.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/pages/Gallery/GalleryPhotos/GalleryPhoto/GalleryPhoto.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/pages/Gallery/GalleryPhotos/GalleryPhoto/GalleryPhoto.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/pages/Gallery/GalleryPhotos/GalleryPhotos.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/pages/Gallery/GalleryPhotos/GalleryPhotos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/pages/Gallery/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/pages/Gallery/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/shared/Layout/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/Layout/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/shared/Layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/Layout/Layout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/colors.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/locales/en/common.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/locales/en/common.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/locales/tr/common.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/locales/tr/common.json" afterDir="false" />
     </list>
@@ -81,6 +88,10 @@
       <workItem from="1567611122803" duration="38000" />
       <workItem from="1567662499732" duration="607000" />
       <workItem from="1567664761503" duration="6527000" />
+      <workItem from="1567697089650" duration="18000" />
+      <workItem from="1567749159402" duration="1494000" />
+      <workItem from="1567751400768" duration="4167000" />
+      <workItem from="1567761004333" duration="16058000" />
     </task>
     <servers />
   </component>
