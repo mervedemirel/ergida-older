@@ -1,9 +1,11 @@
 import React from 'react';
 import Layout from "../components/shared/Layout/Layout";
 import { i18n } from '../i18n';
+import VegetablePageIndex from "../components/pages/Vegetable";
 
 const Vegetable = ({t}) => (
     <Layout>
+        <VegetablePageIndex/>
         <div className="container">
             <button
                 type='button'
@@ -13,7 +15,7 @@ const Vegetable = ({t}) => (
     </Layout>
 );
 
-Gallery.getInitialProps = async () => ({
+Vegetable.getInitialProps = async () => ({
     namespacesRequired: ['header', 'common', 'vegetable']
 });
 
