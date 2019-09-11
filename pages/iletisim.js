@@ -2,9 +2,13 @@ import React from 'react';
 import Layout from "../components/shared/Layout/Layout";
 import { i18n } from '../i18n';
 import ContactPageIndex from "../components/pages/Contact";
+import Head from "next/head";
 
 const Contact = ({t}) => (
     <Layout>
+        <Head>
+            <title>İletişim | Ergıda Tarım</title>
+        </Head>
         <ContactPageIndex />
         <div className="container">
             <button

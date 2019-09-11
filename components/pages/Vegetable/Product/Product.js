@@ -2,14 +2,15 @@ import React from 'react';
 
 const Product = (props) => {
     return (
-        <div className="Product mt-4 position-relative pt-3 pl-3" style={{background: 'rgba(255, 0, 0, .4)'}}>
-            <p className="Product-title mb-0" style={{color: 'rgba(139, 0, 0, 1)', fontWeight: '700'}}>{props.name}</p>
+        <div className="Product mt-4 position-relative pt-3 pl-3">
+            <p className="Product-title mb-0">{props.name}</p>
             <p className="Product-subtitle mb-1">{props.nameEn}</p>
             <img className="Product-image position-absolute" src={props.photo} alt={props.name}/>
 
             <style jsx>{`
                 .Product {
                     height: 275px;
+                    background: ${props.bgColor}
                 }
             
                 .Product:hover > .Product-image {
@@ -20,6 +21,7 @@ const Product = (props) => {
                 .Product-title {
                     font-weight: 700;
                     letter-spacing: 0.03rem;
+                    color: ${props.titleColor};
                 }
                 
                 .Product-subtitle {

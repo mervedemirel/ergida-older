@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import {Link} from "../../../../i18n";
+import {Link, i18n} from "../../../../i18n";
 import {MdMenu} from "react-icons/md"
 import {withTranslation} from "../../../../i18n";
 
@@ -7,9 +7,16 @@ class Header extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            sample: null
+            dropdownVisible: false
         }
+
+        this.classHandler = this.classHandler.bind(this)
     }
+
+    classHandler() {
+        this.setState({dropdownVisible: !this.state.dropdownVisible})
+    }
+
 
     render() {
         return (
@@ -27,14 +34,36 @@ class Header extends Component {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ml-auto">
                             {this.props.t('links', {returnObjects: true}).map((link, i) => {
-                                return (
+                                return link.url !== '/urunler' ? (
+
                                     <li className="nav-item" key={i}>
                                         <Link href={link.url}>
                                             <a className="nav-link" href="#">{link.text}</a>
                                         </Link>
                                     </li>
+                                ) : (
+                                    <li className="nav-item" key={i}>
+
+                                        <div className="dropdown">
+                                            <a className="nav-link" onClick={this.classHandler}
+                                               style={{cursor: 'pointer'}}>
+                                                {link.text}
+                                            </a>
+                                            <div
+                                                className={this.state.dropdownVisible ? "dropdown-menu show" : "dropdown-menu"}
+                                                aria-labelledby="dropdownMenu2">
+                                                <a className="dropdown-item" href="/sebze">{this.props.t("drop1")}</a>
+                                                {/*<a className="dropdown-item" type="button">Something else here</a>*/}
+                                            </div>
+                                        </div>
+                                    </li>
+
                                 )
+
                             })}
+                            <li><a className="nav-link"
+                                   onClick={() => i18n.changeLanguage(i18n.language === 'tr' ? 'en' : 'tr')}>{i18n.language === 'tr' ? "EN" : "TR"}</a>
+                            </li>
                         </ul>
                     </div>
                 </nav>
