@@ -13,6 +13,7 @@ class ErgidaDocument extends Document {
                         href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;subset=latin-ext"
                         rel="stylesheet"
                     />
+                    <link rel="shortcut icon" type="image/x-icon" href="../static/images/favicon.png" />
                     </Head>
                     <body>
                         <Main />

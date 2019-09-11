@@ -1,20 +1,20 @@
 import React from 'react';
 import Layout from "../components/shared/Layout/Layout";
-import VegetablePageIndex from "../components/pages/Vegetable";
+import CitrusPageIndex from "../components/pages/Citrus";
 import Head from "next/head";
 
 
-const Vegetable = ({t}) => (
+const Citrus = ({t}) => (
     <Layout>
         <Head>
-            <title>Sebze | Ergıda Tarım</title>
+            <title>Narenciye | Ergıda Tarım</title>
         </Head>
-        <VegetablePageIndex/>
+        <CitrusPageIndex/>
     </Layout>
 );
 
-Vegetable.getInitialProps = async () => ({
+Citrus.getInitialProps = async () => ({
     namespacesRequired: ['header', 'common', 'vegetable']
 });
 
-export default Vegetable
+export default Citrus
