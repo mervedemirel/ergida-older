@@ -45,8 +45,8 @@ const Layout = ({children}) => {
                 <Link href="/hizmetlerimiz">
                     <a id="contact" className="menu-item color-white mt-2 py-1">Hizmetlerimiz</a>
                 </Link>
-                <Link href="/urunler">
-                    <a id="contact" className="menu-item color-white mt-2 py-1">Ürünler</a>
+                <Link href="/sebze">
+                    <a id="contact" className="menu-item color-white mt-2 py-1">Sebze</a>
                 </Link>
                 <Link href="/galeri">
                     <a id="contact" className="menu-item color-white mt-2 py-1">Galeri</a>
@@ -61,5 +61,6 @@ const Layout = ({children}) => {
         </>
     )
 };
+
 
 export default Layout;

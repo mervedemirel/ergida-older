@@ -53,7 +53,7 @@ class Header extends Component {
                                                 className={this.state.dropdownVisible ? "dropdown-menu show" : "dropdown-menu"}
                                                 aria-labelledby="dropdownMenu2">
                                                 <a className="dropdown-item" href="/sebze">{this.props.t("drop1")}</a>
-                                                <a className="dropdown-item" href="/narenciye">{this.props.t("drop2")}</a>
+                                                {/*<a className="dropdown-item" href="/narenciye">{this.props.t("drop2")}</a>*/}
                                             </div>
                                         </div>
                                     </li>

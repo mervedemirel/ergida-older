@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df042bfd-e840-4ce1-9b23-4690baa57fca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/pages/Citrus/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/narenciye.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/shared/Layout/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/Layout/Header/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/shared/Layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/Layout/Layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_document.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_document.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/galeri.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/galeri.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/hizmetlerimiz.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/hizmetlerimiz.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/iletisim.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/iletisim.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/kurumsal.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/kurumsal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/sebze.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/sebze.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/locales/en/common.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/locales/en/common.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/locales/en/header.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/locales/en/header.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/locales/tr/common.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/locales/tr/common.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/locales/tr/header.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/locales/tr/header.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +77,7 @@
       <workItem from="1568141957499" duration="8121000" />
       <workItem from="1568179984713" duration="2703000" />
       <workItem from="1568187013128" duration="5656000" />
-      <workItem from="1568209723713" duration="2157000" />
+      <workItem from="1568209723713" duration="3189000" />
     </task>
     <servers />
   </component>
