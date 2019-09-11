@@ -3,18 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="df042bfd-e840-4ce1-9b23-4690baa57fca" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/pages/Vegetable/Product/Product.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/pages/Vegetable/Product/Product.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/pages/Vegetable/VegContainer/VegContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/pages/Vegetable/VegContainer/VegContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/shared/Layout/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/Layout/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/galeri.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/galeri.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/hizmetlerimiz.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/hizmetlerimiz.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/iletisim.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/iletisim.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/kurumsal.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/kurumsal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/sebze.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/sebze.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/locales/en/header.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/locales/en/header.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/locales/tr/header.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/locales/tr/header.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +74,7 @@
       <workItem from="1568068846694" duration="19000" />
       <workItem from="1568141957499" duration="8121000" />
       <workItem from="1568179984713" duration="2703000" />
-      <workItem from="1568187013128" duration="2844000" />
+      <workItem from="1568187013128" duration="4051000" />
     </task>
     <servers />
   </component>
