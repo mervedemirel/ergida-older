@@ -30,7 +30,7 @@ class VegContainer extends Component {
                         <div className="row ProductRow">
                             {this.state.products.map((product, i) => {
                                 return product.color === 'red' ? (
-                                    <div className="col-3 pr-3 pb-3 pl-3">
+                                    <div className="col-12 col-sm-6 col-md-4 col-lg-3 pr-3 pb-3 pl-3">
                                         <Product key={i}
                                                  name={product.name}
                                                  nameEn={product.name_en}
@@ -47,7 +47,7 @@ class VegContainer extends Component {
                         <div className="row ProductRow">
                             {this.state.products.map((product, i) => {
                                 return product.color === 'yellow' ? (
-                                    <div className="col-3 pr-3 pb-3 pl-3">
+                                    <div className="col-12 col-sm-6 col-md-4 col-lg-3 pr-3 pb-3 pl-3">
                                         <Product key={i}
                                                  name={product.name}
                                                  nameEn={product.name_en}
@@ -64,7 +64,7 @@ class VegContainer extends Component {
                         <div className="row ProductRow">
                             {this.state.products.map((product, i) => {
                                 return product.color === 'white' ? (
-                                    <div className="col-3 pr-3 pb-3 pl-3">
+                                    <div className="col-12 col-sm-6 col-md-4 col-lg-3 pr-3 pb-3 pl-3">
                                         <Product key={i}
                                                  name={product.name}
                                                  nameEn={product.name_en}
@@ -80,7 +80,7 @@ class VegContainer extends Component {
                         <div className="row ProductRow">
                             {this.state.products.map((product, i) => {
                                 return product.color === 'green' ? (
-                                    <div className="col-3 pr-3 pb-3 pl-3">
+                                    <div className="col-12 col-sm-6 col-md-4 col-lg-3 pr-3 pb-3 pl-3">
                                         <Product key={i}
                                                  name={product.name}
                                                  nameEn={product.name_en}
