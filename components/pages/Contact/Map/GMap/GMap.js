@@ -201,9 +201,9 @@ const GMap = compose(
     <GoogleMap
         defaultOptions={{styles: mapStyles}}
         defaultZoom={8}
-        defaultCenter={{lat: 40.7470048, lng: 29.9478892}}
+        defaultCenter={props.latLng}
     >
-        <Marker position={{ lat: 40.7470048, lng: 29.9478892 }} onClick={props.onMarkerClick} />
+        <Marker position={props.latLng} onClick={props.onMarkerClick} />
     </GoogleMap>
 );
 
