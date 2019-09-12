@@ -15,7 +15,7 @@ const AboutParallax = ({t}) => {
             <style jsx>{`
                 .About-parallax {
                     height: 300px;
-                    background: url('../../../../static/images/about-parallax.jpg');
+                    background: url('../../../../static/images/parallax.jpg');
                     background-attachment: fixed;
                       background-position: center;
                       background-repeat: no-repeat;

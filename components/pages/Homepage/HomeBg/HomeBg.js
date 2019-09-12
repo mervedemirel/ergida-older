@@ -110,7 +110,18 @@ class HomeBg extends React.Component {
                       background-position: center;
                       background-repeat: no-repeat;
                       background-size: cover;
-                }               
+                }
+                
+                @media (max-width: 767px) {
+                    .HomeBg-mid {
+                        height: auto;
+                        background: url('../../../../static/images/parallax.jpg');
+                        background-attachment: fixed;
+                          background-position: center;
+                          background-repeat: no-repeat;
+                          background-size: cover;
+                    } 
+                }
                 
                 .icon-text {
                     color: white;

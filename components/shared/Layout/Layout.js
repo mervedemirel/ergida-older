@@ -6,6 +6,8 @@ import {Link} from '../../../i18n';
 import Head from "next/head";
 import Router from "next/router";
 import NProgress from "nprogress";
+import { i18n } from "../../../i18n";
+
 
 
 import "../../../static/css/bootstrap.min.css";
@@ -33,7 +35,7 @@ const Layout = ({children}) => {
             <Menu left customBurgerIcon={false} isOpen={menuIsOpen} disableAutoFocus>
                 <Link href="/">
                     <a className="menu-item">
-                        <img className="Nav-logo" src="../../../static/images/logo.png" alt="Ergıda Tarım Logosu"/>
+                        <img className="Nav-logo" src="../../../static/images/logo.jpg" alt="Ergıda Tarım Logosu"/>
                     </a>
                 </Link>
                 <Link href="/">
