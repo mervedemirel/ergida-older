@@ -9,9 +9,9 @@ const GalleryIndex = () => {
     return (
         <>
             {i18n.language === 'tr' ? <Hero bigImage="../../../../static/images/galeri-hero.jpg"
-                mobImage="../../../../static/images/galeri-hero-mob.png" /> :
+                mobImage="../../../../static/images/galeri-hero-mob.jpg" /> :
                 <Hero bigImage="../../../../static/images/galeri-hero-en.jpg"
-                    mobImage="../../../../static/images/galeri-hero-mob.png" />}
+                    mobImage="../../../../static/images/galeri-hero-mob-en.jpg" />}
             <GalleryPhotos/>
             <HomeCta className="mt-5"/>
         </>

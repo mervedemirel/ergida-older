@@ -11,7 +11,7 @@ const ContactPageIndex = () => {
             {i18n.language === 'tr' ? (<Hero bigImage="../../../../static/images/iletisim-hero.jpg"
                 mobImage="../../../../static/images/iletisim-hero-mob.jpg" />) : (
                     <Hero bigImage="../../../../static/images/iletisim-hero-en.jpg"
-                        mobImage="../../../../static/images/iletisim-hero-mob.jpg" />
+                        mobImage="../../../../static/images/iletisim-hero-mob-en.jpg" />
                 )}
 
             <Map />

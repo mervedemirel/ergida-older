@@ -54,6 +54,8 @@ const Layout = ({children}) => {
                 <Link href="/iletisim">
                     <a id="contact" className="menu-item color-white mt-2 py-1">İletişim</a>
                 </Link>
+                <a className="menu-item color-white mt-2 py-1" style={{cursor: 'pointer'}}
+                                   onClick={() => i18n.changeLanguage(i18n.language === 'tr' ? 'en' : 'tr')}>{i18n.language === 'tr' ? "English" : "Türkçe"}</a>
             </Menu>
             <Header menuHandler={changeMenuOpenStatus} />
             {children}

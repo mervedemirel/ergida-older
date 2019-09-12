@@ -8,9 +8,9 @@ const VegetablePageIndex = () => {
     return (
         <>
         {i18n.language === 'tr' ? <Hero bigImage="../../../../static/images/sebze-hero.jpg"
-                mobImage="../../../../static/images/sebze-hero-mob.png" /> :
+                mobImage="../../../../static/images/sebze-hero-mob.jpg" /> :
                 <Hero bigImage="../../../../static/images/sebze-hero-en.jpg"
-                    mobImage="../../../../static/images/sebze-hero-mob.png" />}
+                    mobImage="../../../../static/images/sebze-hero-mob-en.jpg" />}
             <VegContainer/>
         </>
     );

@@ -10,9 +10,9 @@ const HomePageIndex = () => {
     return (
         <>
             {i18n.language === 'tr' ? <Hero bigImage="../../../../static/images/home-hero.jpg"
-                mobImage="../../../../static/images/home-hero-mob.png" /> :
+                mobImage="../../../../static/images/home-hero-mob.jpg" /> :
                 <Hero bigImage="../../../../static/images/home-hero-en.jpg"
-                    mobImage="../../../../static/images/home-hero-mob.png" />}
+                    mobImage="../../../../static/images/home-hero-mob-en.jpg" />}
 
             <HomeBg />
             <VegetableFruit />

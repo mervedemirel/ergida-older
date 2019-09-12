@@ -11,7 +11,7 @@ const AboutPageIndex = () => {
             {i18n.language === 'tr' ? (<Hero bigImage="../../../../static/images/about-hero.jpg"
                 mobImage="../../../../static/images/about-hero-mob.jpg" />) : (
                     <Hero bigImage="../../../../static/images/about-hero-en.jpg"
-                        mobImage="../../../../static/images/about-hero-mob.jpg" />
+                        mobImage="../../../../static/images/about-hero-mob-en.jpg" />
                 )}
 
             <AboutPrinciple />

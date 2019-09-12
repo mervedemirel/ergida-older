@@ -9,9 +9,9 @@ const ServicesPageIndex = () => {
     return (
         <>
         {i18n.language === 'tr' ? <Hero bigImage="../../../../static/images/services-hero.jpg"
-                mobImage="../../../../static/images/services-hero-mob.png" /> :
+                mobImage="../../../../static/images/services-hero-mob.jpg" /> :
                 <Hero bigImage="../../../../static/images/services-hero-en.jpg"
-                    mobImage="../../../../static/images/services-hero-mob.png" />}
+                    mobImage="../../../../static/images/services-hero-mob-en.jpg" />}
             <ServiceContent/>
             <ServiceExport/>
         </>
