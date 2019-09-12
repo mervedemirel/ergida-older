@@ -4,7 +4,7 @@ import {withTranslation, Link} from "../../../i18n";
 
 const Button = (props) => {
     return (
-        <Link href="/">
+        <Link href={props.goTo}>
         <button type="button" className="btn btn-success px-4 rounded button-green align-self-baseline">{props.t(props.translateText)}</button>
         </Link>
     );

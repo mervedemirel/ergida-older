@@ -15,7 +15,7 @@ const VegetableFruit = ({t}) => {
                             <p className="text-right pb-2">
                                 {t('homeBg', {returnObjects: true}).veg.text}
                             </p>
-                            <Button translateText="infoButtonText"/>
+                            <Button translateText="infoButtonText" goTo="/sebze"/>
                         </div>
                         <div className="col-md-6 col-lg-5">
                             <img src="../../../../static/images/home-eggplant.png" alt=""/>
@@ -30,7 +30,7 @@ const VegetableFruit = ({t}) => {
                             <p className="pb-2">
                                 {t('homeBg', {returnObjects: true}).fru.text}
                             </p>
-                            <Button translateText="infoButtonText" />
+                            <Button translateText="infoButtonText" goTo="/sebze" />
                         </div>
                     </div>
                 </div>

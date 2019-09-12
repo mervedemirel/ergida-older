@@ -37,7 +37,7 @@ class HomeBg extends React.Component {
                                     {this.props.t('homeBg', {returnObjects: true}).top.text}
                                 </p>
                                 <br/>
-                                <Button translateText="infoButtonText"/>
+                                <Button translateText="infoButtonText" goTo="/kurumsal"/>
                             </div>
                             <div className="col-md-5 col-lg-5 d-flex align-items-center justify-content-center">
                                 <img src="../../../../static/images/avokado-toplu.png" className="w-100" alt=""/>
@@ -73,7 +73,7 @@ class HomeBg extends React.Component {
                                 <p>
                                     {this.props.t('homeBg', {returnObjects: true}).nar.text}
                                 </p>
-                                <Button translateText="infoButtonText"/>
+                                <Button translateText="infoButtonText" goTo="/sebze"/>
                             </div>
                         </div>
                     </div>

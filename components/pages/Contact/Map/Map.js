@@ -9,7 +9,7 @@ const Map = ({t}) => {
                 <div className="col-12 col-lg-6">
                     <div className="MapCard">
                         <h4 className="er-color-dark-green">{t('merkez')}</h4>
-                        <GMap latLng={{lat: 40.7470048, lng: 29.9478892}}/>
+                        <GMap latLng={{lat: 36.3810529, lng: 30.2871837}}/>
                         <p className="mt-3">
                             <b>{t('adres')}: </b> Bağlık Mahallesi Gödene Caddesi No: 189 <br/> Er Gıda Paketleme Tesisi
                             Kumluca / Antalya

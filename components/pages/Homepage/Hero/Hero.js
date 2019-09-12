@@ -9,6 +9,7 @@ const HomeHero = (props) => {
 
     return (
         <div className="container-fluid p-0 position-relative">
+            
             <img src={props.bigImage} className="w-100 hero-big" alt="" />
             <img src={props.mobImage} className="w-100 hero-small" alt=""/>
             <h1 className="hero-title"><span

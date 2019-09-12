@@ -9,6 +9,8 @@ const GalleryPhoto = (props) => {
                     width: 100%;
                     transform: translate(1.5rem, 1.5rem);
                     transition: transform .5s;
+                    box-shadow: 0 0 10px;
+
                 }
                 
                 @media (max-width: 767px) {

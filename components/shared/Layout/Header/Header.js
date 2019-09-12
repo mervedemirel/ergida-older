@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import {Link, i18n} from "../../../../i18n";
-import {MdMenu} from "react-icons/md"
+import {MdMenu} from "react-icons/md";
 import {withTranslation} from "../../../../i18n";
 
 class Header extends Component {

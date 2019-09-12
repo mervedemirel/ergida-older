@@ -48,8 +48,9 @@ const ServiceContent = ({t}) => {
                 .Services-basket {
                     position: absolute;
                     top: 50%;
-                    transform: translateY(-30%);
+                    transform: translateY(-50%);
                     z-index: -1;
+                    width: 100%;
                 }
                 
                 @media (max-width: 767px) {
@@ -70,33 +71,6 @@ const ServiceContent = ({t}) => {
                         transform: translate(-50%, -50%);
                     }
                 }
-            
-            
-                // .Services-bg {
-                //     background: url('../../../../static/images/services-basket.jpg') no-repeat;
-                //     background-size: contain;
-                // }
-                //
-                // @media (max-width: 991px) {
-                //     .Services-bg-wrapper {
-                //         display: none;
-                //     }
-                // }
-                //
-                // @media (max-width: 1199px) {
-                //     .Services-bg-wrapper {
-                //         padding-top: 15rem;
-                //     }
-                // }
-                //
-                // @media (min-width: 1200px) {
-                //     .Services-bg {
-                //         position: absolute;
-                //         margin-left: -2rem;
-                //         z-index: -1;
-                //         height: 100%;                   
-                //     }
-                // }
             `}</style>
         </div>
     );

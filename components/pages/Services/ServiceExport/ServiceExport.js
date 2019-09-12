@@ -5,7 +5,7 @@ const ServiceExport = ({t}) => {
     return (
         <div className="container-fluid p-0 mt-5 ServiceExport">
             <div className="container ServiceExport-text">
-                <div className="row">
+                {/* <div className="row">
                     <div className="col -12 col-md-6 d-flex align-items-center">
                         <span className="ServiceExport-title-number mr-2">{t('exportTitleOne')}</span>
                         <span className="er-color-orange mt-3">{t('exportTitleTwo')}
@@ -16,7 +16,7 @@ const ServiceExport = ({t}) => {
                             <p>{t('exportCountries')}</p>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
             <img src="../../../../static/images/service-export.jpg" className="full-width" alt=""/>
 
