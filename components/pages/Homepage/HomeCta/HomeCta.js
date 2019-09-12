@@ -8,7 +8,7 @@ const HomeCTA = ({t}) => {
         <div className="container">
             <p className="text-center HomeCta">
                 {t('cta')} <br/> <span><FaPhone style={{transform: 'rotate(-270deg)'}} /></span> &nbsp;
-                <a href="tel://+902623355606">0 262 335 56 06</a>
+                <a href="tel://+902623355606">0 242 887 02 22</a>
             </p>
 
             <style jsx>{`

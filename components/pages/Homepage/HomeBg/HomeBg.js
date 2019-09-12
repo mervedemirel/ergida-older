@@ -80,11 +80,7 @@ class HomeBg extends React.Component {
                 </div>
 
                 <style jsx>{`
-                .HomeBg {
-                    background: url('../../../../static/images/home-bg.jpg');
-                    background-size: cover;
-                }
-            
+         
                 .HomeBg-top {
                     background: rgba(255, 255, 255, .5);
                 }
@@ -108,7 +104,12 @@ class HomeBg extends React.Component {
                 }
                 
                 .HomeBg-mid {
-                    background: rgba(0, 0, 0, .6);
+                    height: 500px;
+                    background: url('../../../../static/images/parallax.jpg');
+                    background-attachment: fixed;
+                      background-position: center;
+                      background-repeat: no-repeat;
+                      background-size: cover;
                 }               
                 
                 .icon-text {

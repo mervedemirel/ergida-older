@@ -7,11 +7,8 @@ import AboutNature from "./AboutNature/AboutNature";
 const AboutPageIndex = () => {
     return (
         <>
-            <Hero translateKey="aboutTitle"
-                  top="4rem"
-                  bigImage="../../../../static/images/about-hero.jpg"
-                  mobImage="../../../../static/images/about-hero-mob.jpg"
-                  color="#275b2f"/>
+            <Hero bigImage="../../../../static/images/about-hero.jpg"
+                  mobImage="../../../../static/images/about-hero-mob.jpg"/>
             <AboutPrinciple/>
             <AboutParallax/>
             <AboutNature/>

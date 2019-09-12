@@ -6,11 +6,8 @@ import ContactForm from "./ContactForm/ContactForm";
 const ContactPageIndex = () => {
     return (
         <>
-            <Hero translateKey="contactTitle"
-                  top="4rem"
-                  bigImage="../../../../static/images/iletisim-hero.jpg"
-                  mobImage="../../../../static/images/iletisim-hero-mob.jpg"
-                  color="#275b2f"/>
+            <Hero bigImage="../../../../static/images/iletisim-hero.jpg"
+                  mobImage="../../../../static/images/iletisim-hero-mob.jpg"/>
             <Map/>
             <ContactForm/>
         </>

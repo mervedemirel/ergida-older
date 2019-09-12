@@ -6,11 +6,8 @@ import HomeCta from "../Homepage/HomeCta/HomeCta";
 const GalleryIndex = () => {
     return (
         <>
-            <Hero translateKey="galeryTitle"
-                  top="4rem"
-                  bigImage="../../../../static/images/galeri-hero.jpg"
-                  mobImage="../../../../static/images/galeri-hero-mob.jpg"
-                  color="#FFFFFF"/>
+            <Hero bigImage="../../../../static/images/galeri-hero.jpg"
+                  mobImage="../../../../static/images/galeri-hero-mob.jpg"/>
             <GalleryPhotos/>
             <HomeCta className="mt-5"/>
         </>

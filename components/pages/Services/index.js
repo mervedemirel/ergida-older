@@ -6,11 +6,8 @@ import ServiceExport from "./ServiceExport/ServiceExport";
 const ServicesPageIndex = () => {
     return (
         <>
-            <Hero translateKey="servicesTitle"
-                  top="4rem"
-                  bigImage="../../../../static/images/services-hero.jpg"
-                  mobImage="../../../../static/images/services-hero-mob.jpg"
-                  color="#669915"/>
+            <Hero bigImage="../../../../static/images/services-hero.jpg"
+                  mobImage="../../../../static/images/services-hero-mob.jpg"/>
             <ServiceContent/>
             <ServiceExport/>
         </>
