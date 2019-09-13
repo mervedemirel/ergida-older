@@ -9,6 +9,12 @@ const HomeHero = (props) => {
 
     return (
         <div className="container-fluid p-0 position-relative">
+
+            {/*<picture className="w-100 hero-big">*/}
+            {/*    <source srcSet={require('../../../../static/images/home-hero.jpg?webp')} type="image/webp" />*/}
+            {/*    <source srcSet={require('../../../../static/images/home-hero.jpg')} type="image/jpeg" />*/}
+            {/*    <img src={require('../../../../static/images/home-hero.jpg')} />*/}
+            {/*</picture>*/}
             
             <img src={props.bigImage} className="w-100 hero-big" alt="" />
             <img src={props.mobImage} className="w-100 hero-small" alt=""/>

@@ -6,8 +6,7 @@ import {Link} from '../../../i18n';
 import Head from "next/head";
 import Router from "next/router";
 import NProgress from "nprogress";
-import { i18n } from "../../../i18n";
-
+import {i18n} from "../../../i18n";
 
 
 import "../../../static/css/bootstrap.min.css";
@@ -35,7 +34,7 @@ const Layout = ({children}) => {
             <Menu left customBurgerIcon={false} isOpen={menuIsOpen} disableAutoFocus>
                 <Link href="/">
                     <a className="menu-item">
-                        <img className="Nav-logo" src="../../../static/images/logo.jpg" alt="Ergıda Tarım Logosu"/>
+                        <img className="Nav-logo" style={{maxHeight: '70px'}} src="../../../static/images/logo.jpg" alt="Ergıda Tarım Logosu"/>
                     </a>
                 </Link>
                 <Link href="/">
@@ -56,10 +55,12 @@ const Layout = ({children}) => {
                 <Link href="/iletisim">
                     <a id="contact" className="menu-item color-white mt-2 py-1">İletişim</a>
                 </Link>
-                <a className="menu-item color-white mt-2 py-1" style={{cursor: 'pointer'}}
-                                   onClick={() => i18n.changeLanguage(i18n.language === 'tr' ? 'en' : 'tr')}>{i18n.language === 'tr' ? "English" : "Türkçe"}</a>
+                <Link href="/iletisim">
+                    <a id="contact" className="menu-item color-white mt-2 py-1"
+                       onClick={() => i18n.changeLanguage(i18n.language === 'tr' ? 'en' : 'tr')}>{i18n.language === 'tr' ? "English" : "Türkçe"}</a>
+                </Link>
             </Menu>
-            <Header menuHandler={changeMenuOpenStatus} />
+            <Header menuHandler={changeMenuOpenStatus}/>
             {children}
             <Footer/>
         </>
