@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df042bfd-e840-4ce1-9b23-4690baa57fca" name="Default Changelist" comment="" />
+    <list default="true" id="df042bfd-e840-4ce1-9b23-4690baa57fca" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/pages/Homepage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/pages/Homepage/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/pages/Vegetable/VegContainer/VegContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/pages/Vegetable/VegContainer/VegContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/pages/Vegetable/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/pages/Vegetable/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/shared/Layout/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/Layout/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/shared/Layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/Layout/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/locales/en/header.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/locales/en/header.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/locales/tr/header.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/locales/tr/header.json" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +31,8 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="11.15.0" />
-    <property name="last_opened_file_path" value="$USER_HOME$/gistools" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.9.1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -83,6 +92,7 @@
       <workItem from="1568370390458" duration="1526000" />
       <workItem from="1568373281293" duration="31000" />
       <workItem from="1568373549410" duration="672000" />
+      <workItem from="1568704534712" duration="2594000" />
     </task>
     <servers />
   </component>

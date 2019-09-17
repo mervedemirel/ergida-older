@@ -22,5 +22,27 @@
     }
   ],
   "drop1": "SEBZE",
-  "drop2": "NARENCİYE"
+  "drop2": "NARENCİYE",
+  "mobileLinks": {
+    "kurumsal": {
+      "text": "KURUMSAL",
+      "link": "/kurumsal"
+    },
+    "hizmetler": {
+      "text": "HİZMETLERİMİZ",
+      "link": "/hizmetlerimiz"
+    },
+    "urun": {
+      "text": "SEBZE",
+      "link": "/sebze"
+    },
+    "gallery": {
+      "text": "GALERİ",
+      "link": "/galeri"
+    },
+    "contact": {
+      "text": "İLETİŞİM",
+      "link": "/iletisim"
+    }
+  }
 }

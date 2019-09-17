@@ -22,5 +22,27 @@
     }
   ],
   "drop1": "VEGETABLE",
-  "drop2": "CITRUS"
+  "drop2": "CITRUS",
+  "mobileLinks": {
+    "kurumsal": {
+      "text": "COMPANY",
+      "link": "/kurumsal"
+    },
+    "hizmetler": {
+      "text": "OUR SERVICES",
+      "link": "/hizmetlerimiz"
+    },
+    "urun": {
+      "text": "VEGETABLES",
+      "link": "/sebze"
+    },
+    "gallery": {
+      "text": "GALLERY",
+      "link": "/galeri"
+    },
+    "contact": {
+      "text": "CONTACT",
+      "link": "/iletisim"
+    }
+  }
 }

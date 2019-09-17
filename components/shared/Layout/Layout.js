@@ -6,7 +6,7 @@ import {Link} from '../../../i18n';
 import Head from "next/head";
 import Router from "next/router";
 import NProgress from "nprogress";
-import {i18n} from "../../../i18n";
+import {i18n, withTranslation} from "../../../i18n";
 
 
 import "../../../static/css/bootstrap.min.css";
@@ -18,7 +18,7 @@ Router.onRouteChangeStart = url => {
 
 Router.onRouteChangeComplete = () => NProgress.done();
 
-const Layout = ({children}) => {
+const Layout = ({children, t}) => {
     const [menuIsOpen, setMenuIsOpen] = useState(false);
 
     const changeMenuOpenStatus = () => {
@@ -37,27 +37,24 @@ const Layout = ({children}) => {
                         <img className="Nav-logo" style={{maxHeight: '70px'}} src="../../../static/images/logo.jpg" alt="Ergıda Tarım Logosu"/>
                     </a>
                 </Link>
-                <Link href="/">
-                    <a id="home" className="menu-item color-white mt-4">Anasayfa</a>
-                </Link>
                 <Link href="/kurumsal">
-                    <a id="about" className="menu-item color-white mt-2 py-1">Kurumsal</a>
+                    <a id="about" className="menu-item color-white mt-2 py-1">{t('mobileLinks', {returnObjects: true}).kurumsal.text}</a>
                 </Link>
                 <Link href="/hizmetlerimiz">
-                    <a id="contact" className="menu-item color-white mt-2 py-1">Hizmetlerimiz</a>
+                    <a id="contact" className="menu-item color-white mt-2 py-1">{t('mobileLinks', {returnObjects: true}).hizmetler.text}</a>
                 </Link>
                 <Link href="/sebze">
-                    <a id="contact" className="menu-item color-white mt-2 py-1">Sebze</a>
+                    <a id="contact" className="menu-item color-white mt-2 py-1">{t('mobileLinks', {returnObjects: true}).urun.text}</a>
                 </Link>
                 <Link href="/galeri">
-                    <a id="contact" className="menu-item color-white mt-2 py-1">Galeri</a>
+                    <a id="contact" className="menu-item color-white mt-2 py-1">{t('mobileLinks', {returnObjects: true}).gallery.text}</a>
                 </Link>
                 <Link href="/iletisim">
-                    <a id="contact" className="menu-item color-white mt-2 py-1">İletişim</a>
+                    <a id="contact" className="menu-item color-white mt-2 py-1">{t('mobileLinks', {returnObjects: true}).contact.text}</a>
                 </Link>
                 <Link href="/iletisim">
                     <a id="contact" className="menu-item color-white mt-2 py-1"
-                       onClick={() => i18n.changeLanguage(i18n.language === 'tr' ? 'en' : 'tr')}>{i18n.language === 'tr' ? "English" : "Türkçe"}</a>
+                       onClick={() => i18n.changeLanguage(i18n.language === 'tr' ? 'en' : 'tr')}>{i18n.language === 'tr' ? "ENGLISH" : "TÜRKÇE"}</a>
                 </Link>
             </Menu>
             <Header menuHandler={changeMenuOpenStatus}/>
@@ -68,4 +65,4 @@ const Layout = ({children}) => {
 };
 
 
-export default Layout;
+export default withTranslation('header')(Layout);

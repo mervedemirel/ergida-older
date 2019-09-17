@@ -69,7 +69,7 @@ class VegContainer extends Component {
                                                  name={product.name}
                                                  nameEn={product.name_en}
                                                  photo={`https://admin.ergidatarim.com.tr/${product.photo.url}`}
-                                                 bgColor="rgba(245,245,220, .4)" titleColor="rgba(225,222,173)"/>
+                                                 bgColor="rgba(50,130,170, .4)" titleColor="rgba(225,222,173)"/>
                                     </div>) : null
                             })}
                         </div>

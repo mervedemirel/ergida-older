@@ -8,7 +8,7 @@ class Header extends Component {
         super(props);
         this.state = {
             dropdownVisible: false
-        }
+        };
 
         this.classHandler = this.classHandler.bind(this)
     }
