@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import Hero from "./Hero/Hero";
 import HomeBg from "./HomeBg/HomeBg";
 import HomeCta from "./HomeCta/HomeCta";

@@ -6,13 +6,18 @@ import { i18n } from "../../../i18n";
 
 
 const ContactPageIndex = () => {
+    let hero;
+    if (i18n.language !== 'en') {
+        hero = <Hero bigImage="../../../../static/images/iletisim-hero.jpg"
+                     mobImage="../../../../static/images/iletisim-hero-mob.jpg" />
+    } else {
+        hero = <Hero bigImage="../../../../static/images/iletisim-hero-en.jpg"
+                     mobImage="../../../../static/images/iletisim-hero-mob-en.jpg" />
+    }
+
     return (
         <>
-            {i18n.language === 'tr' ? (<Hero bigImage="../../../../static/images/iletisim-hero.jpg"
-                mobImage="../../../../static/images/iletisim-hero-mob.jpg" />) : (
-                    <Hero bigImage="../../../../static/images/iletisim-hero-en.jpg"
-                        mobImage="../../../../static/images/iletisim-hero-mob-en.jpg" />
-                )}
+            {hero}
 
             <Map />
             <ContactForm />

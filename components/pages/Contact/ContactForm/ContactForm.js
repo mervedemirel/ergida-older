@@ -25,7 +25,7 @@ const ContactForm = ({t}) => {
                 </FormGroup>
 
                 <div className="d-flex mb-3 justify-content-center">
-                    <Button translateText="sendButtonText"/>
+                    <button type="button" className="btn btn-success px-4 rounded button-green align-self-baseline">GÖNDER</button>
                 </div>
             </Form>
         </div>

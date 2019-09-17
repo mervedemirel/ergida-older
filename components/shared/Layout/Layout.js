@@ -2,11 +2,10 @@ import React, {useState} from "react";
 import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
 import {slide as Menu} from 'react-burger-menu'
-import {Link} from '../../../i18n';
 import Head from "next/head";
 import Router from "next/router";
 import NProgress from "nprogress";
-import {i18n, withTranslation} from "../../../i18n";
+import {i18n, withTranslation, Link} from "../../../i18n";
 
 
 import "../../../static/css/bootstrap.min.css";
@@ -52,7 +51,7 @@ const Layout = ({children, t}) => {
                 <Link href="/iletisim">
                     <a id="contact" className="menu-item color-white mt-2 py-1">{t('mobileLinks', {returnObjects: true}).contact.text}</a>
                 </Link>
-                <Link href="/iletisim">
+                <Link href="/">
                     <a id="contact" className="menu-item color-white mt-2 py-1"
                        onClick={() => i18n.changeLanguage(i18n.language === 'tr' ? 'en' : 'tr')}>{i18n.language === 'tr' ? "ENGLISH" : "TÜRKÇE"}</a>
                 </Link>

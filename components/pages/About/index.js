@@ -6,14 +6,18 @@ import AboutNature from "./AboutNature/AboutNature";
 import { i18n } from "../../../i18n";
 
 const AboutPageIndex = () => {
+    let hero;
+    if (i18n.language !== 'en') {
+        hero = <Hero bigImage="../../../../static/images/about-hero.jpg"
+                     mobImage="../../../../static/images/about-hero-mob.jpg" />
+    } else {
+        hero = <Hero bigImage="../../../../static/images/about-hero-en.jpg"
+                     mobImage="../../../../static/images/about-hero-mob-en.jpg" />
+    }
+
     return (
         <>
-            {i18n.language === 'tr' ? (<Hero bigImage="../../../../static/images/about-hero.jpg"
-                mobImage="../../../../static/images/about-hero-mob.jpg" />) : (
-                    <Hero bigImage="../../../../static/images/about-hero-en.jpg"
-                        mobImage="../../../../static/images/about-hero-mob-en.jpg" />
-                )}
-
+            {hero}
             <AboutPrinciple />
             <AboutParallax />
             <AboutNature />

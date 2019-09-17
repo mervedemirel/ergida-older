@@ -8,5 +8,10 @@
   "servicesTitle": "OUR SERVICES",
   "aboutTitle": "ABOUT US",
   "vegTitle": "VEGETABLE",
-  "citrusTitle": "CITRUS"
+  "citrusTitle": "CITRUS",
+  "headCompanyTitle": "About Us",
+  "headGalleryTitle": "Gallery",
+  "headServicesTitle": "Our Services",
+  "headContactTitle": "Contact",
+  "headVegTitle": "Vegetable"
 }

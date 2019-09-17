@@ -3,7 +3,7 @@ import Document, { Head, Main, NextScript } from "next/document";
 class ErgidaDocument extends Document {
     render() {
         return (
-            <html>
+            <html lang="tr">
                 <Head>
                     <meta charSet="UTF-8"/>
                         <meta name="viewport"

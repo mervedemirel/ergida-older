@@ -1,7 +1,6 @@
 import React, {Component} from "react";
-import {Link, i18n} from "../../../../i18n";
+import {Link, i18n, withTranslation} from "../../../../i18n";
 import {MdMenu} from "react-icons/md";
-import {withTranslation} from "../../../../i18n";
 
 class Header extends Component {
     constructor(props) {
@@ -35,7 +34,6 @@ class Header extends Component {
                         <ul className="navbar-nav ml-auto">
                             {this.props.t('links', {returnObjects: true}).map((link, i) => {
                                 return link.url !== '/urunler' ? (
-
                                     <li className="nav-item" key={i}>
                                         <Link href={link.url}>
                                             <a className="nav-link" href="#">{link.text}</a>
