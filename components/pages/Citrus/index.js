@@ -1,14 +1,19 @@
 import React from 'react';
 import Hero from "../Homepage/Hero/Hero";
+import {i18n} from "../../../i18n";
 
 const CitrusPageIndex = () => {
+    let hero;
+    if (i18n.language !== 'en') {
+        hero = <Hero bigImage="../../../../static/images/sebze-hero.jpg"
+                     mobImage="../../../../static/images/sebze-hero-mob.jpg" />
+    } else {
+        hero = <Hero bigImage="../../../../static/images/sebze-hero-en.jpg"
+                     mobImage="../../../../static/images/sebze-hero-mob-en.jpg" />
+    }
     return (
         <>
-            <Hero translateKey="citrusTitle"
-                  top="4rem"
-                  bigImage="../../../../static/images/narenciye-hero.jpg"
-                  mobImage="../../../../static/images/narenciye-hero-mob.jpg"
-                  color="#275b2f"/>
+            {hero}
         </>
     );
 };

@@ -1,21 +1,21 @@
 import React from 'react';
 import Layout from "../components/shared/Layout/Layout";
-import CitrusPageIndex from "../components/pages/Citrus";
+import FruitPageIndex from "../components/pages/Fruit";
 import Head from "next/head";
 import {withTranslation} from "../i18n";
 
 
-const Citrus = ({t}) => (
+const Fruit = ({t}) => (
     <Layout>
         <Head>
-            <title>{t('headCitTitle')} | Ergıda Tarım</title>
+            <title>{t('headFruTitle')} | Ergıda Tarım</title>
         </Head>
-        <CitrusPageIndex/>
+        <FruitPageIndex/>
     </Layout>
 );
 
-Citrus.getInitialProps = async () => ({
+Fruit.getInitialProps = async () => ({
     namespacesRequired: ['header', 'common', 'vegetable']
 });
 
-export default withTranslation('common')(Citrus);
+export default withTranslation('common')(Fruit);

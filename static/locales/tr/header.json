@@ -23,6 +23,7 @@
   ],
   "drop1": "SEBZE",
   "drop2": "NARENCİYE",
+  "drpo3": "MEYVE",
   "mobileLinks": {
     "kurumsal": {
       "text": "KURUMSAL",
@@ -35,6 +36,10 @@
     "urun": {
       "text": "SEBZE",
       "link": "/sebze"
+    },
+    "meyve": {
+      "text": "MEYVE",
+      "link": "/meyve"
     },
     "gallery": {
       "text": "GALERİ",

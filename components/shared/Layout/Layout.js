@@ -45,6 +45,9 @@ const Layout = ({children, t}) => {
                 <Link href="/sebze">
                     <a id="contact" className="menu-item color-white mt-2 py-1">{t('mobileLinks', {returnObjects: true}).urun.text}</a>
                 </Link>
+                <Link href="/meyve">
+                    <a id="contact" className="menu-item color-white mt-2 py-1">{t('mobileLinks', {returnObjects: true}).meyve.text}</a>
+                </Link>
                 <Link href="/galeri">
                     <a id="contact" className="menu-item color-white mt-2 py-1">{t('mobileLinks', {returnObjects: true}).gallery.text}</a>
                 </Link>

@@ -23,6 +23,7 @@
   ],
   "drop1": "VEGETABLE",
   "drop2": "CITRUS",
+  "drop3": "FRUIT",
   "mobileLinks": {
     "kurumsal": {
       "text": "COMPANY",
@@ -35,6 +36,10 @@
     "urun": {
       "text": "VEGETABLES",
       "link": "/sebze"
+    },
+    "meyve": {
+      "text": "FRUIT",
+      "link": "/meyve"
     },
     "gallery": {
       "text": "GALLERY",
