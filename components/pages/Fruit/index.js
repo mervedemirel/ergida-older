@@ -9,8 +9,8 @@ const FruitPageIndex = () => {
         hero = <Hero bigImage="../../../../static/images/meyve-hero.jpg"
                      mobImage="../../../../static/images/meyve-hero-mob.jpg" />
     } else {
-        hero = <Hero bigImage="../../../../static/images/meyve-hero-en.jpg"
-                     mobImage="../../../../static/images/meyve-hero-mob-en.jpg" />
+        hero = <Hero bigImage="../../../../static/images/meyve-hero.jpg"
+                     mobImage="../../../../static/images/meyve-hero-mob.jpg" />
     }
     return (
         <>

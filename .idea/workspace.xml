@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df042bfd-e840-4ce1-9b23-4690baa57fca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/pages/Fruit/FruContainer/FruContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/pages/Fruit/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/meyve.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/meyve-hero-mob.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/meyve-hero.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ergida.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ergida.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/pages/Citrus/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/pages/Citrus/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/shared/Layout/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/Layout/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/shared/Layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/Layout/Layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/narenciye.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/narenciye.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/locales/en/common.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/locales/en/common.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/locales/en/header.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/locales/en/header.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/locales/tr/common.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/locales/tr/common.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/pages/Fruit/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/pages/Fruit/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/locales/tr/header.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/locales/tr/header.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -106,6 +94,10 @@
       <workItem from="1568785775809" duration="107000" />
       <workItem from="1568872690629" duration="1140000" />
       <workItem from="1568873844094" duration="1408000" />
+      <workItem from="1568877156240" duration="7000" />
+      <workItem from="1568977059082" duration="616000" />
+      <workItem from="1568985273399" duration="198000" />
+      <workItem from="1569303189436" duration="725000" />
     </task>
     <servers />
   </component>
