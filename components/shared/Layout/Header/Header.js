@@ -7,7 +7,8 @@ class Header extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            dropdownVisible: false
+            dropdownVisible: false,
+            activeLanguage: undefined
         };
 
         this.classHandler = this.classHandler.bind(this)
@@ -18,7 +19,8 @@ class Header extends Component {
     }
 
     componentDidMount() {
-        localStorage.setItem('lng', i18n.language)
+        localStorage.setItem('lng', i18n.language);
+        this.setState({activeLanguage: localStorage.getItem('lng')})
     }
 
     render() {
@@ -69,8 +71,9 @@ class Header extends Component {
                             <li><a className="nav-link" style={{cursor: 'pointer'}}
                                    onClick={() => {
                                        localStorage.setItem('lng', localStorage.getItem('lng') === 'tr' ? 'en' : 'tr');
-                                       i18n.changeLanguage(i18n.language === 'tr' ? 'en' : 'tr')
-                                   }}>{i18n.language === 'tr' ?
+                                       this.setState({activeLanguage: this.state.activeLanguage === 'tr' ? 'en' : 'tr'});
+                                       i18n.changeLanguage(i18n.language === 'tr' ? 'en' : 'tr');
+                                   }}>{this.state.activeLanguage === 'tr' ?
                                 <img src="../../../../static/images/uk.svg" alt="" style={{height: '0.8rem'}}/> :
                                 <img src="../../../../static/images/turkey.svg" alt="" style={{height: '0.8rem'}}/>}</a>
                             </li>

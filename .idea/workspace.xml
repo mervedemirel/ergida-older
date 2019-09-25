@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df042bfd-e840-4ce1-9b23-4690baa57fca" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/ergida.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ergida.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/pages/About/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/pages/About/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/pages/Citrus/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/pages/Citrus/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/pages/Contact/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/pages/Contact/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/pages/Fruit/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/pages/Fruit/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/pages/Gallery/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/pages/Gallery/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/pages/Services/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/pages/Services/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/pages/Vegetable/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/pages/Vegetable/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/shared/Layout/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/Layout/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/shared/Layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/Layout/Layout.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -108,6 +103,7 @@
       <workItem from="1569305472589" duration="6000" />
       <workItem from="1569393729292" duration="4572000" />
       <workItem from="1569401143030" duration="7000" />
+      <workItem from="1569408194643" duration="1168000" />
     </task>
     <servers />
   </component>

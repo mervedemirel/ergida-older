@@ -4,18 +4,18 @@ import {i18n} from "../../../i18n";
 import FruContainer from "./FruContainer/FruContainer";
 
 const FruitPageIndex = () => {
-    const [activeLng, setActiveLng] = useState(undefined)
+    const [activeLng, setActiveLng] = useState(undefined);
 
     useEffect(() => {
         setActiveLng(localStorage.getItem('lng'))
-    })
+    });
 
     return (
         <>
             {activeLng === 'tr' ? <Hero bigImage="../../../../static/images/meyve-hero.jpg"
-                                        mobImage="../../../../static/images/meyve-hero-mob.jpg" /> :
+                                        mobImage="../../../../static/images/meyve-hero-mob.jpg"/> :
                 <Hero bigImage="../../../../static/images/meyve-hero.jpg"
-                      mobImage="../../../../static/images/meyve-hero-mob.jpg" />}
+                      mobImage="../../../../static/images/meyve-hero-mob.jpg"/>}
             <FruContainer/>
         </>
     );

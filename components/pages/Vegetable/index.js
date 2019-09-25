@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import Hero from "../Homepage/Hero/Hero";
 import VegContainer from "./VegContainer/VegContainer";
 import { i18n } from "../../../i18n";
