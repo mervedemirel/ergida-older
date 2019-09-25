@@ -63,9 +63,12 @@ const Layout = ({children, t}) => {
                 </Link>
                 <Link href="/">
                     <a id="contact" className="menu-item color-white mt-2 py-1"
-                       onClick={() => i18n.changeLanguage(i18n.language === 'tr' ? 'en' : 'tr')}>{i18n.language === 'tr' ?
-                    <img src="../../../../static/images/uk.svg" alt="" style={{height: '0.8rem'}}/> :
-                        <img src="../../../../static/images/turkey.svg" alt="" style={{height: '0.8rem'}}/>}}</a>
+                       onClick={() => {
+                           localStorage.setItem('lng', localStorage.getItem('lng') === 'tr' ? 'en' : 'tr');
+                           i18n.changeLanguage(i18n.language === 'tr' ? 'en' : 'tr')
+                       }}>{i18n.language === 'tr' ?
+                    <img src="../../../../static/images/uk.svg" alt="" style={{height: '1rem'}}/> :
+                        <img src="../../../../static/images/turkey.svg" alt="" style={{height: '1rem'}}/>}</a>
                 </Link>
             </Menu>
             <Header menuHandler={changeMenuOpenStatus}/>

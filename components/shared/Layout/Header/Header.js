@@ -17,6 +17,9 @@ class Header extends Component {
         this.setState({dropdownVisible: !this.state.dropdownVisible})
     }
 
+    componentDidMount() {
+        localStorage.setItem('lng', i18n.language)
+    }
 
     render() {
         return (
@@ -64,9 +67,12 @@ class Header extends Component {
 
                             })}
                             <li><a className="nav-link" style={{cursor: 'pointer'}}
-                                   onClick={() => i18n.changeLanguage(i18n.language === 'tr' ? 'en' : 'tr')}>{i18n.language === 'tr' ?
+                                   onClick={() => {
+                                       localStorage.setItem('lng', localStorage.getItem('lng') === 'tr' ? 'en' : 'tr');
+                                       i18n.changeLanguage(i18n.language === 'tr' ? 'en' : 'tr')
+                                   }}>{i18n.language === 'tr' ?
                                 <img src="../../../../static/images/uk.svg" alt="" style={{height: '0.8rem'}}/> :
-                                <img src="../../../../static/images/turkey.svg" alt="" style={{height: '0.8rem'}}/> }</a>
+                                <img src="../../../../static/images/turkey.svg" alt="" style={{height: '0.8rem'}}/>}</a>
                             </li>
                         </ul>
                     </div>

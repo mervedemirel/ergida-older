@@ -5,6 +5,12 @@ import { i18n } from "../../../i18n";
 
 
 const VegetablePageIndex = () => {
+    const [activeLng, setActiveLng] = useState(undefined)
+
+    useEffect(() => {
+        setActiveLng(localStorage.getItem('lng'))
+    })
+
     let hero;
     if (i18n.language !== 'en') {
         hero = <Hero bigImage="../../../../static/images/sebze-hero.jpg"
@@ -15,7 +21,10 @@ const VegetablePageIndex = () => {
     }
     return (
         <>
-        {hero}
+            {activeLng === 'tr' ? <Hero bigImage="../../../../static/images/sebze-hero.jpg"
+                                        mobImage="../../../../static/images/sebze-hero-mob.jpg" /> :
+                <Hero bigImage="../../../../static/images/sebze-hero-en.jpg"
+                      mobImage="../../../../static/images/sebze-hero-mob-en.jpg" />}
             <VegContainer/>
         </>
     );

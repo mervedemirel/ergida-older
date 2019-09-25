@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import Hero from "../Homepage/Hero/Hero";
 import GalleryPhotos from "./GalleryPhotos/GalleryPhotos";
 import HomeCta from "../Homepage/HomeCta/HomeCta";
@@ -6,9 +6,15 @@ import { i18n } from "../../../i18n";
 
 
 const GalleryIndex = () => {
+    const [activeLng, setActiveLng] = useState(undefined)
+
+    useEffect(() => {
+        setActiveLng(localStorage.getItem('lng'))
+    })
+
     return (
         <>
-            {i18n.language === 'tr' ? <Hero bigImage="../../../../static/images/galeri-hero.jpg"
+            {activeLng === 'tr' ? <Hero bigImage="../../../../static/images/galeri-hero.jpg"
                 mobImage="../../../../static/images/galeri-hero-mob.jpg" /> :
                 <Hero bigImage="../../../../static/images/galeri-hero-en.jpg"
                     mobImage="../../../../static/images/galeri-hero-mob-en.jpg" />}
