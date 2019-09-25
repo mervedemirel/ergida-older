@@ -2,6 +2,7 @@ import React, {Component} from "react";
 import {Link, i18n, withTranslation} from "../../../../i18n";
 import {MdMenu} from "react-icons/md";
 
+
 class Header extends Component {
     constructor(props) {
         super(props);
@@ -23,7 +24,7 @@ class Header extends Component {
                 <nav className="navbar navbar-expand-lg container Header__navbar">
                     <Link href="/">
                         <a className="navbar-brand" href="#">
-                            <img src="../../../static/images/logo.jpg" className="logo" style={{height: '66px'}}/>
+                            <img src="../../../static/images/logo.png" className="logo" style={{height: '66px'}}/>
                         </a>
                     </Link>
                     <span className="Hamburger ml-auto">
@@ -52,7 +53,8 @@ class Header extends Component {
                                                 aria-labelledby="dropdownMenu2">
                                                 <a className="dropdown-item" href="/sebze">{this.props.t("drop1")}</a>
                                                 <a className="dropdown-item" href="/meyve">{this.props.t("drop3")}</a>
-                                                <a className="dropdown-item" href="/narenciye">{this.props.t("drop2")}</a>
+                                                <a className="dropdown-item"
+                                                   href="/narenciye">{this.props.t("drop2")}</a>
                                                 {/*<a className="dropdown-item" href="/narenciye">{this.props.t("drop2")}</a>*/}
                                             </div>
                                         </div>
@@ -62,7 +64,9 @@ class Header extends Component {
 
                             })}
                             <li><a className="nav-link" style={{cursor: 'pointer'}}
-                                   onClick={() => i18n.changeLanguage(i18n.language === 'tr' ? 'en' : 'tr')}>{i18n.language === 'tr' ? "EN" : "TR"}</a>
+                                   onClick={() => i18n.changeLanguage(i18n.language === 'tr' ? 'en' : 'tr')}>{i18n.language === 'tr' ?
+                                <img src="../../../../static/images/uk.svg" alt="" style={{height: '0.8rem'}}/> :
+                                <img src="../../../../static/images/turkey.svg" alt="" style={{height: '0.8rem'}}/> }</a>
                             </li>
                         </ul>
                     </div>

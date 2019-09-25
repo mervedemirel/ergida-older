@@ -33,30 +33,39 @@ const Layout = ({children, t}) => {
             <Menu left customBurgerIcon={false} isOpen={menuIsOpen} disableAutoFocus>
                 <Link href="/">
                     <a className="menu-item">
-                        <img className="Nav-logo" style={{maxHeight: '70px'}} src="../../../static/images/logo.jpg" alt="Ergıda Tarım Logosu"/>
+                        <img className="Nav-logo" style={{maxHeight: '70px'}} src="../../../static/images/logo.png"
+                             alt="Ergıda Tarım Logosu"/>
                     </a>
                 </Link>
                 <Link href="/kurumsal">
-                    <a id="about" className="menu-item color-white mt-2 py-1">{t('mobileLinks', {returnObjects: true}).kurumsal.text}</a>
+                    <a id="about"
+                       className="menu-item color-white mt-2 py-1">{t('mobileLinks', {returnObjects: true}).kurumsal.text}</a>
                 </Link>
                 <Link href="/hizmetlerimiz">
-                    <a id="contact" className="menu-item color-white mt-2 py-1">{t('mobileLinks', {returnObjects: true}).hizmetler.text}</a>
+                    <a id="contact"
+                       className="menu-item color-white mt-2 py-1">{t('mobileLinks', {returnObjects: true}).hizmetler.text}</a>
                 </Link>
                 <Link href="/sebze">
-                    <a id="contact" className="menu-item color-white mt-2 py-1">{t('mobileLinks', {returnObjects: true}).urun.text}</a>
+                    <a id="contact"
+                       className="menu-item color-white mt-2 py-1">{t('mobileLinks', {returnObjects: true}).urun.text}</a>
                 </Link>
                 <Link href="/meyve">
-                    <a id="contact" className="menu-item color-white mt-2 py-1">{t('mobileLinks', {returnObjects: true}).meyve.text}</a>
+                    <a id="contact"
+                       className="menu-item color-white mt-2 py-1">{t('mobileLinks', {returnObjects: true}).meyve.text}</a>
                 </Link>
                 <Link href="/galeri">
-                    <a id="contact" className="menu-item color-white mt-2 py-1">{t('mobileLinks', {returnObjects: true}).gallery.text}</a>
+                    <a id="contact"
+                       className="menu-item color-white mt-2 py-1">{t('mobileLinks', {returnObjects: true}).gallery.text}</a>
                 </Link>
                 <Link href="/iletisim">
-                    <a id="contact" className="menu-item color-white mt-2 py-1">{t('mobileLinks', {returnObjects: true}).contact.text}</a>
+                    <a id="contact"
+                       className="menu-item color-white mt-2 py-1">{t('mobileLinks', {returnObjects: true}).contact.text}</a>
                 </Link>
                 <Link href="/">
                     <a id="contact" className="menu-item color-white mt-2 py-1"
-                       onClick={() => i18n.changeLanguage(i18n.language === 'tr' ? 'en' : 'tr')}>{i18n.language === 'tr' ? "ENGLISH" : "TÜRKÇE"}</a>
+                       onClick={() => i18n.changeLanguage(i18n.language === 'tr' ? 'en' : 'tr')}>{i18n.language === 'tr' ?
+                    <img src="../../../../static/images/uk.svg" alt="" style={{height: '0.8rem'}}/> :
+                        <img src="../../../../static/images/turkey.svg" alt="" style={{height: '0.8rem'}}/>}}</a>
                 </Link>
             </Menu>
             <Header menuHandler={changeMenuOpenStatus}/>

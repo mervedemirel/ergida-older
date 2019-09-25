@@ -13,8 +13,8 @@ const Footer = () => {
                                     Bağlık Mahallesi, Gödene Caddesi, No: 189 <br />
                                     Er Gıda Paketleme Tesisi, Kumluca / Antalya
                             </p>
-                                <p className="p-0 m-0"><b>Tel:</b> 0 242 887 02 22</p>
-                                <p className="p-0 m-0"><b>Tel:</b> 0 543 887 00 22</p>
+                                <p className="p-0 m-0"><b>Tel:</b> +90 242 887 02 22</p>
+                                <p className="p-0 m-0"><b>Tel:</b> +90 543 887 00 22</p>
                                 <p><b>Mail:</b> ergidatarim@hotmail.com</p>
                             </div>                          
                             <div className="col-12 col-sm-6 BorderSide">
@@ -22,8 +22,8 @@ const Footer = () => {
                                     Karaçulha Mahallesi, Sarnıç Sokak, Muğla Büyükşehir Belediyesi <br />
                                     Fethiye Toptancı Hali, M Blok No: 132, Fethiye/Muğla
                             </p>
-                                <p className="p-0 m-0"><b>Tel:</b> 0 242 887 02 22</p>
-                                <p className="p-0 m-0"><b>Tel:</b> 0 543 887 00 22</p>
+                                <p className="p-0 m-0"><b>Tel:</b> +90 242 887 02 22</p>
+                                <p className="p-0 m-0"><b>Tel:</b> +90 543 887 00 22</p>
                                 <p><b>Mail:</b> ergidatarim@hotmail.com</p>
                             </div>
                         </div>
