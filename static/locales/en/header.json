@@ -48,6 +48,10 @@
     "contact": {
       "text": "CONTACT",
       "link": "/iletisim"
+    },
+    "citrus": {
+      "text": "CITRUS",
+      "link": "/narenciye"
     }
   }
 }
