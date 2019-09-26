@@ -9,7 +9,7 @@ const VegetablePageIndex = () => {
 
     useEffect(() => {
         setActiveLng(localStorage.getItem('lng'))
-    })
+    });
 
     let hero;
     if (i18n.language !== 'en') {
