@@ -6,6 +6,7 @@ import Head from "next/head";
 import Router from "next/router";
 import NProgress from "nprogress";
 import {i18n, withTranslation, Link} from "../../../i18n";
+import {YMInitializer} from "react-yandex-metrika";
 
 
 import "../../../static/css/bootstrap.min.css";
@@ -29,7 +30,9 @@ const Layout = ({children, t}) => {
             <Head>
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.css"
                       integrity="sha256-pMhcV6/TBDtqH9E9PWKgS+P32PVguLG8IipkPyqMtfY=" crossOrigin="anonymous"/>
+
             </Head>
+            <YMInitializer accounts={[55545577]} options={{webvisor: true}} version="2" />
             <Menu left customBurgerIcon={false} isOpen={menuIsOpen} disableAutoFocus>
                 <Link href="/">
                     <a className="menu-item">
@@ -67,7 +70,7 @@ const Layout = ({children, t}) => {
                            localStorage.setItem('lng', localStorage.getItem('lng') === 'tr' ? 'en' : 'tr');
                            i18n.changeLanguage(i18n.language === 'tr' ? 'en' : 'tr')
                        }}>{i18n.language === 'tr' ?
-                    <img src="../../../../static/images/uk.svg" alt="" style={{height: '1rem'}}/> :
+                        <img src="../../../../static/images/uk.svg" alt="" style={{height: '1rem'}}/> :
                         <img src="../../../../static/images/turkey.svg" alt="" style={{height: '1rem'}}/>}</a>
                 </Link>
             </Menu>
