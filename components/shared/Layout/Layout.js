@@ -6,7 +6,6 @@ import Head from "next/head";
 import Router from "next/router";
 import NProgress from "nprogress";
 import {i18n, withTranslation, Link} from "../../../i18n";
-import {YMInitializer} from "react-yandex-metrika";
 
 
 import "../../../static/css/bootstrap.min.css";
@@ -32,7 +31,6 @@ const Layout = ({children, t}) => {
                       integrity="sha256-pMhcV6/TBDtqH9E9PWKgS+P32PVguLG8IipkPyqMtfY=" crossOrigin="anonymous"/>
 
             </Head>
-            <YMInitializer accounts={[55545577]} options={{webvisor: true}} version="2" />
             <Menu left customBurgerIcon={false} isOpen={menuIsOpen} disableAutoFocus>
                 <Link href="/">
                     <a className="menu-item">
