@@ -4,6 +4,7 @@ import AboutPrinciple from "./AboutPrinciple/AboutPrinciple";
 import AboutParallax from "./AboutParallax/AboutParallax";
 import AboutNature from "./AboutNature/AboutNature";
 import { i18n } from "../../../i18n";
+import Leaves from "../../shared/Leaves/Leaves";
 
 const AboutPageIndex = () => {
     const [activeLng, setActiveLng] = useState(undefined)
@@ -19,6 +20,7 @@ const AboutPageIndex = () => {
                 <Hero bigImage="../../../../static/images/about-hero-en.jpg"
                       mobImage="../../../../static/images/about-hero-mob-en.jpg" />}
             <AboutPrinciple />
+            <Leaves />
             <AboutParallax />
             <AboutNature />
         </>

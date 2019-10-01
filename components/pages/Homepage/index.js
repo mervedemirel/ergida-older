@@ -4,6 +4,7 @@ import HomeBg from "./HomeBg/HomeBg";
 import HomeCta from "./HomeCta/HomeCta";
 import VegetableFruit from "./VegetableFruit/VegetableFruit";
 import { i18n } from "../../../i18n";
+import Leaves from "../../shared/Leaves/Leaves";
 
 
 const HomePageIndex = () => {
@@ -19,9 +20,10 @@ const HomePageIndex = () => {
     return (
         <>
             {hero}
-            <HomeBg />
-            <VegetableFruit />
-            <HomeCta />
+            {/* <HomeBg /> */}
+            <Leaves />
+            {/* <VegetableFruit /> */}
+            {/* <HomeCta /> */}
         </>
     )
 };

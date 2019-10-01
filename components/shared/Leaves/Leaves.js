@@ -1,62 +1,55 @@
-import React from 'react';
+import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 
-const Leaves = () => {
-    return (
-        <div className="containerx">
+import { TweenLite, TweenMax } from "gsap";
 
-            <div className="bird-container">
-                <div className="bird"></div>
+class Leaves extends Component {
+    constructor(props) {
+        super(props);
+    }
+
+    componentDidMount() {
+        TweenLite.set('#container', { perspective: 600 });
+        let container = document.getElementById("container");
+        let w = window.innerWidth;
+        let h = window.innerHeight;
+        let total = 5;
+
+        for (let i = 0; i < total; i++) {
+            var Div = document.createElement('div');
+            TweenLite.set(Div, { attr: { class: 'dot' }, x: this.rFunc(0, w), y: this.rFunc(-200, -150), z: this.rFunc(-200, 200) });
+            container.appendChild(Div);
+            this.animm(Div);
+        }
+    }
+
+    animm = (elm) => {
+        TweenMax.to(elm, this.rFunc(6, 15), { y: window.innerWidth + 100, ease: Linear.easeNone, repeat: -1, delay: -15 });
+        TweenMax.to(elm, this.rFunc(4, 8), { x: '+=100', rotationZ: this.rFunc(0, 180), repeat: -1, yoyo: true, ease: Sine.easeInOut });
+        TweenMax.to(elm, this.rFunc(2, 8), { rotationX: this.rFunc(0, 360), rotationY: this.rFunc(0, 360), repeat: -1, yoyo: true, ease: Sine.easeInOut, delay: -5 });
+    }
+
+    rFunc = (min, max) => {
+        return min+Math.random()*(max-min)
+    }
+
+    render() {
+        return (
+            <div ref={div => this.myElement = div} id="container" className="containerx">
+
+                <style jsx>{`
+                    .dot {
+                        width:35px;
+                        height:35px;
+                        position:absolute;
+                        background: url('http://www.clipartqueen.com/image-files/red-lobed-fall-clipart-leaf.png');
+                        background-size: 100% 100%;
+                    }
+                    .containerx {width:100%; height:100%; }
+                `}</style>
             </div>
-
-            <style jsx>{`
-                .containerx {
-                    z-index: 1;
-                    position: relative;
-                    overflow: hidden;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    // min-height: 100vh;
-                    min-height: 35rem;
-                    background-image: linear-gradient(to bottom,  rgba(255,168,76,0.6) 0%,rgba(255,123,13,0.6) 100%), url('https://images.unsplash.com/photo-1446824505046-e43605ffb17f');
-                    background-blend-mode: soft-light;
-                    background-size: cover;
-                    background-position: center center;
-                    padding: 2rem;
-                }
-                
-                .bird {
-                    background-image: url(../../../static/images/leaves.svg);
-                    background-size: auto 100%;
-                    width: 352px;
-                    height: 500px;
-                    will-change: background-position;
-                    
-                    animation-name: fly-cycle;
-                    animation-duration: 1s;
-                    animation-delay: -0.5s;
-                    animation-timing-function: steps(10);
-                    animation-iteration-count: infinite;
-                }
-
-                .bird-container {
-                    position: absolute;
-                    top: 50%;
-                    left: 50%;
-                    transform: translate(-50%,-50%);
-                    will-change: transform;
-                    }
-
-                @keyframes fly-cycle {
-                    
-                    100% {
-                    background-position: -3600px 0;
-                    }
-                    
-                }
-            `}</style>
-        </div>
-    );
-};
+        );
+    }
+}
 
 export default Leaves;
