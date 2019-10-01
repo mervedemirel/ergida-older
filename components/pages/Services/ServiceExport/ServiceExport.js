@@ -1,24 +1,22 @@
-import React from 'react';
-import {withTranslation} from "../../../../i18n";
+import React, {useState, useEffect} from 'react';
+import {i18n, withTranslation} from "../../../../i18n";
 
 const ServiceExport = ({t}) => {
+    const [activeLng, setActiveLng] = useState(undefined);
+
+    useEffect(() => {
+        setActiveLng(localStorage.getItem('lng'))
+    });
+
     return (
         <div className="container-fluid p-0 mt-5 ServiceExport">
-            <div className="container ServiceExport-text">
-                {/* <div className="row">
-                    <div className="col -12 col-md-6 d-flex align-items-center">
-                        <span className="ServiceExport-title-number mr-2">{t('exportTitleOne')}</span>
-                        <span className="er-color-orange mt-3">{t('exportTitleTwo')}
-                            <br/> {t('exportTitleThree')}</span>
-                    </div>
-                    <div className="col-12">
-                        <div className="col-md-6 p-0">
-                            <p>{t('exportCountries')}</p>
-                        </div>
-                    </div>
-                </div> */}
-            </div>
-            <img src="../../../../static/images/service-export.jpg" className="full-width" alt=""/>
+
+            {activeLng === 'tr' ?
+                <img src="../../../../static/images/service-export.jpg" className="full-width" alt=""/> :
+                <img src="../../../../static/images/service-export-en.jpg" className="full-width" alt=""/>
+
+            }
+
 
             <style jsx>{`
                 .ServiceExport {

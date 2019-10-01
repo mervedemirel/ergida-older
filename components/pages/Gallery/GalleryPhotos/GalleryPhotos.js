@@ -7,8 +7,19 @@ class GalleryPhotos extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            photos: []
+            photos: [],
+            isVisible: false,
+            slide: 0
         }
+
+        this.showSlide = this.showSlide.bind(this);
+    }
+
+    showSlide = (slide) => {
+        this.setState({
+            isVisible: !this.state.isVisible,
+            slide: slide
+        });
     }
 
     componentDidMount() {
@@ -30,8 +41,8 @@ class GalleryPhotos extends Component {
                         <div className="row">
                             {this.state.photos.slice(0,4).map((photo, i) => {
                                 return (
-                                    <div className="col-md-6 col-lg-3 p-3" key={i}>
-                                        <GalleryPhoto imageName={photo.photo.url} altTag={photo.alt_tag} />
+                                    <div className="col-md-6 col-lg-3 p-3" key={photo.id}>
+                                        <GalleryPhoto imageName={photo.photo.url} altTag={photo.alt_tag} handler={this.showSlide} />
                                     </div>
                                 )
                             })}
