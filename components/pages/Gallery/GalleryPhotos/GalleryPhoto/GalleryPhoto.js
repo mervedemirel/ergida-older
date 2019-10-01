@@ -4,7 +4,7 @@ const GalleryPhoto = (props) => {
     return (
         <div className="Gallery-card relative">
             <img className="Gallery-image" src={`https://admin.ergidatarim.com.tr${props.imageName}`}
-                 alt={props.altTag}/>
+                 alt={props.altTag} onClick={props.handler}/>
             <style jsx>{`
                 .Gallery-image {
                     width: 100%;
