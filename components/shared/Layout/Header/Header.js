@@ -29,7 +29,7 @@ class Header extends Component {
                 <nav className="navbar navbar-expand-lg container Header__navbar">
                     <Link href="/">
                         <a className="navbar-brand" href="#">
-                            <img src="../../../static/images/logo.png" className="logo" style={{height: '66px'}}/>
+                            <img src="../../../static/images/logo.png" className="logo" alt="Ergıda Tarım Logo" style={{height: '66px'}}/>
                         </a>
                     </Link>
                     <span className="Hamburger ml-auto">
