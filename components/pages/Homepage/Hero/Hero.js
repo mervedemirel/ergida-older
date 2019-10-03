@@ -17,7 +17,7 @@ const HomeHero = (props) => {
             {/*    <img src={require('../../../../static/images/home-hero.jpg')} />*/}
             {/*</picture>*/}
             
-            <Image src={props.bigImage} className="w-100 hero-big" alt="" fallback={<p>Yükleniyor...</p>} />
+            <img src={props.bigImage} className="w-100 hero-big" alt="" fallback={<p>Yükleniyor...</p>} />
             <img src={props.mobImage} className="w-100 hero-small" alt="" fallback={<p>Yükleniyor...</p>}/>
             <h1 className="hero-title"><span
                 className="font-size-3" style={{color: props.color}}>{props.t(props.translateKey)}</span>
