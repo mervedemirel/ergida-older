@@ -20,10 +20,10 @@ const HomePageIndex = () => {
     return (
         <>
             {hero}
-            {/* <HomeBg /> */}
-            <Leaves />
-            {/* <VegetableFruit /> */}
-            {/* <HomeCta /> */}
+             <HomeBg />
+            {/*<Leaves />*/}
+             <VegetableFruit />
+             <HomeCta />
         </>
     )
 };

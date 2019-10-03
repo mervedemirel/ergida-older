@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
 import {slide as Menu} from 'react-burger-menu'
@@ -7,15 +7,19 @@ import Router from "next/router";
 import NProgress from "nprogress";
 import {i18n, withTranslation, Link} from "../../../i18n";
 
-
 import "../../../static/css/bootstrap.min.css";
 import "../../../static/css/colors.css";
+import "../../../static/css/np.css";
 
 Router.onRouteChangeStart = url => {
     NProgress.start();
 };
 
 Router.onRouteChangeComplete = () => NProgress.done();
+
+if (window !== undefined) {
+import WebFont from "webfontloader";
+}
 
 const Layout = ({children, t}) => {
     const [menuIsOpen, setMenuIsOpen] = useState(false);
@@ -24,13 +28,16 @@ const Layout = ({children, t}) => {
         setMenuIsOpen(!menuIsOpen)
     };
 
+    useEffect(() => {
+        WebFont.load({
+            google: {
+                families: ['Open Sans:300,400,600, 700']
+            }
+        })
+    })
+
     return (
         <>
-            <Head>
-                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.css"
-                      integrity="sha256-pMhcV6/TBDtqH9E9PWKgS+P32PVguLG8IipkPyqMtfY=" crossOrigin="anonymous"/>
-
-            </Head>
             <Menu left customBurgerIcon={false} isOpen={menuIsOpen} disableAutoFocus>
                 <Link href="/">
                     <a className="menu-item">

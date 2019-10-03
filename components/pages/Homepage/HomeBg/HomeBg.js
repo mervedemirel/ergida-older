@@ -40,7 +40,7 @@ class HomeBg extends React.Component {
                                 <Button translateText="infoButtonText" goTo="/kurumsal"/>
                             </div>
                             <div className="col-md-5 col-lg-5 d-flex align-items-center justify-content-center">
-                                <img src="../../../../static/images/avokado-toplu.png" className="w-100" alt=""/>
+                                <img src="../../../../static/images/av-domates.jpg" className="w-100" alt=""/>
                             </div>
                         </div>
                     </div>
