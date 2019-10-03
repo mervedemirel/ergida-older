@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="df042bfd-e840-4ce1-9b23-4690baa57fca" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/shared/Layout/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/Layout/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_document.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_document.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/colors.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -116,7 +113,9 @@
       <workItem from="1569930655629" duration="1196000" />
       <workItem from="1570022229317" duration="39000" />
       <workItem from="1570022459455" duration="2028000" />
-      <workItem from="1570081337979" duration="5115000" />
+      <workItem from="1570081337979" duration="5486000" />
+      <workItem from="1570092591448" duration="12000" />
+      <workItem from="1570097867650" duration="122000" />
     </task>
     <servers />
   </component>
