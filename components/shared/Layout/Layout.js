@@ -17,10 +17,6 @@ Router.onRouteChangeStart = url => {
 
 Router.onRouteChangeComplete = () => NProgress.done();
 
-if (window !== undefined) {
-import WebFont from "webfontloader";
-}
-
 const Layout = ({children, t}) => {
     const [menuIsOpen, setMenuIsOpen] = useState(false);
 
