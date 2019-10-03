@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="df042bfd-e840-4ce1-9b23-4690baa57fca" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/colors.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/pages/Homepage/Hero/Hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/pages/Homepage/Hero/Hero.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -115,7 +117,7 @@
       <workItem from="1570022459455" duration="2028000" />
       <workItem from="1570081337979" duration="5486000" />
       <workItem from="1570092591448" duration="12000" />
-      <workItem from="1570097867650" duration="122000" />
+      <workItem from="1570097867650" duration="3215000" />
     </task>
     <servers />
   </component>

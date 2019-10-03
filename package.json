@@ -27,9 +27,17 @@
     "react-burger-menu": "^2.6.11",
     "react-dom": "16.9.0",
     "react-google-maps": "^9.4.5",
+    "react-graceful-image": "^1.2.11",
     "react-icons": "^3.7.0",
+    "react-ideal-image": "0.0.5",
+    "react-shimmer": "^2.0.1",
+    "react-waypoint": "^9.0.2",
     "react-yandex-metrika": "^2.5.1",
     "reactstrap": "^8.0.1",
     "webp-loader": "^0.5.0"
+  },
+  "devDependencies": {
+    "image-trace-loader": "^0.1.0",
+    "lqip-loader": "^2.2.0"
   }
 }
