@@ -21,7 +21,6 @@
     "next-ga": "^2.3.4",
     "next-i18next": "^1.2.1",
     "next-images": "^1.2.0",
-    "next-optimized-images": "^2.5.3",
     "nprogress": "^0.2.0",
     "react": "^16.9.0",
     "react-burger-menu": "^2.6.11",
@@ -29,18 +28,9 @@
     "react-google-maps": "^9.4.5",
     "react-graceful-image": "^1.2.11",
     "react-icons": "^3.7.0",
-    "react-ideal-image": "0.0.5",
-    "react-loader-spinner": "^3.1.4",
-    "react-shimmer": "^2.0.1",
     "react-swipe": "^6.0.4",
-    "react-waypoint": "^9.0.2",
     "react-yandex-metrika": "^2.5.1",
-    "reactstrap": "^8.0.1",
-    "swipe-js-iso": "^2.1.5",
-    "webp-loader": "^0.5.0"
+    "swipe-js-iso": "^2.1.5"
   },
-  "devDependencies": {
-    "image-trace-loader": "^0.1.0",
-    "lqip-loader": "^2.2.0"
-  }
+  "devDependencies": {}
 }
