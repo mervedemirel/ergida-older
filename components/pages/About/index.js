@@ -20,7 +20,6 @@ const AboutPageIndex = () => {
                 <Hero bigImage="../../../../static/images/about-hero-en.jpg"
                       mobImage="../../../../static/images/about-hero-mob-en.jpg" />}
             <AboutPrinciple />
-            <Leaves />
             <AboutParallax />
             <AboutNature />
         </>

@@ -30,6 +30,7 @@
     "react-graceful-image": "^1.2.11",
     "react-icons": "^3.7.0",
     "react-ideal-image": "0.0.5",
+    "react-loader-spinner": "^3.1.4",
     "react-shimmer": "^2.0.1",
     "react-swipe": "^6.0.4",
     "react-waypoint": "^9.0.2",

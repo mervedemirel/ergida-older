@@ -1,5 +1,4 @@
 import React from 'react';
-
 import {withTranslation} from "../../../../i18n";
 import Button from "../../../shared/Button/Button";
 
@@ -18,19 +17,19 @@ const VegetableFruit = ({t}) => {
                             <Button translateText="infoButtonText" goTo="/sebze"/>
                         </div>
                         <div className="col-md-6 col-lg-5">
-                            <img src="../../../../static/images/home-eggplant.png" alt=""/>
+                                <img src="../../../../static/images/home-eggplant.png" alt=""/>
                         </div>
                     </div>
                     <div className="row px-0 py-5">
                         <div className="col-lg-5 col-md-6 mobile-flex-center">
-                            <img src="../../../../static/images/home-apple.png" alt=""/>
+                                <img src="../../../../static/images/home-apple.png" alt=""/>
                         </div>
                         <div className="col-lg-7 col-md-6 d-flex flex-column justify-content-center col-nar">
                             <h2 className="font-weight-bold er-color-orange pb-2">{t('homeBg', {returnObjects: true}).fru.title}</h2>
                             <p className="pb-2">
                                 {t('homeBg', {returnObjects: true}).fru.text}
                             </p>
-                            <Button translateText="infoButtonText" goTo="/sebze" />
+                            <Button translateText="infoButtonText" goTo="/sebze"/>
                         </div>
                     </div>
                 </div>

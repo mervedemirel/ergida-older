@@ -2,6 +2,7 @@ import React from 'react';
 import {FaCogs, FaLuggageCart, FaTruck, FaUtensils, FaTruckLoading, FaNetworkWired} from 'react-icons/fa';
 import Button from "../../../shared/Button/Button";
 
+
 import {withTranslation} from "../../../../i18n";
 
 class HomeBg extends React.Component {
@@ -40,7 +41,7 @@ class HomeBg extends React.Component {
                                 <Button translateText="infoButtonText" goTo="/kurumsal"/>
                             </div>
                             <div className="col-md-5 col-lg-5 d-flex align-items-center justify-content-center">
-                                <img src="../../../../static/images/av-domates.jpg" className="w-100" alt=""/>
+                                    <img src="../../../../static/images/av-domates.jpg" className="w-100" alt=""/>
                             </div>
                         </div>
                     </div>
@@ -143,8 +144,8 @@ class HomeBg extends React.Component {
                 }
             `}</style>
             </div>
-        );
+    );
     }
-}
+    }
 
-export default withTranslation('homepage')(HomeBg);
+    export default withTranslation('homepage')(HomeBg);
