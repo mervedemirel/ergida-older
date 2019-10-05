@@ -2,6 +2,7 @@ const withCSS = require('@zeit/next-css');
 const withImages = require('next-images');
 const withPlugins = require('next-compose-plugins');
 const withFonts = require('next-fonts');
+const SWPrecacheWebpackPlugin = require("sw-precache-webpack-plugin");
 
 
 const publicRuntimeConfig = {
@@ -30,4 +31,21 @@ module.exports = withPlugins([
     [withCSS],
     [withImages],
     [withFonts]
-]);
+], {
+    webpack: config => {
+        config.plugins.push(
+            new SWPrecacheWebpackPlugin({
+                verbose: true,
+                staticFileGlobsIgnorePatterns: [/\.next\//],
+                runtimeCaching: [
+                    {
+                        handler: "networkFirst",
+                        urlPattern: /^https?.*/
+                    }
+                ]
+            })
+        );
+
+        return config;
+    }
+});
