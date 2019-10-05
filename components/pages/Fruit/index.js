@@ -14,8 +14,8 @@ const FruitPageIndex = () => {
         <>
             {activeLng === 'tr' ? <Hero bigImage="../../../../static/images/meyve-hero.jpg"
                                         mobImage="../../../../static/images/meyve-hero-mob.jpg"/> :
-                <Hero bigImage="../../../../static/images/meyve-hero.jpg"
-                      mobImage="../../../../static/images/meyve-hero-mob.jpg"/>}
+                <Hero bigImage="../../../../static/images/meyve-hero-en.jpg"
+                      mobImage="../../../../static/images/meyve-hero-mob-en.jpg"/>}
             <FruContainer/>
         </>
     );

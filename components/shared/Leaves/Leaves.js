@@ -2,18 +2,29 @@ import React, {useRef, useEffect, useState} from 'react';
 import {TweenMax, TwenLite} from 'gsap';
 import ReactDOMServer from 'react-dom/server';
 
-const Leaves = () => {
+const Leaves = (props) => {
+    const [displayState, setDisplayState] = useState('block');
+    useEffect(() => {
+        setTimeout(() => {
+            setDisplayState('none')
+        }, 4500)
+    })
+
     return (
         <div className="set">
             <div>
                 <img
-                    src="http://www.clipartqueen.com/image-files/red-lobed-fall-clipart-leaf.png"
+                    src="../../../static/images/leaf.png"
                     height="120px" width="120px"/>
             </div>
 
             <style jsx>{`
                 .set {
                     position: absolute;
+                    height: 50vh;
+                    top: ${props.top};
+                    left: ${props.left};
+                    display: ${displayState}
                 }
                 
                 .set div {
@@ -23,7 +34,7 @@ const Leaves = () => {
                 
                 .set div:nth-child(1) {
                     left: 60%;
-                    animation: animate 10s linear infinite; 
+                    animation: animate 5s linear; 
                 }
                 
                 @keyframes animate {
