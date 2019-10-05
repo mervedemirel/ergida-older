@@ -30,6 +30,7 @@
     "react-icons": "^3.7.0",
     "react-swipe": "^6.0.4",
     "react-yandex-metrika": "^2.5.1",
+    "reactstrap": "^8.0.1",
     "swipe-js-iso": "^2.1.5"
   },
   "devDependencies": {}
