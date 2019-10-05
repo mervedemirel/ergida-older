@@ -28,25 +28,49 @@ const HomePageIndex = () => {
     if (activeLng !== 'en') {
         hero = <ReactSwipe className="carousel" swipeOptions={swipeOptions} ref = {el => (reactSwipeEl = el)} >
             <div>
-                <img src="../../../static/images/slide-1.jpg" alt="" style={{height: 'calc(100vh - 240px)', width: '100%', objectFit: 'cover'}}/>
+                <picture>
+                    <source srcSet="../../../static/images/slide-1.webp"/>
+                    <source srcSet="../../../static/images/slide-1.jpg"/>
+                    <img src="../../../static/images/slide-1.jpg" alt="" style={{height: 'calc(100vh - 240px)', width: '100%', objectFit: 'cover'}}/>
+                </picture>
             </div>
             <div>
-                <img src="../../../static/images/slide-2.jpg" alt="" style={{height: 'calc(100vh - 240px)', width: '100%', objectFit: 'cover'}}/>
+                <picture>
+                    <source srcSet="../../../static/images/slide-2.webp"/>
+                    <source srcSet="../../../static/images/slide-2.jpg"/>
+                    <img src="../../../static/images/slide-2.jpg" alt="" style={{height: 'calc(100vh - 240px)', width: '100%', objectFit: 'cover'}}/>
+                </picture>
             </div>
             <div>
-                <img src="../../../static/images/slide-3.jpg" alt="" style={{height: 'calc(100vh - 240px)', width: '100%', objectFit: 'cover'}}/>
+                <picture>
+                    <source srcSet="../../../static/images/slide-3.webp"/>
+                    <source srcSet="../../../static/images/slide-3.jpg"/>
+                    <img src="../../../static/images/slide-3.jpg" alt="" style={{height: 'calc(100vh - 240px)', width: '100%', objectFit: 'cover'}}/>
+                </picture>
             </div>
         </ReactSwipe>
     } else {
         hero = <ReactSwipe className="carousel" swipeOptions={swipeOptions} ref = {el => (reactSwipeEl = el)} >
             <div>
-                <img src="../../../static/images/slide-1-en.jpg" alt="" style={{height: 'calc(100vh - 240px)', width: '100%', objectFit: 'cover'}}/>
+                <picture>
+                    <source srcSet="../../../static/images/slide-1-en.webp"/>
+                    <source srcSet="../../../static/images/slide-1-en.jpg"/>
+                    <img src="../../../static/images/slide-1-en.jpg" alt="" style={{height: 'calc(100vh - 240px)', width: '100%', objectFit: 'cover'}}/>
+                </picture>
             </div>
             <div>
-                <img src="../../../static/images/slide-2-en.jpg" alt="" style={{height: 'calc(100vh - 240px)', width: '100%', objectFit: 'cover'}}/>
+                <picture>
+                    <source srcSet="../../../static/images/slide-2-en.webp"/>
+                    <source srcSet="../../../static/images/slide-2-en.jpg"/>
+                    <img src="../../../static/images/slide-2-en.jpg" alt="" style={{height: 'calc(100vh - 240px)', width: '100%', objectFit: 'cover'}}/>
+                </picture>
             </div>
             <div>
-                <img src="../../../static/images/slide-3-en.jpg" alt="" style={{height: 'calc(100vh - 240px)', width: '100%', objectFit: 'cover'}}/>
+                <picture>
+                    <source srcSet="../../../static/images/slide-3-en.webp"/>
+                    <source srcSet="../../../static/images/slide-3-en.jpg"/>
+                    <img src="../../../static/images/slide-3-en.jpg" alt="" style={{height: 'calc(100vh - 240px)', width: '100%', objectFit: 'cover'}}/>
+                </picture>
             </div>
         </ReactSwipe>
     }

@@ -41,7 +41,11 @@ class HomeBg extends React.Component {
                                 <Button translateText="infoButtonText" goTo="/kurumsal"/>
                             </div>
                             <div className="col-md-5 col-lg-5 d-flex align-items-center justify-content-center">
-                                    <img src="../../../../static/images/av-domates.jpg" className="w-100" alt=""/>
+                                <picture>
+                                    <source srcSet="../../../static/images/av-domates.webp"/>
+                                    <source srcSet="../../../static/images/av-domates.jpg"/>
+                                    <img src="../../../static/images/av-domates.jpg" alt=""/>
+                                </picture>
                             </div>
                         </div>
                     </div>
@@ -66,7 +70,11 @@ class HomeBg extends React.Component {
                     <div className="container py-5">
                         <div className="row p-0">
                             <div className="col-md-6 col-lg-5 mobile-flex-center">
-                                <img src="../../../../static/images/home-narenciye.png" alt=""/>
+                                <picture>
+                                    <source srcSet="../../../static/images/home-narenciye.webp"/>
+                                    <source srcSet="../../../static/images/home-narenciye.png"/>
+                                    <img src="../../../static/images/home-narenciye.png" alt=""/>
+                                </picture>
                             </div>
                             <div
                                 className="col-md-6 col-lg-7 d-flex flex-column justify-content-center col-nar mobile-flex-center">

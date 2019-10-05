@@ -17,12 +17,20 @@ const VegetableFruit = ({t}) => {
                             <Button translateText="infoButtonText" goTo="/sebze"/>
                         </div>
                         <div className="col-md-6 col-lg-5">
-                                <img src="../../../../static/images/home-eggplant.png" alt=""/>
+                            <picture>
+                                <source srcSet="../../../static/images/home-eggplant.webp"/>
+                                <source srcSet="../../../static/images/home-eggplant.png"/>
+                                <img src="../../../static/images/home-eggplant.png" alt=""/>
+                            </picture>
                         </div>
                     </div>
                     <div className="row px-0 py-5">
                         <div className="col-lg-5 col-md-6 mobile-flex-center">
-                                <img src="../../../../static/images/home-apple.png" alt=""/>
+                            <picture>
+                                <source srcSet="../../../static/images/home-apple.webp"/>
+                                <source srcSet="../../../static/images/home-apple.png"/>
+                                <img src="../../../static/images/home-apple.png" alt=""/>
+                            </picture>
                         </div>
                         <div className="col-lg-7 col-md-6 d-flex flex-column justify-content-center col-nar">
                             <h2 className="font-weight-bold er-color-orange pb-2">{t('homeBg', {returnObjects: true}).fru.title}</h2>
