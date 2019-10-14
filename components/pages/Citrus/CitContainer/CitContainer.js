@@ -14,7 +14,7 @@ class CitContainer extends Component {
     componentDidMount() {
         axios.get("https://admin.ergidatarim.com.tr/products?category=citrus", {
             headers: {
-                Authorization: `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNTY4MTQyNjQzLCJleHAiOjE1NzA3MzQ2NDN9.tqzTZksZT1lCQ38OSPVZd-VRIuja6VXrGahasTQUI7c`,
+                Authorization: `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNTcxMDYzNDIyLCJleHAiOjE1NzM2NTU0MjJ9.-B5eqkiqMFJxwZz9Rd4hHkJj9XLOeYvZeZt2if-YNwk`,
             }
         }).then(res => {
             const products = res.data;

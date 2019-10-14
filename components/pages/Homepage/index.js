@@ -31,21 +31,21 @@ const HomePageIndex = () => {
                 <picture>
                     <source srcSet="../../../static/images/slide-1.webp"/>
                     <source srcSet="../../../static/images/slide-1.jpg"/>
-                    <img src="../../../static/images/slide-1.jpg" alt="" style={{height: 'calc(100vh - 240px)', width: '100%', objectFit: 'cover'}}/>
+                    <img className="slider-pic" src="../../../static/images/slide-1.jpg" alt="" style="height:calc(100vh - 240px);width:100%;object-fit:coverheight:calc(100vh - 240px);width:100%;object-fit:cover"/>
                 </picture>
             </div>
             <div>
                 <picture>
                     <source srcSet="../../../static/images/slide-2.webp"/>
                     <source srcSet="../../../static/images/slide-2.jpg"/>
-                    <img src="../../../static/images/slide-2.jpg" alt="" style={{height: 'calc(100vh - 240px)', width: '100%', objectFit: 'cover'}}/>
+                    <img className="slider-pic" src="../../../static/images/slide-2.jpg" alt="" style="height:calc(100vh - 240px);width:100%;object-fit:coverheight:calc(100vh - 240px);width:100%;object-fit:cover"/>
                 </picture>
             </div>
             <div>
                 <picture>
                     <source srcSet="../../../static/images/slide-3.webp"/>
                     <source srcSet="../../../static/images/slide-3.jpg"/>
-                    <img src="../../../static/images/slide-3.jpg" alt="" style={{height: 'calc(100vh - 240px)', width: '100%', objectFit: 'cover'}}/>
+                    <img className="slider-pic" src="../../../static/images/slide-3.jpg" alt="" style="height:calc(100vh - 240px);width:100%;object-fit:coverheight:calc(100vh - 240px);width:100%;object-fit:cover"/>
                 </picture>
             </div>
         </ReactSwipe>
@@ -55,21 +55,21 @@ const HomePageIndex = () => {
                 <picture>
                     <source srcSet="../../../static/images/slide-1-en.webp"/>
                     <source srcSet="../../../static/images/slide-1-en.jpg"/>
-                    <img src="../../../static/images/slide-1-en.jpg" alt="" style={{height: 'calc(100vh - 240px)', width: '100%', objectFit: 'cover'}}/>
+                    <img className="slider-pic" src="../../../static/images/slide-1-en.jpg" alt="" style="height:calc(100vh - 240px);width:100%;object-fit:coverheight:calc(100vh - 240px);width:100%;object-fit:cover"/>
                 </picture>
             </div>
             <div>
                 <picture>
                     <source srcSet="../../../static/images/slide-2-en.webp"/>
                     <source srcSet="../../../static/images/slide-2-en.jpg"/>
-                    <img src="../../../static/images/slide-2-en.jpg" alt="" style={{height: 'calc(100vh - 240px)', width: '100%', objectFit: 'cover'}}/>
+                    <img className="slider-pic" src="../../../static/images/slide-2-en.jpg" alt="" style="height:calc(100vh - 240px);width:100%;object-fit:coverheight:calc(100vh - 240px);width:100%;object-fit:cover"/>
                 </picture>
             </div>
             <div>
                 <picture>
                     <source srcSet="../../../static/images/slide-3-en.webp"/>
                     <source srcSet="../../../static/images/slide-3-en.jpg"/>
-                    <img src="../../../static/images/slide-3-en.jpg" alt="" style={{height: 'calc(100vh - 240px)', width: '100%', objectFit: 'cover'}}/>
+                    <img className="slider-pic" src="../../../static/images/slide-3-en.jpg" alt="" style="height:calc(100vh - 240px);width:100%;object-fit:coverheight:calc(100vh - 240px);width:100%;object-fit:cover"/>
                 </picture>
             </div>
         </ReactSwipe>
@@ -100,6 +100,13 @@ const HomePageIndex = () => {
                 .carousel > div > img {
                     max-height: calc(100vh - 80px) !important;
                 }
+                
+                 
+                 .slider-pic {
+                    height: calc(100vh - 240px);
+                    width: 100%;
+                    object-fit: cover;
+                 }
             `}</style>
         </>
     )
