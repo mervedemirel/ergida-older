@@ -205,3 +205,9 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .color-white {
     color: white !important;
 }
+
+.slider-pic {
+    height: calc(100vh - 240px);
+    width: 100%;
+    object-fit: cover;
+}

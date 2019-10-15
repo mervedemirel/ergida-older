@@ -31,21 +31,21 @@ const HomePageIndex = () => {
                 <picture>
                     <source srcSet="../../../static/images/slide-1.webp"/>
                     <source srcSet="../../../static/images/slide-1.jpg"/>
-                    <img className="slider-pic" src="../../../static/images/slide-1.jpg" alt="" style="height:calc(100vh - 240px);width:100%;object-fit:coverheight:calc(100vh - 240px);width:100%;object-fit:cover"/>
+                    <img className="slider-pic" src="../../../static/images/slide-1.jpg" alt="" />
                 </picture>
             </div>
             <div>
-                <picture>
+                <picture className="slider-pic">
                     <source srcSet="../../../static/images/slide-2.webp"/>
                     <source srcSet="../../../static/images/slide-2.jpg"/>
-                    <img className="slider-pic" src="../../../static/images/slide-2.jpg" alt="" style="height:calc(100vh - 240px);width:100%;object-fit:coverheight:calc(100vh - 240px);width:100%;object-fit:cover"/>
+                    <img className="slider-pic" src="../../../static/images/slide-2.jpg" alt=""/>
                 </picture>
             </div>
             <div>
                 <picture>
                     <source srcSet="../../../static/images/slide-3.webp"/>
                     <source srcSet="../../../static/images/slide-3.jpg"/>
-                    <img className="slider-pic" src="../../../static/images/slide-3.jpg" alt="" style="height:calc(100vh - 240px);width:100%;object-fit:coverheight:calc(100vh - 240px);width:100%;object-fit:cover"/>
+                    <img className="slider-pic" src="../../../static/images/slide-3.jpg" alt=""/>
                 </picture>
             </div>
         </ReactSwipe>
@@ -55,21 +55,21 @@ const HomePageIndex = () => {
                 <picture>
                     <source srcSet="../../../static/images/slide-1-en.webp"/>
                     <source srcSet="../../../static/images/slide-1-en.jpg"/>
-                    <img className="slider-pic" src="../../../static/images/slide-1-en.jpg" alt="" style="height:calc(100vh - 240px);width:100%;object-fit:coverheight:calc(100vh - 240px);width:100%;object-fit:cover"/>
+                    <img className="slider-pic" src="../../../static/images/slide-1-en.jpg" alt=""/>
                 </picture>
             </div>
             <div>
                 <picture>
                     <source srcSet="../../../static/images/slide-2-en.webp"/>
                     <source srcSet="../../../static/images/slide-2-en.jpg"/>
-                    <img className="slider-pic" src="../../../static/images/slide-2-en.jpg" alt="" style="height:calc(100vh - 240px);width:100%;object-fit:coverheight:calc(100vh - 240px);width:100%;object-fit:cover"/>
+                    <img className="slider-pic" src="../../../static/images/slide-2-en.jpg" alt=""/>
                 </picture>
             </div>
             <div>
                 <picture>
                     <source srcSet="../../../static/images/slide-3-en.webp"/>
                     <source srcSet="../../../static/images/slide-3-en.jpg"/>
-                    <img className="slider-pic" src="../../../static/images/slide-3-en.jpg" alt="" style="height:calc(100vh - 240px);width:100%;object-fit:coverheight:calc(100vh - 240px);width:100%;object-fit:cover"/>
+                    <img className="slider-pic" src="../../../static/images/slide-3-en.jpg" alt=""/>
                 </picture>
             </div>
         </ReactSwipe>
@@ -97,16 +97,7 @@ const HomePageIndex = () => {
              <VegetableFruit />
              <HomeCta />
             <style jsx>{`
-                .carousel > div > img {
-                    max-height: calc(100vh - 80px) !important;
-                }
-                
-                 
-                 .slider-pic {
-                    height: calc(100vh - 240px);
-                    width: 100%;
-                    object-fit: cover;
-                 }
+
             `}</style>
         </>
     )
