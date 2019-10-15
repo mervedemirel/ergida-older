@@ -28,6 +28,7 @@
     "react-google-maps": "^9.4.5",
     "react-graceful-image": "^1.2.11",
     "react-icons": "^3.7.0",
+    "react-reveal": "^1.2.2",
     "react-swipe": "^6.0.4",
     "react-yandex-metrika": "^2.5.1",
     "reactstrap": "^8.0.1",

@@ -1,19 +1,23 @@
-import React, {useEffect, useState} from "react";
+import React, {useEffect, useState, useRef} from "react";
 import Hero from "./Hero/Hero";
 import HomeBg from "./HomeBg/HomeBg";
 import HomeCta from "./HomeCta/HomeCta";
 import VegetableFruit from "./VegetableFruit/VegetableFruit";
-import { i18n } from "../../../i18n";
+import {i18n} from "../../../i18n";
 import Leaves from "../../shared/Leaves/Leaves";
 import Delayed from "../../shared/Delayed/Delayed"
 import ReactSwipe from 'react-swipe';
+import ReactDOM from "react-dom";
 
 const HomePageIndex = () => {
     const [activeLng, setActiveLng] = useState(undefined)
 
     useEffect(() => {
-        setActiveLng(localStorage.getItem('lng'))
+        setActiveLng(localStorage.getItem('lng'));
+        let post = ReactDOM.findDOMNode(leafTwo).getBoundingClientRect();
     })
+
+    const leafTwo = useRef(null)
 
     const swipeOptions = {
         auto: 3000,
@@ -26,12 +30,12 @@ const HomePageIndex = () => {
     let hero;
 
     if (activeLng !== 'en') {
-        hero = <ReactSwipe className="carousel" swipeOptions={swipeOptions} ref = {el => (reactSwipeEl = el)} >
+        hero = <ReactSwipe className="carousel" swipeOptions={swipeOptions} ref={el => (reactSwipeEl = el)}>
             <div>
                 <picture>
                     <source srcSet="../../../static/images/slide-1.webp"/>
                     <source srcSet="../../../static/images/slide-1.jpg"/>
-                    <img className="slider-pic" src="../../../static/images/slide-1.jpg" alt="" />
+                    <img className="slider-pic" src="../../../static/images/slide-1.jpg" alt=""/>
                 </picture>
             </div>
             <div>
@@ -50,7 +54,7 @@ const HomePageIndex = () => {
             </div>
         </ReactSwipe>
     } else {
-        hero = <ReactSwipe className="carousel" swipeOptions={swipeOptions} ref = {el => (reactSwipeEl = el)} >
+        hero = <ReactSwipe className="carousel" swipeOptions={swipeOptions} ref={el => (reactSwipeEl = el)}>
             <div>
                 <picture>
                     <source srcSet="../../../static/images/slide-1-en.webp"/>
@@ -78,24 +82,31 @@ const HomePageIndex = () => {
     return (
         <>
             {hero}
-             <HomeBg />
-             <Delayed waitBeforeShow={3000}>
-                 <Leaves top="50vh" left="20vw" />
-             </Delayed>
-             <Delayed waitBeforeShow={4000}>
-                 <Leaves top="90vh" left="80vw" />
-             </Delayed>
-             <Delayed waitBeforeShow={6000}>
-                 <Leaves top="140vh" left="10vw" />
-             </Delayed>
-             <Delayed waitBeforeShow={9000}>
-                 <Leaves top="180vh" left="85vw" />
-             </Delayed>
-             <Delayed waitBeforeShow={10000}>
-                 <Leaves top="230vh" left="75vw" />
-             </Delayed>
-             <VegetableFruit />
-             <HomeCta />
+            <HomeBg/>
+            {/*<Delayed waitBeforeShow={1000}>*/}
+            {/*    <Leaves top="50vh" left="20vw" />*/}
+            {/*</Delayed>*/}
+            {/*<Leaves ref={el => leafTwo = el} top="90vh" left="80vw"/>*/}
+            {/*<Leaves top="140vh" left="10vw"/>*/}
+            {/*<Leaves top="180vh" left="85vw"/>*/}
+            {/*<Leaves top="230vh" left="75vw"/>*/}
+            <Delayed waitBeforeShow={3000}>
+                <Leaves top="50vh" left="20vw" />
+            </Delayed>
+            <Delayed waitBeforeShow={4000}>
+                <Leaves top="90vh" left="80vw" />
+            </Delayed>
+            <Delayed waitBeforeShow={6000}>
+                <Leaves top="140vh" left="10vw" />
+            </Delayed>
+            <Delayed waitBeforeShow={9000}>
+                <Leaves top="180vh" left="85vw" />
+            </Delayed>
+            <Delayed waitBeforeShow={10000}>
+                <Leaves top="230vh" left="75vw" />
+            </Delayed>
+            <VegetableFruit/>
+            <HomeCta/>
             <style jsx>{`
 
             `}</style>

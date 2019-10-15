@@ -4,6 +4,8 @@
     <list default="true" id="df042bfd-e840-4ce1-9b23-4690baa57fca" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/pages/Homepage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/pages/Homepage/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/shared/Leaves/Leaves.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/Leaves/Leaves.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/colors.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -125,7 +127,7 @@
       <workItem from="1570689545192" duration="1888000" />
       <workItem from="1570693939506" duration="228000" />
       <workItem from="1571061490967" duration="1919000" />
-      <workItem from="1571121725442" duration="396000" />
+      <workItem from="1571121725442" duration="5350000" />
     </task>
     <servers />
   </component>
