@@ -14,7 +14,6 @@ const HomePageIndex = () => {
 
     useEffect(() => {
         setActiveLng(localStorage.getItem('lng'));
-        let post = ReactDOM.findDOMNode(leafTwo).getBoundingClientRect();
     })
 
     const leafTwo = useRef(null)
