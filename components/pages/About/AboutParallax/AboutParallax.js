@@ -25,6 +25,8 @@ const AboutParallax = ({t}) => {
                 @media (max-width: 767px) {
                     .About-parallax {
                         height: auto;
+                        padding-top: 2rem;
+                        padding-bottom: 2rem;
                         background: url('../../../../static/images/parallax-mob.jpg');
                         background-attachment: initial;
                           background-position: center;
