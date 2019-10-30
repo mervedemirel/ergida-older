@@ -27,6 +27,7 @@ const AboutParallax = ({t}) => {
                         height: auto;
                         padding-top: 2rem;
                         padding-bottom: 2rem;
+                        font-weight: bold;
                         background: url('../../../../static/images/parallax-mob.jpg');
                         background-attachment: initial;
                           background-position: center;
