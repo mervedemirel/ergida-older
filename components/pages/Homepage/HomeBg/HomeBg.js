@@ -122,7 +122,7 @@ class HomeBg extends React.Component {
                 }
                 
                 @media (max-width: 767px) {
-                    .HomeBg-mid {
+                    .HomeBg-mid:before {
                         height: auto;
                         background: url('../../../../static/images/parallax-mob.jpg');
                         background-attachment: fixed;
