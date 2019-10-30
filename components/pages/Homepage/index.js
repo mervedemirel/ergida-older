@@ -16,8 +16,6 @@ const HomePageIndex = () => {
         setActiveLng(localStorage.getItem('lng'));
     })
 
-    const leafTwo = useRef(null)
-
     const swipeOptions = {
         auto: 3000,
         speed: 3000,
@@ -32,23 +30,23 @@ const HomePageIndex = () => {
         hero = <ReactSwipe className="carousel" swipeOptions={swipeOptions} ref={el => (reactSwipeEl = el)}>
             <div>
                 <picture>
-                    <source srcSet="../../../static/images/slide-1.webp"webpwebp/>
-                    <source srcSet="../../../static/images/slide-1.jpg"webpwebp/>
-                    <img className="slider-pic" src="../../../static/images/slide-1.jpg" alt=""/>
+                    <source srcSet="../../../static/images/slide-1.webp" type="image/webp"/>
+                    <source srcSet="../../../static/images/slide-1.jpg" type="image/jpeg"/>
+                    <img className="slider-pic" src="../../../static/images/slide-1.jpg" alt="" style={{height: '100%', objectFit: 'cover'}}/>
                 </picture>
             </div>
             <div>
                 <picture className="slider-pic">
                     <source srcSet="../../../static/images/slide-2.webp" type="image/webp"/>
                     <source srcSet="../../../static/images/slide-2.jpg" type="image/jpeg"/>
-                    <img className="slider-pic" src="../../../static/images/slide-2.jpg" alt=""/>
+                    <img className="slider-pic" src="../../../static/images/slide-2.jpg" alt="" style={{height: '100%', objectFit: 'cover'}}/>
                 </picture>
             </div>
             <div>
                 <picture>
                     <source srcSet="../../../static/images/slide-3.webp" type="image/webp"/>
                     <source srcSet="../../../static/images/slide-3.jpg" type="image/jpeg"/>
-                    <img className="slider-pic" src="../../../static/images/slide-3.jpg" alt=""/>
+                    <img className="slider-pic" src="../../../static/images/slide-3.jpg" alt="" style={{height: '100%', objectFit: 'cover'}}/>
                 </picture>
             </div>
         </ReactSwipe>
@@ -58,21 +56,21 @@ const HomePageIndex = () => {
                 <picture>
                     <source srcSet="../../../static/images/slide-1-en.webp" type="image/webp" />
                     <source srcSet="../../../static/images/slide-1-en.jpg" type="image/jpeg" />
-                    <img className="slider-pic" src="../../../static/images/slide-1-en.jpg" alt=""/>
+                    <img className="slider-pic" src="../../../static/images/slide-1-en.jpg" alt="" style={{height: '100%', objectFit: 'cover'}}/>
                 </picture>
             </div>
             <div>
                 <picture>
                     <source srcSet="../../../static/images/slide-2-en.webp" type="image/webp"/>
                     <source srcSet="../../../static/images/slide-2-en.jpg" type="image/jpeg"/>
-                    <img className="slider-pic" src="../../../static/images/slide-2-en.jpg" alt=""/>
+                    <img className="slider-pic" src="../../../static/images/slide-2-en.jpg" alt="" style={{height: '100%', objectFit: 'cover'}}/>
                 </picture>
             </div>
             <div>
                 <picture>
                     <source srcSet="../../../static/images/slide-3-en.webp" type="image/webp"/>
                     <source srcSet="../../../static/images/slide-3-en.jpg" type="image/jpeg"/>
-                    <img className="slider-pic" src="../../../static/images/slide-3-en.jpg" alt=""/>
+                    <img className="slider-pic" src="../../../static/images/slide-3-en.jpg" alt="" style={{height: '100%', objectFit: 'cover'}}/>
                 </picture>
             </div>
         </ReactSwipe>
