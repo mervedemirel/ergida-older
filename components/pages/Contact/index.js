@@ -22,13 +22,13 @@ const ContactPageIndex = () => {
                       mobImage="../../../../static/images/iletisim-hero-mob-en.jpg"/>}
 
 
-            <Delayed waitBeforeShow={3000}>
+            <Delayed waitBeforeShow={366}>
                 <Leaves top="50vh" left="20vw"/>
             </Delayed>
-            <Delayed waitBeforeShow={4000}>
+            <Delayed waitBeforeShow={658}>
                 <Leaves top="90vh" left="80vw"/>
             </Delayed>
-            <Delayed waitBeforeShow={6000}>
+            <Delayed waitBeforeShow={1023}>
                 <Leaves top="140vh" left="10vw"/>
             </Delayed>
             <Map/>
