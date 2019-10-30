@@ -18,8 +18,8 @@ const VegetableFruit = ({t}) => {
                         </div>
                         <div className="col-md-6 col-lg-5">
                             <picture>
-                                <source srcSet="../../../static/images/home-eggplant.webp"/>
-                                <source srcSet="../../../static/images/home-eggplant.png"/>
+                                <source srcSet="../../../static/images/home-eggplant.webp" type="image/webp"/>
+                                <source srcSet="../../../static/images/home-eggplant.png" type="image/png"/>
                                 <img src="../../../static/images/home-eggplant.png" alt=""/>
                             </picture>
                         </div>
@@ -27,8 +27,8 @@ const VegetableFruit = ({t}) => {
                     <div className="row px-0 py-5">
                         <div className="col-lg-5 col-md-6 mobile-flex-center">
                             <picture>
-                                <source srcSet="../../../static/images/home-apple.webp"/>
-                                <source srcSet="../../../static/images/home-apple.png"/>
+                                <source srcSet="../../../static/images/home-apple.webp" type="image/webp"/>
+                                <source srcSet="../../../static/images/home-apple.png" type="image/png"/>
                                 <img src="../../../static/images/home-apple.png" alt=""/>
                             </picture>
                         </div>

@@ -42,8 +42,8 @@ class HomeBg extends React.Component {
                             </div>
                             <div className="col-md-5 col-lg-5 d-flex align-items-center justify-content-center">
                                 <picture>
-                                    <source srcSet="../../../static/images/av-domates.webp"/>
-                                    <source srcSet="../../../static/images/av-domates.jpg"/>
+                                    <source srcSet="../../../static/images/av-domates.webp"  type="image/webp"/>
+                                    <source srcSet="../../../static/images/av-domates.jpg"  type="image/jpeg"/>
                                     <img src="../../../static/images/av-domates.jpg" alt=""/>
                                 </picture>
                             </div>
@@ -71,8 +71,8 @@ class HomeBg extends React.Component {
                         <div className="row p-0">
                             <div className="col-md-6 col-lg-5 mobile-flex-center">
                                 <picture>
-                                    <source srcSet="../../../static/images/home-narenciye.webp"/>
-                                    <source srcSet="../../../static/images/home-narenciye.png"/>
+                                    <source srcSet="../../../static/images/home-narenciye.webp" type="image/webp"/>
+                                    <source srcSet="../../../static/images/home-narenciye.png" type="image/png"/>
                                     <img src="../../../static/images/home-narenciye.png" alt=""/>
                                 </picture>
                             </div>

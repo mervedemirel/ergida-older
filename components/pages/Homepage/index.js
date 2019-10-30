@@ -32,22 +32,22 @@ const HomePageIndex = () => {
         hero = <ReactSwipe className="carousel" swipeOptions={swipeOptions} ref={el => (reactSwipeEl = el)}>
             <div>
                 <picture>
-                    <source srcSet="../../../static/images/slide-1.webp"/>
-                    <source srcSet="../../../static/images/slide-1.jpg"/>
+                    <source srcSet="../../../static/images/slide-1.webp" type="image/webp"/>
+                    <source srcSet="../../../static/images/slide-1.jpg" type="image/jpeg"/>
                     <img className="slider-pic" src="../../../static/images/slide-1.jpg" alt=""/>
                 </picture>
             </div>
             <div>
                 <picture className="slider-pic">
-                    <source srcSet="../../../static/images/slide-2.webp"/>
-                    <source srcSet="../../../static/images/slide-2.jpg"/>
+                    <source srcSet="../../../static/images/slide-2.webp" type="image/webp"/>
+                    <source srcSet="../../../static/images/slide-2.jpg" type="image/jpeg"/>
                     <img className="slider-pic" src="../../../static/images/slide-2.jpg" alt=""/>
                 </picture>
             </div>
             <div>
                 <picture>
-                    <source srcSet="../../../static/images/slide-3.webp"/>
-                    <source srcSet="../../../static/images/slide-3.jpg"/>
+                    <source srcSet="../../../static/images/slide-3.webp" type="image/webp"/>
+                    <source srcSet="../../../static/images/slide-3.jpg" type="image/jpeg"/>
                     <img className="slider-pic" src="../../../static/images/slide-3.jpg" alt=""/>
                 </picture>
             </div>
@@ -56,22 +56,22 @@ const HomePageIndex = () => {
         hero = <ReactSwipe className="carousel" swipeOptions={swipeOptions} ref={el => (reactSwipeEl = el)}>
             <div>
                 <picture>
-                    <source srcSet="../../../static/images/slide-1-en.webp"/>
-                    <source srcSet="../../../static/images/slide-1-en.jpg"/>
+                    <source srcSet="../../../static/images/slide-1-en.webp" type="image/webp" />
+                    <source srcSet="../../../static/images/slide-1-en.jpg" type="image/jpeg" />
                     <img className="slider-pic" src="../../../static/images/slide-1-en.jpg" alt=""/>
                 </picture>
             </div>
             <div>
                 <picture>
-                    <source srcSet="../../../static/images/slide-2-en.webp"/>
-                    <source srcSet="../../../static/images/slide-2-en.jpg"/>
+                    <source srcSet="../../../static/images/slide-2-en.webp" type="image/webp"/>
+                    <source srcSet="../../../static/images/slide-2-en.jpg" type="image/jpeg"/>
                     <img className="slider-pic" src="../../../static/images/slide-2-en.jpg" alt=""/>
                 </picture>
             </div>
             <div>
                 <picture>
-                    <source srcSet="../../../static/images/slide-3-en.webp"/>
-                    <source srcSet="../../../static/images/slide-3-en.jpg"/>
+                    <source srcSet="../../../static/images/slide-3-en.webp" type="image/webp"/>
+                    <source srcSet="../../../static/images/slide-3-en.jpg" type="image/jpeg"/>
                     <img className="slider-pic" src="../../../static/images/slide-3-en.jpg" alt=""/>
                 </picture>
             </div>
