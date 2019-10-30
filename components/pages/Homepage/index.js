@@ -89,7 +89,7 @@ const HomePageIndex = () => {
             {/*<Leaves top="140vh" left="10vw"/>*/}
             {/*<Leaves top="180vh" left="85vw"/>*/}
             {/*<Leaves top="230vh" left="75vw"/>*/}
-            <Delayed waitBeforeShow={3000}>
+            <Delayed waitBeforeShow={366}>
                 <Leaves top="50vh" left="20vw" />
             </Delayed>
             <Delayed waitBeforeShow={4000}>

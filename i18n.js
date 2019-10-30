@@ -14,8 +14,6 @@ const localeSubpathVariations = {
 
 module.exports = new NextI18Next({
     defaultLanguage: 'tr',
-    fallbackLng: 'tr',
-    lng: 'tr',
     otherLanguages: ['en'],
     localeSubpaths: {
         en: 'en'

@@ -3,14 +3,19 @@ import React, {useRef, useEffect, useState} from 'react';
 const Leaves = (props) => {
     const [displayState, setDisplayState] = useState('block');
 
+    let elemRef = React.createRef();
+
     useEffect(() => {
         setTimeout(() => {
             setDisplayState('none')
         }, 4500)
+
+        console.log(elemRef.current.offsetTop)
     })
 
+
     return (
-        <div className="set" id="leaf">
+        <div className="set" id="leaf" ref={elemRef}>
             <div>
                 <img
                     src="../../../static/images/leaf.png"
