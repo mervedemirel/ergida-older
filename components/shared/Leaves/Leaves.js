@@ -10,7 +10,7 @@ const Leaves = (props) => {
             setDisplayState('none')
         }, 4500)
 
-        console.log(elemRef.current.offsetTop)
+        console.log(elemRef.current.offsetTopwebp)
     })
 
 

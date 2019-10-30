@@ -32,8 +32,8 @@ const HomePageIndex = () => {
         hero = <ReactSwipe className="carousel" swipeOptions={swipeOptions} ref={el => (reactSwipeEl = el)}>
             <div>
                 <picture>
-                    <source srcSet="../../../static/images/slide-1.webp" type="image/webp"/>
-                    <source srcSet="../../../static/images/slide-1.jpg" type="image/jpeg"/>
+                    <source srcSet="../../../static/images/slide-1.webp"webpwebp/>
+                    <source srcSet="../../../static/images/slide-1.jpg"webpwebp/>
                     <img className="slider-pic" src="../../../static/images/slide-1.jpg" alt=""/>
                 </picture>
             </div>
