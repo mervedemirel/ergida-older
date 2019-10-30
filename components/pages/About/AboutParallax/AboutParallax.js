@@ -21,6 +21,18 @@ const AboutParallax = ({t}) => {
                       background-repeat: no-repeat;
                       background-size: cover;
                 }
+
+                @media (max-width: 767px) {
+                    .About-parallax {
+                        height: auto;
+                        background: url('../../../../static/images/parallax-mob.jpg');
+                        background-attachment: initial;
+                          background-position: center;
+                          background-repeat: no-repeat;
+                          background-size: cover;
+                    }
+    
+                }
                 
                 .Parallax-text {
                     color: white;

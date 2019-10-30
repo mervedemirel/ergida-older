@@ -9,13 +9,13 @@ class Delayed extends React.Component {
     }
 
     componentDidMount() {
-        setTimeout(() => {
-            this.setState({hidden: false});
-        }, this.props.waitBeforeShow);
-        // if (window.pageYOffset > 500) {
+        // setTimeout(() => {
         //     this.setState({hidden: false});
-        //     console.log("asaaaadaasdadsadsad")
-        // }
+        // }, this.props.waitBeforeShow);
+        if (window.pageYOffset > 500) {
+            this.setState({hidden: false});
+            console.log("asaaaadaasdadsadsad")
+        }
     }
 
     render() {
