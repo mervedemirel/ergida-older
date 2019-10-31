@@ -39,16 +39,6 @@ const Footer = () => {
                     background: #545454;
                     color: white;
                 }
-                
-                .BorderSide {
-                    border-left: 3px solid white;
-                }
-
-                @media (max-width: 767px) {
-                    .BorderSide {
-                        border-left: none;
-                    }
-                }
             `}</style>
         </div>
     )

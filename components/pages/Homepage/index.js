@@ -1,13 +1,11 @@
 import React, {useEffect, useState, useRef} from "react";
-import Hero from "./Hero/Hero";
 import HomeBg from "./HomeBg/HomeBg";
 import HomeCta from "./HomeCta/HomeCta";
 import VegetableFruit from "./VegetableFruit/VegetableFruit";
-import {i18n} from "../../../i18n";
 import Leaves from "../../shared/Leaves/Leaves";
 import Delayed from "../../shared/Delayed/Delayed"
 import ReactSwipe from 'react-swipe';
-import ReactDOM from "react-dom";
+import {FaAngleRight} from "react-icons/fa";
 
 const HomePageIndex = () => {
     const [activeLng, setActiveLng] = useState(undefined)
@@ -27,7 +25,8 @@ const HomePageIndex = () => {
     let hero;
 
     if (activeLng !== 'en') {
-        hero = <ReactSwipe className="carousel" swipeOptions={swipeOptions} ref={el => (reactSwipeEl = el)}>
+        hero = <div className="position-relative">
+            <ReactSwipe className="carousel position-relative" swipeOptions={swipeOptions} ref={el => (reactSwipeEl = el)}>
             <div>
                 <picture>
                     <source srcSet="../../../static/images/slide-1.webp" type="image/webp"/>
@@ -50,6 +49,9 @@ const HomePageIndex = () => {
                 </picture>
             </div>
         </ReactSwipe>
+        <FaAngleRight className="position-absolute" style={{fontSize: '3rem', right: '10px', top: '50%', transform: 'translateY(-50%)', cursor: 'pointer'}} onClick={() => reactSwipeEl.next()} />
+        <FaAngleRight className="position-absolute" style={{fontSize: '3rem', left: '10px', top: '50%', transform: 'translateY(-50%) rotate(180deg)', cursor: 'pointer'}} onClick={() => reactSwipeEl.prev()} />
+        </div>
     } else {
         hero = <ReactSwipe className="carousel" swipeOptions={swipeOptions} ref={el => (reactSwipeEl = el)}>
             <div>

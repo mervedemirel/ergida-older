@@ -49,11 +49,11 @@ class Header extends Component {
                                     <li className="nav-item" key={i}>
 
                                         <div className="dropdown">
-                                            <a className="nav-link" onClick={this.classHandler}
+                                            <a className="nav-link" onMouseOver={() => this.setState({dropdownVisible: true})} onMouseOut={() => this.setState({dropdownVisible: false})}
                                                style={{cursor: 'pointer'}}>
                                                 {link.text}
                                             </a>
-                                            <div
+                                            <div onMouseOver={() => this.setState({dropdownVisible: true})} onMouseOut={() => this.setState({dropdownVisible: false})}
                                                 className={this.state.dropdownVisible ? "dropdown-menu show" : "dropdown-menu"}
                                                 aria-labelledby="dropdownMenu2">
                                                 <a className="dropdown-item" href="/sebze">{this.props.t("drop1")}</a>
