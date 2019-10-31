@@ -49,8 +49,8 @@ const HomePageIndex = () => {
                 </picture>
             </div>
         </ReactSwipe>
-        <FaAngleRight className="position-absolute" style={{fontSize: '3rem', right: '10px', top: '50%', transform: 'translateY(-50%)', cursor: 'pointer'}} onClick={() => reactSwipeEl.next()} />
-        <FaAngleRight className="position-absolute" style={{fontSize: '3rem', left: '10px', top: '50%', transform: 'translateY(-50%) rotate(180deg)', cursor: 'pointer'}} onClick={() => reactSwipeEl.prev()} />
+        <FaAngleRight className="position-absolute" style={{fontSize: '3rem', right: '10px', top: '50%', transform: 'translateY(-50%)', cursor: 'pointer', color: 'rgba(255, 255, 255, .3)'}} onClick={() => reactSwipeEl.next()} />
+        <FaAngleRight className="position-absolute" style={{fontSize: '3rem', left: '10px', top: '50%', transform: 'translateY(-50%) rotate(180deg)', cursor: 'pointer', color: 'rgba(255, 255, 255, .3)'}} onClick={() => reactSwipeEl.prev()} />
         </div>
     } else {
         hero = <ReactSwipe className="carousel" swipeOptions={swipeOptions} ref={el => (reactSwipeEl = el)}>
