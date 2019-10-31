@@ -34,7 +34,7 @@ const Footer = ({t}) => {
               <div className="col-12 col-md-4">
                 <h4 className="text-white mt-2">{t('muglaContact')}</h4>
                 <p className="m-0 mt-1">
-                  Karaçulha Mahallesi, Sarnıç Sokak, Muğla Büyükşehir Belediyesi{" "}
+                  Karaçulha Mahallesi, Sarnıç Sokak, Muğla Büyükşehir Belediyesi
                   <br />
                   Fethiye Toptancı Hali, M Blok No: 132, Fethiye/Muğla
                 </p>
@@ -51,7 +51,7 @@ const Footer = ({t}) => {
               <div className="col-12 col-md-4">
                 <h4 className="text-white mt-2">{t('quickLinks')}</h4>
                 <div className="row m-o p-0">
-                  <div className="col-6 p-0 m-0 d-flex flex-column">
+                  <div className="col-12 col-md-6 p-0 m-0 d-flex flex-column">
                     <Link href="/kurumsal">
                       <a style={{ textDecoration: "none", color: "white" }}>
                         {t('mobileLinks', {returnObjects: true}).kurumsal.text}
@@ -78,7 +78,7 @@ const Footer = ({t}) => {
                       </a>
                     </Link>
                   </div>
-                  <div className="col-6 p-0 m-0 d-flex flex-column">
+                  <div className="col-12 col-md-6 p-0 m-0 d-flex flex-column">
                     <Link href="/galeri">
                       <a style={{ textDecoration: "none", color: "white" }}>
                       {t('mobileLinks', {returnObjects: true}).gallery.text}
@@ -94,7 +94,7 @@ const Footer = ({t}) => {
               </div>
             </div>
           </div>
-          <div className="col-12 d-flex">
+          <div className="col-12 d-flex mt-3 mt-md-0">
             <div className="row m-0 p-0 w-100">
               <div className="col-12 col-md-6 d-flex align-items-center">
                 Copyright &copy; ErGıda Tarım 2019 - {t('allRights')}
