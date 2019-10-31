@@ -1,11 +1,12 @@
 import React from "react";
 import { Link, withTranslation } from "../../../../i18n";
 import { FaFacebookSquare, FaTwitterSquare, FaInstagram } from "react-icons/fa";
+import {IoIosPhonePortrait, IoMdMail} from "react-icons/io";
 
 const Footer = ({t}) => {
   return (
     <div className="container-fluid py-3 Footer">
-      <div className="container">
+      <div className="container px-0">
         <div className="row">
           <div className="col-12 d-flex align-items-center">
             <div className="row">
@@ -21,14 +22,14 @@ const Footer = ({t}) => {
                   Bağlık Mahallesi, Gödene Caddesi, No: 189 <br />
                   Er Gıda Paketleme Tesisi, Kumluca / Antalya
                 </p>
-                <p className="p-0 m-0">
-                  <b>Tel:</b> +90 242 887 02 22
+                <p className="p-0 m-0 mt-md-2">
+                  <b><IoIosPhonePortrait style={{fontSize: '1.3rem'}} /></b> <a href="tel:+902428870222" style={{textDecoration: 'none', color: 'white'}}>+90 242 887 02 22</a>
                 </p>
-                <p className="p-0 m-0">
-                  <b>Tel:</b> +90 543 887 00 22
+                <p className="p-0 m-0 mt-md-1">
+                  <b><IoIosPhonePortrait style={{fontSize: '1.3rem'}} /></b> <a href="tel:+905438870022" style={{textDecoration: 'none', color: 'white'}}>+90 543 887 00 22</a>
                 </p>
-                <p>
-                  <b>Mail:</b> ergidatarim@hotmail.com
+                <p className="p-0 m-0 mt-md-1">
+                <b><IoMdMail/></b> <a style={{textDecoration: 'none', color: 'white'}} href="mailto:ergidatarim@hotmail.com">ergidatarim@hotmail.com</a>
                 </p>
               </div>
               <div className="col-12 col-md-4">
@@ -38,14 +39,14 @@ const Footer = ({t}) => {
                   <br />
                   Fethiye Toptancı Hali, M Blok No: 132, Fethiye/Muğla
                 </p>
-                <p className="p-0 m-0">
-                  <b>Tel:</b> +90 242 887 02 22
+                <p className="p-0 m-0 mt-md-2">
+                  <b><IoIosPhonePortrait style={{fontSize: '1.3rem'}} /></b> <a href="tel:+902428870222" style={{textDecoration: 'none', color: 'white'}}>+90 242 887 02 22</a>
                 </p>
-                <p className="p-0 m-0">
-                  <b>Tel:</b> +90 543 887 00 22
+                <p className="p-0 m-0 mt-md-1">
+                  <b><IoIosPhonePortrait style={{fontSize: '1.3rem'}} /></b> <a href="tel:+905438870022" style={{textDecoration: 'none', color: 'white'}}>+90 543 887 00 22</a>
                 </p>
-                <p>
-                  <b>Mail:</b> ergidatarim@hotmail.com
+                <p className="p-0 m-0 mt-md-1">
+                  <b><IoMdMail/></b> <a style={{textDecoration: 'none', color: 'white'}} href="mailto:ergidatarim@hotmail.com">ergidatarim@hotmail.com</a>
                 </p>
               </div>
               <div className="col-12 col-md-4">
