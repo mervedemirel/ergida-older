@@ -34,11 +34,11 @@ class Header extends Component {
       <>
         <div className="SubNav container d-flex justify-content-end align-items-center position-relative">
           <a
-            href="tel:+905438870022"
+            href="tel:+905468870222"
             className="mr-auto"
             style={{ fontSize: "1rem", color: "black" }}
           >
-            <FaPhone style={{ transform: "rotate(90deg)" }} /> +90 543 887 00 22
+            <FaPhone style={{ transform: "rotate(90deg)" }} /> +90 549 887 0 222
           </a>
           <a
             href="https://www.facebook.com/ergida48"
