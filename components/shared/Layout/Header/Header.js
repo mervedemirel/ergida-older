@@ -38,7 +38,7 @@ class Header extends Component {
             className="mr-auto"
             style={{ fontSize: "1rem", color: "black" }}
           >
-            <FaPhone style={{ transform: "rotate(90deg)" }} /> +90 549 887 0 222
+            <FaPhone style={{ transform: "rotate(90deg)" }} /> +90 546 887 0 222
           </a>
           <a
             href="https://www.facebook.com/ergida48"
