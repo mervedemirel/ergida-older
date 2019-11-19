@@ -12,11 +12,7 @@ class VegContainer extends Component {
     }
 
     componentDidMount() {
-        axios.get("https://admin.ergidatarim.com.tr/products?category=vegetable", {
-            headers: {
-                Authorization: `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNTcxMDYzNDIyLCJleHAiOjE1NzM2NTU0MjJ9.-B5eqkiqMFJxwZz9Rd4hHkJj9XLOeYvZeZt2if-YNwk`,
-            }
-        }).then(res => {
+        axios.get("https://admin.ergidatarim.com.tr/products?category=vegetable").then(res => {
             const products = res.data;
             this.setState({products})
         })

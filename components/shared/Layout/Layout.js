@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from "react";
 import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
-import {slide as Menu} from 'react-burger-menu'
+import {bubble as Menu} from 'react-burger-menu'
 import Head from "next/head";
 import Router from "next/router";
 import NProgress from "nprogress";
@@ -35,32 +35,32 @@ const Layout = ({children, t}) => {
                 </Link>
                 <Link href="/kurumsal">
                     <a id="about"
-                       className="menu-item color-white mt-2 py-1">{t('mobileLinks', {returnObjects: true}).kurumsal.text}</a>
+                       className="menu-item color-black mt-2 py-1">{t('mobileLinks', {returnObjects: true}).kurumsal.text}</a>
                 </Link>
                 <Link href="/hizmetlerimiz">
                     <a id="contact"
-                       className="menu-item color-white mt-2 py-1">{t('mobileLinks', {returnObjects: true}).hizmetler.text}</a>
+                       className="menu-item color-black mt-2 py-1">{t('mobileLinks', {returnObjects: true}).hizmetler.text}</a>
                 </Link>
                 <Link href="/sebze">
                     <a id="contact"
-                       className="menu-item color-white mt-2 py-1">{t('mobileLinks', {returnObjects: true}).urun.text}</a>
+                       className="menu-item color-black mt-2 py-1">{t('mobileLinks', {returnObjects: true}).urun.text}</a>
                 </Link>
                 <Link href="/meyve">
                     <a id="contact"
-                       className="menu-item color-white mt-2 py-1">{t('mobileLinks', {returnObjects: true}).meyve.text}</a>
+                       className="menu-item color-black mt-2 py-1">{t('mobileLinks', {returnObjects: true}).meyve.text}</a>
                 </Link>
 
                 <Link href="/narenciye">
                     <a id="contact"
-                       className="menu-item color-white mt-2 py-1">{t('mobileLinks', {returnObjects: true}).citrus.text}</a>
+                       className="menu-item color-black mt-2 py-1">{t('mobileLinks', {returnObjects: true}).citrus.text}</a>
                 </Link>
                 <Link href="/galeri">
                     <a id="contact"
-                       className="menu-item color-white mt-2 py-1">{t('mobileLinks', {returnObjects: true}).gallery.text}</a>
+                       className="menu-item color-black mt-2 py-1">{t('mobileLinks', {returnObjects: true}).gallery.text}</a>
                 </Link>
                 <Link href="/iletisim">
                     <a id="contact"
-                       className="menu-item color-white mt-2 py-1">{t('mobileLinks', {returnObjects: true}).contact.text}</a>
+                       className="menu-item color-black mt-2 py-1">{t('mobileLinks', {returnObjects: true}).contact.text}</a>
                 </Link>
                 <Link href="/">
                     <a id="contact" className="menu-item color-white mt-2 py-1"

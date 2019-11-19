@@ -173,14 +173,14 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 /* General sidebar styles */
 .bm-menu {
-    background: #373a47;
+    background: #ffc;
     padding: 2.5em 1.5em 0;
     font-size: 1.15em;
 }
 
 /* Morph shape necessary with bubble or elastic */
 .bm-morph-shape {
-    fill: #373a47;
+    fill: #ffc;
 }
 
 /* Wrapper for item list */
@@ -194,7 +194,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 /* Individual item */
 .bm-item {
     display: inline-block;
-    color: white !important;
+    color: black !important;
 }
 
 /* Styling of overlay */
@@ -211,4 +211,8 @@ Note: Beware of modifying this element as it can break the animations - you shou
     max-height: calc(100vh - 160px);
     width: 100% !important;
     object-fit: cover;
+}
+
+.color-black {
+    color: black !important;
 }
