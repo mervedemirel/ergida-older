@@ -26,7 +26,7 @@ const Layout = ({children, t}) => {
 
     return (
         <>
-            <Menu left customBurgerIcon={false} isOpen={menuIsOpen} disableAutoFocus>
+            <Menu left customBurgerIcon={false} isOpen={menuIsOpen} disableAutoFocus width={'240px'}>
                 <Link href="/">
                     <a className="menu-item">
                         <img className="Nav-logo" style={{maxHeight: '70px'}} src="../../../static/images/logo.png"
