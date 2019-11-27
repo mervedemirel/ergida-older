@@ -18,7 +18,7 @@ const Map = ({t}) => {
                             <div className="col-sm-6">
                                 <b>{t('telefon')}</b> <br/>
                                 0 242 887 02 22 <br/>
-                                0 543 887 00 22 <br/>
+                                0 543 887 02 22 <br/>
                                 0 546 887 02 22 <br/>
                                 0 532 154 80 88
                             </div>
@@ -46,8 +46,8 @@ const Map = ({t}) => {
                             <div className="col-sm-6">
                                 <b>{t('telefon')}</b> <br/>
                                 0 242 887 02 22 <br/>
-                                0 543 887 00 22 <br/>
-                                0 546 887 00 22 <br/>
+                                0 543 887 02 22 <br/>
+                                0 546 887 02 22 <br/>
                                 0 532 154 80 88
                             </div>
                             <div className="col-sm-6">
