@@ -30,7 +30,7 @@ class VegContainer extends Component {
                                         <Product key={i}
                                                  name={product.name}
                                                  nameEn={product.name_en}
-                                                 photo={`https://admin.ergidatarim.com.tr/${product.photo.url}`}
+                                                 photo={`https://admin.ergidatarim.com.tr/${product.photo[0].url}`}
                                                  bgColor="rgba(255, 0, 0, .4)"
                                                  titleColor="rgba(139, 0, 0)"/>
                                     </div>) : null
@@ -47,7 +47,7 @@ class VegContainer extends Component {
                                         <Product key={i}
                                                  name={product.name}
                                                  nameEn={product.name_en}
-                                                 photo={`https://admin.ergidatarim.com.tr/${product.photo.url}`}
+                                                 photo={`https://admin.ergidatarim.com.tr/${product.photo[0].url}`}
                                                  bgColor="rgba(204,204,0, .4)"
                                                  titleColor="rgba(153, 153, 0)"/>
                                     </div>) : null
@@ -64,7 +64,7 @@ class VegContainer extends Component {
                                         <Product key={i}
                                                  name={product.name}
                                                  nameEn={product.name_en}
-                                                 photo={`https://admin.ergidatarim.com.tr/${product.photo.url}`}
+                                                 photo={`https://admin.ergidatarim.com.tr/${product.photo[0].url}`}
                                                  bgColor="rgba(50,130,170, .4)" titleColor="rgba(225,222,173)"/>
                                     </div>) : null
                             })}
@@ -80,7 +80,7 @@ class VegContainer extends Component {
                                         <Product key={i}
                                                  name={product.name}
                                                  nameEn={product.name_en}
-                                                 photo={`https://admin.ergidatarim.com.tr/${product.photo.url}`}
+                                                 photo={`https://admin.ergidatarim.com.tr/${product.photo[0].url}`}
                                                  bgColor="rgba(50,205,50, .4)" titleColor="rgba(0,100,0)"/>
                                     </div>) : null
                             })}
