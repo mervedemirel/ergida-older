@@ -13,7 +13,7 @@ class FruContainer extends Component {
     }
 
     componentDidMount() {
-        axios.get("https://admin.ergidatarim.com.tr/product?category=fruit").then(res => {
+        axios.get("https://admin.ergidatarim.com.tr/products?category=fruit").then(res => {
             const products = res.data;
             this.setState({products})
         })
