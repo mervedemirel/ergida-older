@@ -17,7 +17,7 @@ const Home = ({t}) => {
                 <Head>
                     <title>Ergıda Tarım</title>
                     {activeLng === 'tr' ? <meta name="description"
-                                                content="ERDIGA, tarım sektöründe geniş niteliklere sahip, özgün, genç, kurumsal bir yaş sebze ve meyve şirketidir."/>
+                                                content="ERGIDA, tarım sektöründe geniş niteliklere sahip, özgün, genç, kurumsal bir yaş sebze ve meyve şirketidir."/>
                         :
                         <meta name="description"
                               content="Ergıda is a young and dynamic fresh fruit and vegetable company in the agricultural sector."/>
