@@ -37,7 +37,7 @@ const VegetableFruit = ({t}) => {
                             <p className="pb-2">
                                 {t('homeBg', {returnObjects: true}).fru.text}
                             </p>
-                            <Button translateText="infoButtonText" goTo="/sebze"/>
+                            <Button translateText="infoButtonText" goTo="/meyve"/>
                         </div>
                     </div>
                 </div>
