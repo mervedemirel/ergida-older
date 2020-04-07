@@ -82,7 +82,7 @@ class HomeBg extends React.Component {
                                 <p>
                                     {this.props.t('homeBg', {returnObjects: true}).nar.text}
                                 </p>
-                                <Button translateText="infoButtonText" goTo="/sebze"/>
+                                <Button translateText="infoButtonText" goTo="/narenciye"/>
                             </div>
                         </div>
                     </div>
