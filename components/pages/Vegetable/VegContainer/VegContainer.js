@@ -28,6 +28,7 @@ class VegContainer extends Component {
                                 return product.color === 'red' ? (
                                     <div className="col-12 col-sm-6 col-md-4 col-lg-3 pr-3 pb-3 pl-3">
                                         <Product key={i}
+                                                 name={product.name}
                                                  nameEn={product.name_en}
                                                  photo={`https://admin.ergidatarim.com.tr/${product.photo[0].url}`}
                                                  bgColor="rgba(255, 144, 158, 1)"
@@ -44,6 +45,7 @@ class VegContainer extends Component {
                                 return product.color === 'yellow' ? (
                                     <div className="col-12 col-sm-6 col-md-4 col-lg-3 pr-3 pb-3 pl-3">
                                         <Product key={i}
+                                                 name={product.name}
                                                  nameEn={product.name_en}
                                                  photo={`https://admin.ergidatarim.com.tr/${product.photo[0].url}`}
                                                  bgColor="rgba(204,204,0, .4)"
@@ -60,6 +62,7 @@ class VegContainer extends Component {
                                 return product.color === 'white' ? (
                                     <div className="col-12 col-sm-6 col-md-4 col-lg-3 pr-3 pb-3 pl-3">
                                         <Product key={i}
+                                                 name={product.name}
                                                  nameEn={product.name_en}
                                                  photo={`https://admin.ergidatarim.com.tr/${product.photo[0].url}`}
                                                  bgColor="rgba(50,130,170, .4)" titleColor="rgba(225,222,173)"/>
@@ -75,6 +78,7 @@ class VegContainer extends Component {
                                 return product.color === 'green' ? (
                                     <div className="col-12 col-sm-6 col-md-4 col-lg-3 pr-3 pb-3 pl-3">
                                         <Product key={i}
+                                                 name={product.name}
                                                  nameEn={product.name_en}
                                                  photo={`https://admin.ergidatarim.com.tr/${product.photo[0].url}`}
                                                  bgColor="rgba(50,205,50, .4)" titleColor="rgba(0,100,0)"/>
@@ -90,6 +94,7 @@ class VegContainer extends Component {
                                 return product.color === 'tomato' ? (
                                     <div className="col-12 col-sm-6 col-md-4 col-lg-3 pr-3 pb-3 pl-3">
                                         <Product key={i}
+                                                 name={product.name}
                                                  nameEn={product.name_en}
                                                  photo={`https://admin.ergidatarim.com.tr/${product.photo[0].url}`}
                                                  bgColor="rgba(255, 144, 158, 1)"
@@ -106,6 +111,7 @@ class VegContainer extends Component {
                                 return product.color === 'tomato1' ? (
                                     <div className="col-12 col-sm-6 col-md-4 col-lg-3 pr-3 pb-3 pl-3">
                                         <Product key={i}
+                                                 name={product.name}
                                                  nameEn={product.name_en}
                                                  photo={`https://admin.ergidatarim.com.tr/${product.photo[0].url}`}
                                                  bgColor="rgba(254, 169, 140, 1)"
@@ -122,6 +128,7 @@ class VegContainer extends Component {
                                 return product.color === 'pepper' ? (
                                     <div className="col-12 col-sm-6 col-md-4 col-lg-3 pr-3 pb-3 pl-3">
                                         <Product key={i}
+                                                 name={product.name}
                                                  nameEn={product.name_en}
                                                  photo={`https://admin.ergidatarim.com.tr/${product.photo[0].url}`}
                                                  bgColor="rgba(167, 217, 102, 1)"
@@ -138,6 +145,7 @@ class VegContainer extends Component {
                                 return product.color === 'pepper1' ? (
                                     <div className="col-12 col-sm-6 col-md-4 col-lg-3 pr-3 pb-3 pl-3">
                                         <Product key={i}
+                                                 name={product.name}
                                                  nameEn={product.name_en}
                                                  photo={`https://admin.ergidatarim.com.tr/${product.photo[0].url}`}
                                                  bgColor="rgba(197, 211, 80, 1)"
@@ -154,6 +162,7 @@ class VegContainer extends Component {
                                 return product.color === 'cucumber' ? (
                                     <div className="col-12 col-sm-6 col-md-4 col-lg-3 pr-3 pb-3 pl-3">
                                         <Product key={i}
+                                                 name={product.name}
                                                  nameEn={product.name_en}
                                                  photo={`https://admin.ergidatarim.com.tr/${product.photo[0].url}`}
                                                  bgColor="rgba(192, 181, 255, 1)"
@@ -170,6 +179,7 @@ class VegContainer extends Component {
                                 return product.color === 'cucumber1' ? (
                                     <div className="col-12 col-sm-6 col-md-4 col-lg-3 pr-3 pb-3 pl-3">
                                         <Product key={i}
+                                                 name={product.name}
                                                  nameEn={product.name_en}
                                                  photo={`https://admin.ergidatarim.com.tr/${product.photo[0].url}`}
                                                  bgColor="rgba(221, 199, 255, 1)"
@@ -186,6 +196,7 @@ class VegContainer extends Component {
                                 return product.color === 'beans' ? (
                                     <div className="col-12 col-sm-6 col-md-4 col-lg-3 pr-3 pb-3 pl-3">
                                         <Product key={i}
+                                                 name={product.name}
                                                  nameEn={product.name_en}
                                                  photo={`https://admin.ergidatarim.com.tr/${product.photo[0].url}`}
                                                  bgColor="rgba(255, 168, 141, 1)"
@@ -202,6 +213,7 @@ class VegContainer extends Component {
                                 return product.color === 'eggplant' ? (
                                     <div className="col-12 col-sm-6 col-md-4 col-lg-3 pr-3 pb-3 pl-3">
                                         <Product key={i}
+                                                 name={product.name}
                                                  nameEn={product.name_en}
                                                  photo={`https://admin.ergidatarim.com.tr/${product.photo[0].url}`}
                                                  bgColor="rgba(255, 144, 158, 1)"
@@ -218,6 +230,7 @@ class VegContainer extends Component {
                                 return product.color === 'zucchini' ? (
                                     <div className="col-12 col-sm-6 col-md-4 col-lg-3 pr-3 pb-3 pl-3">
                                         <Product key={i}
+                                                 name={product.name}
                                                  nameEn={product.name_en}
                                                  photo={`https://admin.ergidatarim.com.tr/${product.photo[0].url}`}
                                                  bgColor="rgba(233, 227, 128, 1)"
