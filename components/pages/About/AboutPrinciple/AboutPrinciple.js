@@ -7,8 +7,8 @@ const AboutPrinciple = ({t}) => {
             <div className="row">
                 <div className="col-md-6 text-center text-md-right flex-column d-flex justify-content-center">
                     <h2><span className="er-darkest-green font-weight-bold green-title">{t('principleTopTitle')}</span><br/> {t('principleBotTitle')}</h2>
-                        <div className="leaf">
-                            <img src="../../../../static/images/leaf.png" className="animation"/>
+                        <div className="leaf col-md-1">
+                            <img src="../../../../static/images/leaf.png" className="animation mx-auto d-block"/>
                         </div>
                     <p>{t('principleTextTop')} <br/> <strong>{t('principleTextBot')}</strong></p>
                 </div>
@@ -23,8 +23,8 @@ const AboutPrinciple = ({t}) => {
                 </div>
                 <div className="col-md-6">
                     <h3><span className="er-darkest-green font-weight-bold green-title">{t('expTopTitle')}</span> <br/> {t('expBotTitle')}</h3>
-                        <div className="leaf">
-                            <img src="../../../../static/images/leaf.png" className="animation"/>
+                        <div className="leaf col-md-1">
+                            <img src="../../../../static/images/leaf.png" className="animation mx-auto d-block"/>
                         </div>
                     <p className="mt-3">{t('expText')}</p>
 
