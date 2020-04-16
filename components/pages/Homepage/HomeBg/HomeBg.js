@@ -31,6 +31,11 @@ class HomeBg extends React.Component {
                     <div className="container p-0">
                         <div className="row p-0 HomeBg-top-row">
                             <div className="col-md-7 col-lg-7 pr-5 pt-5">
+                                <div className="row">
+                                    <div class="leaf col-xs-auto container-fluid">
+                                        <img src="../../../static/images/leaf.png" className="animation mx-auto d-block"/>
+                                    </div>
+                                </div>
                                 <p className="text-right font-weight-bold HomeBg-ergida">ERGIDA</p>
                                 <h2 className="text-right HomeBg-h2">{this.props.t('homeBg', {returnObjects: true}).top.title}</h2>
                                 <br/>
@@ -149,6 +154,38 @@ class HomeBg extends React.Component {
                 
                 img {
                     width: 100%;
+                }
+
+                .animation{
+                  animation: animate 10s;
+                  animation-iteration-count: infinite;
+                }
+
+                .leaf{
+                    height:120px;
+                }
+
+                .container-fluid{
+                    width: 100%;
+                }
+
+                .leaf img{
+                    position: absolute;
+                    z-index: -1;
+                }
+
+                @keyframes animate {
+                  0% { transform: translate(1px, 1px) rotate(-10deg); }
+                  10% { transform: translate(-1px, -2px) rotate(-10deg); }
+                  20% { transform: translate(-3px, 0px) rotate(0deg); }
+                  30% { transform: translate(3px, 2px) rotate(0deg); }
+                  40% { transform: translate(1px, -1px) rotate(10deg); }
+                  50% { transform: translate(-1px, 2px) rotate(0deg); }
+                  60% { transform: translate(-3px, 1px) rotate(0deg); }
+                  70% { transform: translate(3px, 1px) rotate(-10deg); }
+                  80% { transform: translate(-1px, -1px) rotate(0deg); }
+                  90% { transform: translate(1px, 2px) rotate(0deg); }
+                  100% { transform: translate(1px, -2px) rotate(-10deg); }
                 }
             `}</style>
             </div>
