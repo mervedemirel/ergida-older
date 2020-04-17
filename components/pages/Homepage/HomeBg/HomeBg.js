@@ -29,11 +29,11 @@ class HomeBg extends React.Component {
             <div className="container-fluid p-0 position-relative HomeBg">
                 <div className="container-fluid HomeBg-top px-0 py-5">
                     <div className="container p-0">
-                        <div className="row">
-                                    <div class="leaf col-xs-auto container-fluid">
-                                        <img src="../../../static/images/leaf.png" className="animation mx-auto d-block"/>
-                                    </div>
-                                </div>
+                        <div className="row float-left">
+                            <div class="leaf col-xs-auto container-fluid">
+                                <img src="../../../static/images/leaf.png" className="animation float-left w-auto d-block"/>
+                            </div>
+                        </div>
                         <div className="row p-0 HomeBg-top-row">
                             <div className="col-md-7 col-lg-7 pr-5 pt-5">
                                 <p className="text-right font-weight-bold HomeBg-ergida">ERGIDA</p>
