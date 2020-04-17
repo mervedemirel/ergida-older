@@ -38,9 +38,9 @@ const VegetableFruit = ({t}) => {
                                 {t('homeBg', {returnObjects: true}).fru.text}
                             </p>
                             <Button translateText="infoButtonText" goTo="/meyve"/>
-                            <div className="row flex-row-reverse">
+                            <div className="row flex-row-reverse float-right px-0 py-0">
                                 <div class="leaf col-xs-auto container-fluid">
-                                    <img src="../../../static/images/leaf.png" className="animation mx-auto d-block"/>
+                                    <img src="../../../static/images/leaf.png" className="animation w-auto float-right d-block"/>
                                 </div>
                             </div>
                         </div>
@@ -88,11 +88,14 @@ const VegetableFruit = ({t}) => {
                 }
 
                 .container-fluid{
-                    width: 100%;
+                    max-width: none;
                 }
 
                 .leaf img{
                     position: absolute;
+                    display: block;
+                    max-width: none;
+                    height: auto;
                     z-index: -1;
                 }
 
