@@ -7,7 +7,7 @@ const AboutNature = ({t}) => {
         <div className="container mt-5">
             <div className="row">
                 <div className="col-md-6 text-center text-md-right flex-column d-flex justify-content-center">
-                    <h2><span className="er-darkest-green font-weight-bold green-title">{t('natureTitleTop')}</span><br/> {t('natureTitleBot')}</h2>
+                    <h2><span className="er-darkest-green font-weight-bold green-title">{t('natureTitleTop')}</span><br/> {t('natureTitleBot')}</h2> 
                     <p>{t('natureText')}</p>
                 </div>
                 <div className="col-md-6 d-flex align-items-center">
@@ -26,9 +26,8 @@ const AboutNature = ({t}) => {
             </div>
             <div className="row mt-5 flex-column-reverse flex-md-row">
                 <div className="col-md-6">
-                    <h3 className="mt-5 mt-md-0"><span className="er-darkest-green font-weight-bold green-title">{t('globalTitle')}</span></h3>
+                    <h3 className="mt-5 mt-md-0"><span className="er-darkest-green font-weight-bold green-title">{t('globalTitle')}</span></h3> 
                     <p className="mt-3">{t('globalText')}</p>
-
                     <h4 className="mt-5 green-title er-darkest-green">{t('missionTitle')}</h4>
                     <p>{t('missionText')}</p>
                 </div>

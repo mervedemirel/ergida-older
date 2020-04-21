@@ -29,6 +29,11 @@ class HomeBg extends React.Component {
             <div className="container-fluid p-0 position-relative HomeBg">
                 <div className="container-fluid HomeBg-top px-0 py-5">
                     <div className="container p-0">
+                        <div className="row float-left">
+                            <div class="leaf col-xs-auto container-fluid">
+                                <img src="../../../static/images/leaf.png" className="animation float-left w-auto d-block"/>
+                            </div>
+                        </div>
                         <div className="row p-0 HomeBg-top-row">
                             <div className="col-md-7 col-lg-7 pr-5 pt-5">
                                 <p className="text-right font-weight-bold HomeBg-ergida">ERGIDA</p>
@@ -82,7 +87,7 @@ class HomeBg extends React.Component {
                                 <p>
                                     {this.props.t('homeBg', {returnObjects: true}).nar.text}
                                 </p>
-                                <Button translateText="infoButtonText" goTo="/sebze"/>
+                                <Button translateText="infoButtonText" goTo="/narenciye"/>
                             </div>
                         </div>
                     </div>
@@ -149,6 +154,40 @@ class HomeBg extends React.Component {
                 
                 img {
                     width: 100%;
+                }
+
+                .animation{
+                  animation: animate 10s;
+                  animation-iteration-count: infinite;
+                }
+
+                .leaf{
+                    height:120px;
+                }
+
+                .container-fluid{
+                    width: 100%;
+                }
+
+                .leaf img{
+                    position: absolute;
+                    width: 120px;
+                    height: auto;
+                    z-index: -1;
+                }
+
+                @keyframes animate {
+                  0% { transform: translate(1px, 1px) rotate(-10deg); }
+                  10% { transform: translate(-1px, -2px) rotate(-10deg); }
+                  20% { transform: translate(-3px, 0px) rotate(0deg); }
+                  30% { transform: translate(3px, 2px) rotate(0deg); }
+                  40% { transform: translate(1px, -1px) rotate(10deg); }
+                  50% { transform: translate(-1px, 2px) rotate(0deg); }
+                  60% { transform: translate(-3px, 1px) rotate(0deg); }
+                  70% { transform: translate(3px, 1px) rotate(-10deg); }
+                  80% { transform: translate(-1px, -1px) rotate(0deg); }
+                  90% { transform: translate(1px, 2px) rotate(0deg); }
+                  100% { transform: translate(1px, -2px) rotate(-10deg); }
                 }
             `}</style>
             </div>

@@ -6,10 +6,8 @@ const Product = (props) => {
         <div className="Product mt-4 position-relative pt-3 pl-3">
             {i18n.language === 'tr' ? (<div>
                 <p className="Product-title mb-0">{props.name}</p>
-                <p className="Product-subtitle mb-1">{props.nameEn}</p>
             </div>) : <div>
                 <p className="Product-title mb-0">{props.nameEn}</p>
-                <p className="Product-subtitle mb-1">{props.name}</p>
             </div>}
 
 
