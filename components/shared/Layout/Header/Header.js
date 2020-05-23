@@ -121,7 +121,7 @@ class Header extends Component {
                             }
                             className={
                               this.state.dropdownVisible
-                                ? "dropdown-menu show"
+                                ? "dropdown-menu animate slideIn show"
                                 : "dropdown-menu"
                             }
                             aria-labelledby="dropdownMenu2"
@@ -205,6 +205,95 @@ class Header extends Component {
               display: none !important;
             }
           }
+
+          @media (min-width: 992px) {
+          .animate {
+            animation-duration: 0.3s;
+            -webkit-animation-duration: 0.3s;
+            animation-fill-mode: both;
+            -webkit-animation-fill-mode: both;
+          }
+        }
+
+        @keyframes slideIn {
+          0% {
+            transform: translateY(1rem) rotate(-90deg);
+            opacity: 0;
+          }
+          100% {
+            transform:translateY(0rem) rotate(0deg);
+            opacity: 1;
+          }
+          0% {
+            transform: translateY(1rem) rotate(-90deg);
+            opacity: 0;
+          }
+        }
+
+        @-webkit-keyframes slideIn {
+          0% {
+            -webkit-transform: transform;
+            -webkit-opacity: 0;
+          }
+          100% {
+            -webkit-transform: translateY(0);
+            -webkit-opacity: 1;
+          }
+          0% {
+            -webkit-transform: translateY(1rem);
+            -webkit-opacity: 0;
+          }
+        }
+
+        .slideIn {
+          -webkit-animation-name: slideIn;
+          animation-name: slideIn;
+        }
+        
+        .dropdown-menu {
+                perspective: 1000px;
+            }
+
+            .dropdown-item {
+                opacity: 0;
+                transform-origin: top right;
+            }
+             
+            .dropdown-item:nth-child(1) {
+              animation-name: bottomToTop;
+              animation-duration: 400ms;
+              animation-delay: (150ms) - 300;
+              animation-timing-function: ease-in-out;
+              animation-fill-mode: forwards;
+            }
+
+            .dropdown-item:nth-child(2) {
+              animation-name: bottomToTop;
+              animation-duration: 400ms;
+              animation-delay: (150ms * 2) - 300;
+              animation-timing-function: ease-in-out;
+              animation-fill-mode: forwards;
+            }
+
+            .dropdown-item:nth-child(3) {
+              animation-name: bottomToTop;
+              animation-duration: 400ms;
+              animation-delay: (150ms * 3) - 300;
+              animation-timing-function: ease-in-out;
+              animation-fill-mode: forwards;
+            }
+
+            @keyframes bottomToTop {
+                0% {
+                    opacity:0;
+                    transform:rotate(-30deg);
+                }
+                100% {
+                    opacity:1;
+                    transform:rotate(0deg);
+                }
+            }
+            
         `}</style>
       </>
     );
