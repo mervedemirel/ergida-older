@@ -67,7 +67,7 @@ class Header extends Component {
             <Link href="/">
               <a className="navbar-brand" href="#" aria-label="Anasayfaya Dön">
                 <img
-                  src="../../../static/images/logo.png"
+                  src="/images/logo.png"
                   className="logo"
                   alt="Ergıda Tarım Logo"
                   style={{ height: "66px" }}
@@ -159,13 +159,13 @@ class Header extends Component {
                   >
                     {this.state.activeLanguage === "tr" ? (
                       <img
-                        src="../../../../static/images/uk.svg"
+                        src="/images/uk.svg"
                         alt=""
                         style={{ height: "0.8rem" }}
                       />
                     ) : (
                       <img
-                        src="../../../../static/images/turkey.svg"
+                        src="/images/turkey.svg"
                         alt=""
                         style={{ height: "0.8rem" }}
                       />

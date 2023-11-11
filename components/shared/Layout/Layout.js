@@ -7,10 +7,6 @@ import Router from "next/router";
 import NProgress from "nprogress";
 import {i18n, withTranslation, Link} from "../../../i18n";
 
-import "../../../static/css/bootstrap.min.css";
-import "../../../static/css/colors.css";
-import "../../../static/css/np.css";
-
 Router.onRouteChangeStart = url => {
     NProgress.start();
 };
@@ -29,7 +25,7 @@ const Layout = ({children, t}) => {
             <Menu left customBurgerIcon={false} isOpen={menuIsOpen} disableAutoFocus width={'240px'}>
                 <Link href="/">
                     <a className="menu-item">
-                        <img className="Nav-logo" style={{maxHeight: '70px'}} src="../../../static/images/logo.png"
+                        <img className="Nav-logo" style={{maxHeight: '70px'}} src="/images/logo.png"
                              alt="Ergıda Tarım Logosu"/>
                     </a>
                 </Link>
@@ -68,8 +64,8 @@ const Layout = ({children, t}) => {
                            localStorage.setItem('lng', localStorage.getItem('lng') === 'tr' ? 'en' : 'tr');
                            i18n.changeLanguage(i18n.language === 'tr' ? 'en' : 'tr')
                        }}>{i18n.language === 'tr' ?
-                        <img src="../../../../static/images/uk.svg" alt="" style={{height: '1rem'}}/> :
-                        <img src="../../../../static/images/turkey.svg" alt="" style={{height: '1rem'}}/>}</a>
+                        <img src="/images/uk.svg" alt="" style={{height: '1rem'}}/> :
+                        <img src="/images/turkey.svg" alt="" style={{height: '1rem'}}/>}</a>
                 </Link>
             </Menu>
             <Header menuHandler={changeMenuOpenStatus}/>

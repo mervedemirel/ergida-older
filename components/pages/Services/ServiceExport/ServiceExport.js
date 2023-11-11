@@ -12,8 +12,8 @@ const ServiceExport = ({t}) => {
         <div className="container-fluid p-0 mt-5 ServiceExport">
 
             {activeLng === 'tr' ?
-                <img src="../../../../static/images/service-export.jpg" className="full-width" alt=""/> :
-                <img src="../../../../static/images/service-export-en.jpg" className="full-width" alt=""/>
+                <img src="/images/service-export.jpg" className="full-width" alt=""/> :
+                <img src="/images/service-export-en.jpg" className="full-width" alt=""/>
 
             }
 

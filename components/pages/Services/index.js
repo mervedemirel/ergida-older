@@ -13,10 +13,10 @@ const ServicesPageIndex = () => {
     })
     return (
         <>
-        {activeLng === 'tr' ? <Hero bigImage="../../../../static/images/services-hero.jpg"
-                mobImage="../../../../static/images/services-hero-mob.jpg" /> :
-                <Hero bigImage="../../../../static/images/services-hero-en.jpg"
-                    mobImage="../../../../static/images/services-hero-mob-en.jpg" />}
+        {activeLng === 'tr' ? <Hero bigImage="/images/services-hero.jpg"
+                mobImage="/images/services-hero-mob.jpg" /> :
+                <Hero bigImage="/images/services-hero-en.jpg"
+                    mobImage="/images/services-hero-mob-en.jpg" />}
             <ServiceContent/>
             <ServiceExport/>
         </>

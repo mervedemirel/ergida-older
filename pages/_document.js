@@ -10,7 +10,7 @@ class ErgidaDocument extends Document {
                       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
                 <meta httpEquiv="X-UA-Compatible" content="ie=edge"/>
 
-                <link rel="shortcut icon" type="image/x-icon" href="../static/images/favicon.png"/>
+                <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.png"/>
                 <script dangerouslySetInnerHTML={{
                     __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
                     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],

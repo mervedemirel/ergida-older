@@ -16,10 +16,10 @@ class GalleryIndex extends Component {
     render() {
         return (
             <>
-                {this.state.activeLanguage === 'tr' ? <Hero bigImage="../../../../static/images/galeri-hero.jpg"
-                                            mobImage="../../../../static/images/galeri-hero-mob.jpg" /> :
-                    <Hero bigImage="../../../../static/images/galeri-hero-en.jpg"
-                          mobImage="../../../../static/images/galeri-hero-mob-en.jpg" />}
+                {this.state.activeLanguage === 'tr' ? <Hero bigImage="/images/galeri-hero.jpg"
+                                            mobImage="/images/galeri-hero-mob.jpg" /> :
+                    <Hero bigImage="/images/galeri-hero-en.jpg"
+                          mobImage="/images/galeri-hero-mob-en.jpg" />}
                 <GalleryPhotos/>
                 <HomeCta className="mt-5"/>
             </>

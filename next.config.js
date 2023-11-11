@@ -1,4 +1,4 @@
-const withCSS = require('@zeit/next-css');
+//const withCSS = require('@zeit/next-css');
 const withImages = require('next-images');
 const withPlugins = require('next-compose-plugins');
 const withFonts = require('next-fonts');
@@ -27,7 +27,17 @@ const publicRuntimeConfig = {
 // ]);
 
 module.exports = withPlugins([
-    [withCSS],
     [withImages],
     [withFonts]
-]);
+],
+{
+    webpack(config, options) {
+      // Custom webpack configurations go here
+      config.module.rules.push({
+        test: /\.(png|svg|jpg|gif)$/,
+        use: ['file-loader'],
+      });
+      console.log(config);
+      return config;
+    }
+});

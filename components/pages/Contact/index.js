@@ -16,10 +16,10 @@ const ContactPageIndex = () => {
 
     return (
         <>
-            {activeLng === 'tr' ? <Hero bigImage="../../../../static/images/iletisim-hero.jpg"
-                                        mobImage="../../../../static/images/iletisim-hero-mob.jpg"/> :
-                <Hero bigImage="../../../../static/images/iletisim-hero-en.jpg"
-                      mobImage="../../../../static/images/iletisim-hero-mob-en.jpg"/>}
+            {activeLng === 'tr' ? <Hero bigImage="/images/iletisim-hero.jpg"
+                                        mobImage="/images/iletisim-hero-mob.jpg"/> :
+                <Hero bigImage="/images/iletisim-hero-en.jpg"
+                      mobImage="/images/iletisim-hero-mob-en.jpg"/>}
 
 
             <Delayed waitBeforeShow={366}>
@@ -33,10 +33,10 @@ const ContactPageIndex = () => {
             </Delayed>
             <div className="row justify-content-between">
                 <div class="leaf col-xs-auto container-fluid">
-                    <img src="../../../static/images/leaf.png" className="animation mx-auto d-block"/>
+                    <img src="/images/leaf.png" className="animation mx-auto d-block"/>
                 </div>
                 <div class="leaf col-xs-auto container-fluid">
-                    <img src="../../../static/images/leaf.png" className="animation mx-auto d-block"/>
+                    <img src="/images/leaf.png" className="animation mx-auto d-block"/>
                 </div>
             </div>
             <Map/>

@@ -12,10 +12,10 @@ const CitrusPageIndex = () => {
 
     return (
         <>
-            {activeLng === 'tr' ? <Hero bigImage="../../../../static/images/narenciye-hero.jpg"
-                                        mobImage="../../../../static/images/narenciye-hero-mob.jpg" /> :
-                <Hero bigImage="../../../../static/images/narenciye-hero-en.jpg"
-                      mobImage="../../../../static/images/narenciye-hero-mob-en.jpg" />}
+            {activeLng === 'tr' ? <Hero bigImage="/images/narenciye-hero.jpg"
+                                        mobImage="/images/narenciye-hero-mob.jpg" /> :
+                <Hero bigImage="/images/narenciye-hero-en.jpg"
+                      mobImage="/images/narenciye-hero-mob-en.jpg" />}
             <CitContainer/>
         </>
     );

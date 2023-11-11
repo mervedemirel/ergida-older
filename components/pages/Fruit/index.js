@@ -12,10 +12,10 @@ const FruitPageIndex = () => {
 
     return (
         <>
-            {activeLng === 'tr' ? <Hero bigImage="../../../../static/images/meyve-hero.jpg"
-                                        mobImage="../../../../static/images/meyve-hero-mob.jpg"/> :
-                <Hero bigImage="../../../../static/images/meyve-hero-en.jpg"
-                      mobImage="../../../../static/images/meyve-hero-mob-en.jpg"/>}
+            {activeLng === 'tr' ? <Hero bigImage="/images/meyve-hero.jpg"
+                                        mobImage="/images/meyve-hero-mob.jpg"/> :
+                <Hero bigImage="/images/meyve-hero-en.jpg"
+                      mobImage="/images/meyve-hero-mob-en.jpg"/>}
             <FruContainer/>
         </>
     );

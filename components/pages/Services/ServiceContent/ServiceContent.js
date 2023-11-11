@@ -27,7 +27,7 @@ const ServiceContent = ({t}) => {
             <div className="row m-0 p-0">
                 <div className="col-md-3"></div>
                 <div className="col-md-6 col-lg-6 position-relative">
-                    <img className="Services-basket" src="../../../../static/images/services-basket.jpg" alt=""/>
+                    <img className="Services-basket" src="/images/services-basket.jpg" alt=""/>
                 </div>
                 <div className="col-bd-3"></div>
             </div>

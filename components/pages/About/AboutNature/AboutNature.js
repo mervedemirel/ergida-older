@@ -11,13 +11,13 @@ const AboutNature = ({t}) => {
                     <p>{t('natureText')}</p>
                 </div>
                 <div className="col-md-6 d-flex align-items-center">
-                    <img className="full-width" src="../../../../static/images/about-turp.jpg" alt=""/>
+                    <img className="full-width" src="/images/about-turp.jpg" alt=""/>
                 </div>
             </div>
             <hr/>
             <div className="row mt-5">
                 <div className="col-md-6 d-flex">
-                    <img src="../../../../static/images/about-garlic.jpg" className="full-width" alt=""/>
+                    <img src="/images/about-garlic.jpg" className="full-width" alt=""/>
                 </div>
                 <div className="col-md-6 d-flex flex-column justify-content-center">
                     <h3><span className="er-darkest-green font-weight-bold green-title">{t('countryTitleTop')}</span> <br/> {t('countryTitleBot')}</h3>
@@ -32,7 +32,7 @@ const AboutNature = ({t}) => {
                     <p>{t('missionText')}</p>
                 </div>
                 <div className="col-md-6 d-flex align-items-start">
-                    <img src="../../../../static/images/about-grape.jpg" className="full-width" alt=""/>
+                    <img src="/images/about-grape.jpg" className="full-width" alt=""/>
                 </div>
             </div>
 

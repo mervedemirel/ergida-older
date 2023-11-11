@@ -15,10 +15,10 @@ const AboutPageIndex = () => {
 
     return (
         <>
-            {activeLng === 'tr' ? <Hero bigImage="../../../../static/images/about-hero.jpg"
-                                        mobImage="../../../../static/images/about-hero-mob.jpg" /> :
-                <Hero bigImage="../../../../static/images/about-hero-en.jpg"
-                      mobImage="../../../../static/images/about-hero-mob-en.jpg" />}
+            {activeLng === 'tr' ? <Hero bigImage="/images/about-hero.jpg"
+                                        mobImage="/images/about-hero-mob.jpg" /> :
+                <Hero bigImage="/images/about-hero-en.jpg"
+                      mobImage="/images/about-hero-mob-en.jpg" />}
             <AboutPrinciple />
             <AboutParallax />
             <AboutNature />

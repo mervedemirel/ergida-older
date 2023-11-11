@@ -18,7 +18,7 @@ const Leaves = (props) => {
         <div className="set" id="leaf" ref={elemRef}>
             <div>
                 <img
-                    src="../../../static/images/leaf.png"
+                    src="/images/leaf.png"
                     height="120px" width="120px"/>
             </div>
 

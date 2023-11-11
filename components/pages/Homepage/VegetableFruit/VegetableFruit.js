@@ -18,18 +18,18 @@ const VegetableFruit = ({t}) => {
                         </div>
                         <div className="col-md-6 col-lg-5">
                             <picture>
-                                <source srcSet="../../../static/images/home-eggplant.webp" type="image/webp"/>
-                                <source srcSet="../../../static/images/home-eggplant.png" type="image/png"/>
-                                <img src="../../../static/images/home-eggplant.png" alt=""/>
+                                <source srcSet="/images/home-eggplant.webp" type="image/webp"/>
+                                <source srcSet="/images/home-eggplant.png" type="image/png"/>
+                                <img src="/images/home-eggplant.png" alt=""/>
                             </picture>
                         </div>
                     </div>
                     <div className="row px-0 py-5">
                         <div className="col-lg-5 col-md-6 mobile-flex-center">
                             <picture>
-                                <source srcSet="../../../static/images/home-apple.webp" type="image/webp"/>
-                                <source srcSet="../../../static/images/home-apple.png" type="image/png"/>
-                                <img src="../../../static/images/home-apple.png" alt=""/>
+                                <source srcSet="/images/home-apple.webp" type="image/webp"/>
+                                <source srcSet="/images/home-apple.png" type="image/png"/>
+                                <img src="/images/home-apple.png" alt=""/>
                             </picture>
                         </div>
                         <div className="col-lg-7 col-md-6 d-flex flex-column justify-content-center col-nar">
@@ -40,7 +40,7 @@ const VegetableFruit = ({t}) => {
                             <Button translateText="infoButtonText" goTo="/meyve"/>
                             <div className="row flex-row-reverse float-right px-0 py-0">
                                 <div class="leaf col-xs-auto container-fluid">
-                                    <img src="../../../static/images/leaf.png" className="animation w-auto float-right d-block"/>
+                                    <img src="/images/leaf.png" className="animation w-auto float-right d-block"/>
                                 </div>
                             </div>
                         </div>

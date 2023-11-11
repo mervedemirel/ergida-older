@@ -13,18 +13,18 @@ const VegetablePageIndex = () => {
 
     let hero;
     if (i18n.language !== 'en') {
-        hero = <Hero bigImage="../../../../static/images/sebze-hero.jpg"
-                     mobImage="../../../../static/images/sebze-hero-mob.jpg" />
+        hero = <Hero bigImage="/images/sebze-hero.jpg"
+                     mobImage="/images/sebze-hero-mob.jpg" />
     } else {
-        hero = <Hero bigImage="../../../../static/images/sebze-hero-en.jpg"
-                     mobImage="../../../../static/images/sebze-hero-mob-en.jpg" />
+        hero = <Hero bigImage="/images/sebze-hero-en.jpg"
+                     mobImage="/images/sebze-hero-mob-en.jpg" />
     }
     return (
         <>
-            {activeLng === 'tr' ? <Hero bigImage="../../../../static/images/sebze-hero.jpg"
-                                        mobImage="../../../../static/images/sebze-hero-mob.jpg" /> :
-                <Hero bigImage="../../../../static/images/sebze-hero-en.jpg"
-                      mobImage="../../../../static/images/sebze-hero-mob-en.jpg" />}
+            {activeLng === 'tr' ? <Hero bigImage="/images/sebze-hero.jpg"
+                                        mobImage="/images/sebze-hero-mob.jpg" /> :
+                <Hero bigImage="/images/sebze-hero-en.jpg"
+                      mobImage="/images/sebze-hero-mob-en.jpg" />}
         
         {activeLng === 'tr' ? 
              <div className="text">

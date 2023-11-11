@@ -31,7 +31,7 @@ class HomeBg extends React.Component {
                     <div className="container p-0">
                         <div className="row float-left">
                             <div class="leaf col-xs-auto container-fluid">
-                                <img src="../../../static/images/leaf.png" className="animation float-left w-auto d-block"/>
+                                <img src="/images/leaf.png" className="animation float-left w-auto d-block"/>
                             </div>
                         </div>
                         <div className="row p-0 HomeBg-top-row">
@@ -47,9 +47,9 @@ class HomeBg extends React.Component {
                             </div>
                             <div className="col-md-5 col-lg-5 d-flex align-items-center justify-content-center">
                                 <picture>
-                                    <source srcSet="../../../static/images/av-domates.webp"  type="image/webp"/>
-                                    <source srcSet="../../../static/images/av-domates.jpg"  type="image/jpeg"/>
-                                    <img src="../../../static/images/av-domates.jpg" alt=""/>
+                                    <source srcSet="/images/av-domates.webp"  type="image/webp"/>
+                                    <source srcSet="/images/av-domates.jpg"  type="image/jpeg"/>
+                                    <img src="/images/av-domates.jpg" alt=""/>
                                 </picture>
                             </div>
                         </div>
@@ -76,9 +76,9 @@ class HomeBg extends React.Component {
                         <div className="row p-0">
                             <div className="col-md-6 col-lg-5 mobile-flex-center">
                                 <picture>
-                                    <source srcSet="../../../static/images/home-narenciye.webp" type="image/webp"/>
-                                    <source srcSet="../../../static/images/home-narenciye.png" type="image/png"/>
-                                    <img src="../../../static/images/home-narenciye.png" alt=""/>
+                                    <source srcSet="/images/home-narenciye.webp" type="image/webp"/>
+                                    <source srcSet="/images/home-narenciye.png" type="image/png"/>
+                                    <img src="/images/home-narenciye.png" alt=""/>
                                 </picture>
                             </div>
                             <div
@@ -119,7 +119,7 @@ class HomeBg extends React.Component {
                 
                 .HomeBg-mid {
                     height: 500px;
-                    background: url('../../../../static/images/parallax.jpg');
+                    background: url('/images/parallax.jpg');
                     background-attachment: fixed;
                       background-position: center;
                       background-repeat: no-repeat;
@@ -129,7 +129,7 @@ class HomeBg extends React.Component {
                 @media (max-width: 767px) {
                     .HomeBg-mid {
                         height: auto;
-                        background: url('../../../../static/images/parallax-mob.jpg');
+                        background: url('/images/parallax-mob.jpg');
                         background-attachment: initial;
                           background-position: center;
                           background-repeat: no-repeat;

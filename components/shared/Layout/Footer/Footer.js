@@ -12,7 +12,7 @@ const Footer = ({t}) => {
             <div className="row">
               <div className="col-12 col-md-4">
                 <img
-                  src="../../../static/images/logo.png"
+                  src="/images/logo.png"
                   className="logo"
                   alt="Ergıda Tarım Logo"
                   style={{ height: "66px" }}
