@@ -43,6 +43,6 @@
     "webpack-cli": "^5.1.4"
   },
   "engines": {
-    "node": ">=14"
+    "node": "16.x"
   }
 }
