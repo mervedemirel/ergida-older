@@ -4,9 +4,9 @@
   "main": "./dist/index.js",
   "private": true,
   "scripts": {
-    "dev": "npm run dev --legacy-peer-deps",
-    "build": "npm run build --legacy-peer-deps",
-    "start": "npm start --legacy-peer-deps"
+    "dev": "node index.js",
+    "build": "next build",
+    "start": "node index.js"
   },
   "dependencies": {
     "@types/react": "^18.2.37",
