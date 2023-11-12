@@ -37,7 +37,6 @@ module.exports = withPlugins([
         test: /\.(png|svg|jpg|gif)$/,
         use: ['file-loader'],
       });
-      console.log(config);
       return config;
     }
 });
