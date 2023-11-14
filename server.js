@@ -15,6 +15,8 @@ const handle = app.getRequestHandler();
 
     server.use(nextI18NextMiddleware(nextI18next));
 
+    server.use('/public/locales', express.static(path.join(__dirname, 'public/locales')));
+
     //server.get('*', (req, res) => handle(req, res));
     server.get('*', (req, res) => {
         // Ensure that the locale is set based on the request

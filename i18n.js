@@ -19,7 +19,10 @@ module.exports = new NextI18Next({
     localePath: typeof window === 'undefined' ? 'public/locales' : 'locales',
     localeSubpaths: {
         en: 'en'
-    }
+    },
+  backend: {
+    loadPath: 'public/locales/{{lng}}/{{ns}}.json',
+  },
 });
 
 // module.exports = new NextI18Next(({
