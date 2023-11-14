@@ -1,6 +1,6 @@
 const NextI18Next = require('next-i18next').default;
 //const i18nextNodeFsBackend = require('i18next-node-fs-backend');
-
+import Backend from 'i18next-http-backend';
 
 const localeSubpathVariations = {
     none: {},
