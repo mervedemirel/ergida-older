@@ -1,5 +1,6 @@
 const express = require("express");
 const next = require("next");
+const path = require('path');
 const nextI18NextMiddleware = require('next-i18next/middleware').default;
 
 const nextI18next = require("./i18n");
@@ -19,8 +20,6 @@ const handle = app.getRequestHandler();
 
     //server.get('*', (req, res) => handle(req, res));
     server.get('*', (req, res) => {
-        // Ensure that the locale is set based on the request
-        req.i18n.changeLanguage(req.query.lang || 'tr');
 
         return handle(req, res);
     });
