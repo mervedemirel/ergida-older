@@ -1,5 +1,5 @@
 const NextI18Next = require('next-i18next').default;
-const i18nextNodeFsBackend = require('i18next-node-fs-backend');
+//const i18nextNodeFsBackend = require('i18next-node-fs-backend');
 
 
 const localeSubpathVariations = {
