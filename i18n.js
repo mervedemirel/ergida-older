@@ -16,12 +16,12 @@ const localeSubpathVariations = {
 module.exports = new NextI18Next({
     defaultLanguage: 'tr',
     otherLanguages: ['en'],
-    localePath: typeof window === 'undefined' ? '/public/locales' : 'locales',
+    localePath: typeof window === 'undefined' ? 'public/locales' : 'locales',
     localeSubpaths: {
         en: 'en'
     },
   backend: {
-    loadPath: '/public/locales/{{lng}}/{{ns}}.json',
+    loadPath: 'public/locales/{{lng}}/{{ns}}.json',
   },
 });
 
