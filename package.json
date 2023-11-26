@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "node index.js",
-    "build": "npm run build && npm run export",
+    "build": "next build",
     "start": "node index.js",
     "export": "next export"
   },
