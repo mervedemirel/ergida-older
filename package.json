@@ -5,8 +5,9 @@
   "private": true,
   "scripts": {
     "dev": "node index.js",
-    "build": "next build",
-    "start": "node index.js"
+    "build": "npm run build && npm run export",
+    "start": "node index.js",
+    "export": "next export"
   },
   "dependencies": {
     "@types/react": "^18.2.37",
